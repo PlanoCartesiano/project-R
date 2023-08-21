@@ -1,5 +1,7 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class playerScript : MonoBehaviour
@@ -16,6 +18,8 @@ public class playerScript : MonoBehaviour
     public bool leftDirection;
     public int idAnimation;
     public bool Grounded;
+    public int combo;
+    public bool doubleAtack, lockAtack = false;
 
     // dash system variables
     public bool canDash = true;
@@ -36,10 +40,15 @@ public class playerScript : MonoBehaviour
         if (isDashing)
         {
             return;
-        }
+        };
+
+        if (canDash)
+        {
+            h = Input.GetAxisRaw("Horizontal");
+        };
 
         v = Input.GetAxisRaw("Vertical");
-        h = Input.GetAxisRaw("Horizontal");
+        //h = Input.GetAxisRaw("Horizontal");
 
         if (h > 0 && leftDirection && !attackingState)
         {
@@ -65,13 +74,32 @@ public class playerScript : MonoBehaviour
             idAnimation = 0;
         };
 
-        if (Input.GetKeyDown(KeyCode.X) && v >= 0 && !attackingState && canDash)
+        if (Input.GetKeyDown(KeyCode.X) && v > 0)
+        {
+            UpAttack();
+        };
+
+        if (Input.GetKeyDown(KeyCode.X) && v < 0 && !Grounded)
+        {
+            DownAttack();
+        };
+
+        if (Input.GetKeyDown(KeyCode.X) && v == 0 && canDash && !lockAtack)
         {
             Attack();
-        }else if (Input.GetKeyDown(KeyCode.Z) && v >= 0 && Grounded && !isDashing && canDash)
+
+            if (doubleAtack)
+            {
+                doubleAttack();
+            };
+        };
+        
+        if (Input.GetKeyDown(KeyCode.Z) && v >= 0 && Grounded && !isDashing && canDash)
         {
             Jump();
-        }else if(Input.GetKeyDown(KeyCode.C) && v >= 0 && Grounded && canDash && !attackingState)
+        };
+        
+        if(Input.GetKeyDown(KeyCode.C) && v >= 0 && Grounded && canDash && !attackingState)
         {
             StartCoroutine(Dash());
         };
@@ -117,17 +145,54 @@ public class playerScript : MonoBehaviour
         transform.localScale = new Vector3(x, transform.localScale.y, transform.localScale.z);
     }
 
+    void UpAttack()
+    {
+        playerAnimator.SetBool("upAttack", true);
+    }
+
+    void DownAttack()
+    {
+        playerAnimator.SetBool("downAttack", true);
+    }
+
     void Attack()
     {
-        playerAnimator.SetTrigger("atack");
+        playerAnimator.SetBool("firstAttack", true);
+        playerAnimator.SetBool("secondAttack", false);
         //return;
+    }
+
+    void doubleAttack()
+    {
+        playerAnimator.SetBool("secondAttack", true);
+        playerAnimator.SetBool("firstAttack", false);
     }
 
     void Jump()
     {
         playerRb.velocity = Vector2.up * 4;
-        //playerRb.AddForce(new Vector2(0f, jumpForce));
-        //return;
+    }
+
+    public void finishAttackAnimation()
+    {
+        playerAnimator.SetBool("firstAttack", false);
+    }
+
+    public void finishDoubleAttackAnimation()
+    {
+        playerAnimator.SetBool("secondAttack", false);
+        doubleAtack = false;
+        attackingState = false;
+    }
+
+    public void finishUpAttackAnimation()
+    {
+        playerAnimator.SetBool("upAttack", false);
+    }
+
+    public void finishDownAttackAnimation()
+    {
+        playerAnimator.SetBool("downAttack", false);
     }
 
     public void atk(int atk)
