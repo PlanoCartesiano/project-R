@@ -38,6 +38,21 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 2100613697
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Wall
+    uniqueID: 3099076587
+    locked: 0
+  - name: Player
+    uniqueID: 2986948921
+    locked: 0
+  - name: Plataform
+    uniqueID: 1593751919
+    locked: 0
+  - name: Grass
+    uniqueID: 2033999785
     locked: 0

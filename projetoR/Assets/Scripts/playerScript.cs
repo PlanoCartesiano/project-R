@@ -170,7 +170,7 @@ public class playerScript : MonoBehaviour
 
     void Jump()
     {
-        playerRb.velocity = Vector2.up * 4;
+        playerRb.velocity = Vector2.up * 3.2f;
     }
 
     public void finishAttackAnimation()
