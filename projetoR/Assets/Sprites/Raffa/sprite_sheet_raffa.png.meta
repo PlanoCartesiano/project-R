@@ -1,0 +1,1081 @@
+fileFormatVersion: 2
+guid: 63d80816b6e13e5498d8ed19e5e5e2f1
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: raffa_idle_01
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 368
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd5d5322dbeb96b44b9ab1ef8055de49
+      internalID: -1883662968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raffa_idle_02
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 368
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34b1e00af5fe07d4a9e175e9e8049029
+      internalID: -1135859628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raffa_idle_03
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 368
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96bda78ba696cf542ad731e50a3ccc01
+      internalID: -1430353283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raffa_idle_04
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 368
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8567128fa6d00de4a925563ef7116b58
+      internalID: -391031601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raffa_run_01
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 368
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce9fce4913e36d542b4a2102a3277b8b
+      internalID: 1471001637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raffa_run_02
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 368
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15e1af15413cf994fbd6afa5d8ba2d70
+      internalID: 188216783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raffa_run_03
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 368
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 402e0ce9fa21b674b943241a440e898a
+      internalID: 458302896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raffa_run_04
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 368
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d1997f51715cd8459d1e52b0562c9b8
+      internalID: -1107882747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raffa_crounch_01
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 304
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 967939e62741ffe459df6622641b4b08
+      internalID: 1351511504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raffa_crounch_02
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 304
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 317e3a295368cda4ca85afae5dd6f980
+      internalID: 461474987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raffa_crounch_03
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 304
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ef16610b212aac40a79aa632d41a431
+      internalID: -1438734588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raffa_jump_01
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 304
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e60468f359a9f542aa51d43489b4ecc
+      internalID: -1209593803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raffa_jump_02
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 304
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 449b68b54b833d649956de6fff49b4f6
+      internalID: 422998266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raffa_jump_03
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 304
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f99b6ddc4929ee48b9a82c261f2c0c5
+      internalID: 569700764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raffa_fall_01
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 304
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20401b1af20345145b104e01d7ef7838
+      internalID: -1440155959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raffa_hit_01
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 304
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6a0e9c8c6b17e0488fd3c448e7e2b65
+      internalID: 1975879312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raffa_hit_02
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5339049a4e09464f94cc121723fbc25
+      internalID: 2037236405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raffa_hit_03
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 240
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6a7d8a78c55a7c4495ff077ea37ad21
+      internalID: -1313954005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raffa_hit_04
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 240
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9acd26dc6664fdb42a926b552ae4ddc6
+      internalID: 1454104659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raffa_first_attack_01
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 240
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 437f97dfb3c8ab0448b22dada8917495
+      internalID: 1594358817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raffa_first_attack_02
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 240
+        width: 74
+        height: 64
+      alignment: 9
+      pivot: {x: 0.44677693, y: 0.479486}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b67ef6d5fa01ca24da0fb08691f28fd9
+      internalID: -1692870256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raffa_first_attack_03
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 240
+        width: 54
+        height: 64
+      alignment: 9
+      pivot: {x: 0.45137647, y: 0.49999952}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39667c3cb3bef2f4599101d22c772fc8
+      internalID: 1639134583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raffa_first_attack_04
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 240
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcf7eddabe7a0154f84196ba5edf6a2e
+      internalID: 1374539262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raffa_second_attack_01
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 240
+        width: 71
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 030626edcab11d84db64d6469d51b06a
+      internalID: -1584467708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raffa_second_attack_02
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 176
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70581212316e890479360379b142a66f
+      internalID: -1310019544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raffa_second_attack_03
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 176
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ca69f2036e9021478bd80af97a520c2
+      internalID: 651901263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raffa_airdown_attack_01
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 176
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cacc7df92007c3478158fa7cb6315f9
+      internalID: 4131994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raffa_airdown_attack_02
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 176
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27c0c268df095484a9180f53d74bb7c4
+      internalID: 721940576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raffa_airdown_attack_03
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 176
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23c974543b4197b49baaf6990b1396fc
+      internalID: -1028598372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raffa_airdown_attack_04
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 176
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 118b65344e64ee74f937826730fb8b13
+      internalID: 1466795313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raffa_dash_01
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 176
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 880925dd5b4397c44aecee20e8e67f18
+      internalID: -1774731785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raffa_dash_02
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 176
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb85a097f309c874c8af8a1e66711bd1
+      internalID: 513878995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raffa_dash_03
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6643644cc0ec0c94dbe06fed451ed34f
+      internalID: -203542129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raffa_death_01
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 112
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29dcec7daf3559144b98ec8ee8320f10
+      internalID: 845857818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raffa_death_02
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 112
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e04150ea22ffe2e4587667edb0884ec5
+      internalID: 1042804102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raffa_death_03
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 112
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d03648e15acb1a94aac27a9587116747
+      internalID: 1320624966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raffa_death_04
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 112
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc197a14a98e97b4bb4a2cc39a66629a
+      internalID: -1120605617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raffa_death_05
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 112
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf020445bbb1f4f4690554df7a4f4cdf
+      internalID: -984311267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raffa_death_06
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 112
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 913dca8d397fe6e479555bcb9081c50d
+      internalID: 1599740348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raffa_death_07
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 112
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b690f8a0946232d40a4fc2b10c4b2583
+      internalID: 876892342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raffa_upper_attack_01
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.49999997, y: 0.428205}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09b8f9c693ec27049b3d2c4e515d0106
+      internalID: -1222717079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raffa_upper_attack_02
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 48
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5102562, y: 0.43846142}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e55101799d2427f4390705b1ed198d46
+      internalID: -565627042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raffa_upper_attack_03
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 48
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.49999976, y: 0.43846142}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5da568c478dd6ab47b2e8cc3836284e2
+      internalID: 1289794285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      raffa_idle_03: -1430353283
+      raffa_run_01: 1471001637
+      raffa_jump_03: 569700764
+      raffa_hit_02: 2037236405
+      raffa_dash_03: -203542129
+      raffa_first_attack_03: 1639134583
+      raffa_jump_01: -1209593803
+      raffa_death_03: 1320624966
+      raffa_first_attack_04: 1639134583
+      raffa_fall_01: -1440155959
+      raffa_airdown_attack_03: -1028598372
+      raffa_idle_04: -391031601
+      raffa_upper_attack_03: 1289794285
+      raffa_airdown_attack_01: 4131994
+      raffa_second_attack_01: -1584467708
+      raffa_run_03: 458302896
+      raffa_crounch_02: 461474987
+      raffa_crounch_01: 1351511504
+      raffa_death_05: -984311267
+      raffa_run_02: 188216783
+      raffa_dash_02: 513878995
+      raffa_hit_04: 1454104659
+      raffa_first_attack_02: -1692870256
+      raffa_idle_02: -1135859628
+      raffa_second_attack_03: 651901263
+      raffa_first_attack_01: 1594358817
+      raffa_death_07: 876892342
+      raffa_idle_01: -1883662968
+      raffa_upper_attack_02: -565627042
+      raffa_hit_01: 1975879312
+      raffa_crounch_03: -1438734588
+      raffa_second_attack_02: -1310019544
+      raffa_airdown_attack_04: 1466795313
+      raffa_death_06: 1599740348
+      raffa_death_01: 845857818
+      raffa_airdown_attack_02: 721940576
+      raffa_hit_03: -1313954005
+      raffa_run_04: -1107882747
+      raffa_death_04: -1120605617
+      sprite_sheet_raffa_24: -1431016636
+      raffa_death_02: 1042804102
+      raffa_jump_02: 422998266
+      raffa_upper_attack_01: -1222717079
+      raffa_dash_01: -1774731785
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
