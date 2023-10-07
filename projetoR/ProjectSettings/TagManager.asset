@@ -3,17 +3,19 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - attackCollision
+  - collectible
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Ground
   - Water
   - UI
   - Interactive
-  - 
-  - 
+  - Enemys
+  - Collectibles
   - 
   - 
   - 
@@ -61,4 +63,7 @@ TagManager:
     locked: 0
   - name: propsOnFront
     uniqueID: 2086391853
+    locked: 0
+  - name: UI
+    uniqueID: 127924877
     locked: 0

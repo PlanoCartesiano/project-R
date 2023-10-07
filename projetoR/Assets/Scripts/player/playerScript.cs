@@ -6,6 +6,9 @@ using UnityEngine;
 
 public class playerScript : MonoBehaviour
 {
+    private GameDataController gameDataController;
+    [SerializeField] private GameObject cameraFollowGameObject;
+    private cameraFollowObject cameraFollowObject;
     private Animator playerAnimator;
     private Rigidbody2D playerRb;
     private float h, v;
@@ -36,6 +39,8 @@ public class playerScript : MonoBehaviour
 
     void Start()
     {
+        gameDataController = FindObjectOfType(typeof(GameDataController)) as GameDataController;
+        cameraFollowObject = cameraFollowGameObject.GetComponent<cameraFollowObject>();
         playerRb = GetComponent<Rigidbody2D>();
         playerAnimator = GetComponent<Animator>();
     }
@@ -73,17 +78,17 @@ public class playerScript : MonoBehaviour
             idAnimation = 0;
         };
 
-        if (Input.GetKeyDown(KeyCode.X) && v > 0 && currentInteractObject == null)
+        if (Input.GetButtonDown("Fire1") && v > 0 && currentInteractObject == null)
         {
             UpAttack();
         };
 
-        if (Input.GetKeyDown(KeyCode.X) && v < 0 && !Grounded)
+        if (Input.GetButtonDown("Fire1") && v < 0 && !Grounded)
         {
             DownAttack();
         };
 
-        if (Input.GetKeyDown(KeyCode.X) && v == 0 && canDash && !lockAtack && currentInteractObject == null)
+        if (Input.GetButtonDown("Fire1") && v == 0 && canDash && !lockAtack && currentInteractObject == null)
         {
             Attack();
 
@@ -93,26 +98,26 @@ public class playerScript : MonoBehaviour
             };
         };
 
-        if (Input.GetKeyDown(KeyCode.X) && v >= 0 && canDash && !lockAtack && currentInteractObject != null)
+        if (Input.GetButtonDown("Fire1") && v >= 0 && canDash && !lockAtack && currentInteractObject != null)
         {
             currentInteractObject.SendMessage("Interaction", SendMessageOptions.DontRequireReceiver);
         };
 
-        if (Input.GetKeyDown(KeyCode.Z) && v >= 0 && Grounded && !isDashing && canDash)
+        if (Input.GetButtonDown("Jump") && v >= 0 && Grounded && !isDashing && canDash)
         {
             isJumping = true;
         }
-        if (Input.GetKey(KeyCode.Z))
+        if (Input.GetButton("Jump"))
         {
             counterJump -= Time.deltaTime;
         }
-        if (Input.GetKeyUp(KeyCode.Z))
+        if (Input.GetButtonUp("Jump"))
         {
             isJumping = false;
             counterJump = 0.25f;
         };
         
-        if(Input.GetKeyDown(KeyCode.C) && h != 0 && Grounded && canDash && !attackingState)
+        if(Input.GetButtonDown("Fire3") && h != 0 && Grounded && canDash && !attackingState)
         {
             StartCoroutine(Dash());
         };
@@ -189,12 +194,14 @@ public class playerScript : MonoBehaviour
             Vector3 rotator = new Vector3(transform.rotation.x, 180f, transform.rotation.z);
             transform.rotation = Quaternion.Euler(rotator);
             IsFacingRight = !IsFacingRight;
+            cameraFollowObject.CallTurn();
         }
         else
         {
             Vector3 rotator = new Vector3(transform.rotation.x, 0f, transform.rotation.z);
             transform.rotation = Quaternion.Euler(rotator);
             IsFacingRight = !IsFacingRight;
+            cameraFollowObject.CallTurn();
         }
     }
 
@@ -298,5 +305,15 @@ public class playerScript : MonoBehaviour
         isDashing = false;
         yield return new WaitForSeconds(dashCoolDown);
         canDash = true;
+    }
+
+    public void OnTriggerEnter2D(Collider2D collision)
+    {
+        switch(collision.gameObject.tag)
+        {
+            case "collectible":
+                collision.gameObject.SendMessage("collect", SendMessageOptions.DontRequireReceiver);
+            break;
+        }
     }
 }

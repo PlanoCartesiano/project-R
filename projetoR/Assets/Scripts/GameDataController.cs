@@ -5,6 +5,7 @@ using UnityEngine;
 public class GameDataController : MonoBehaviour
 {
     public int test;
+    public int Essence;
 
     void Start()
     {
