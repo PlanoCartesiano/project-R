@@ -47,6 +47,7 @@ public class playerScript : MonoBehaviour
 
     void Update()
     {
+        print(playerRb.velocity.y);
 
         if (isDashing)
         {
