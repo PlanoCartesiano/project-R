@@ -14,10 +14,15 @@ public class playerScript : MonoBehaviour
     private float h, v;
     public Collider2D standingCollider, crounchingCollider;
 
+    [Header("Health Settings")]
+    public int maximumHealth;
+    public int currentHealth;
+
     public Transform interactionRayCast;
     public LayerMask RayCastLayer;
     public GameObject currentInteractObject;
     public Transform groundCheck;
+    public LayerMask ground;
     public bool attackingState;
     public float speed;
     public bool isJumping;
@@ -43,11 +48,12 @@ public class playerScript : MonoBehaviour
         cameraFollowObject = cameraFollowGameObject.GetComponent<cameraFollowObject>();
         playerRb = GetComponent<Rigidbody2D>();
         playerAnimator = GetComponent<Animator>();
+
+        currentHealth = maximumHealth;
     }
 
     void Update()
     {
-        print(playerRb.velocity.y);
 
         if (isDashing)
         {
@@ -169,7 +175,7 @@ public class playerScript : MonoBehaviour
             TurnCheck();
         }
 
-        Grounded = Physics2D.OverlapCircle(groundCheck.position, 0.02f);
+        Grounded = Physics2D.OverlapCircle(groundCheck.position, 0.02f, ground);
         playerRb.velocity = new Vector2(h * speed, playerRb.velocity.y);
 
 
