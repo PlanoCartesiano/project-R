@@ -124,7 +124,7 @@ public class playerScript : MonoBehaviour
             counterJump = 0.25f;
         };
         
-        if(Input.GetButtonDown("Fire3") && h != 0 && Grounded && canDash && !attackingState)
+        if(Input.GetButtonDown("Fire3") && Grounded && canDash && !attackingState)
         {
             StartCoroutine(Dash());
         };
@@ -322,5 +322,11 @@ public class playerScript : MonoBehaviour
                 collision.gameObject.SendMessage("collect", SendMessageOptions.DontRequireReceiver);
             break;
         }
+    }
+
+    public void hitDamage()
+    {
+        playerAnimator.SetTrigger("hit");
+        currentHealth -= 1;
     }
 }

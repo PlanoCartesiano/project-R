@@ -13,11 +13,11 @@ public class parallax : MonoBehaviour
 
     void Start()
     {
-        cam = Camera.main.transform;
+        //cam = Camera.main.transform;
         previewCamPosition = cam.position;
     }
 
-    void Update()
+    void LateUpdate()
     {
         float parallaxEffect = (previewCamPosition.x - cam.position.x) * parallaxScale;
         float backgroundTargetX = background.position.x + parallaxEffect;

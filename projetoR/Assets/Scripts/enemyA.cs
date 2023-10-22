@@ -103,6 +103,18 @@ public class enemyA : MonoBehaviour
         }
     }
 
+    public void OnCollisionEnter2D(Collision2D collision)
+    {
+        switch(collision.gameObject.tag)
+        {
+            case "Player":
+
+                collision.gameObject.SendMessage("hitDamage", SendMessageOptions.DontRequireReceiver);
+
+            break;
+        }
+    }
+
     IEnumerator death()
     {
         yield return new WaitForSeconds(1);
