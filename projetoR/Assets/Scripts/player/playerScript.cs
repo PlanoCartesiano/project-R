@@ -42,6 +42,8 @@ public class playerScript : MonoBehaviour
     private float dashPower = 1.2f;
     private float dashCoolDown = 1.3f;
 
+    public GameObject interactionButtonAlert;
+
     void Start()
     {
         gameDataController = FindObjectOfType(typeof(GameDataController)) as GameDataController;
@@ -107,6 +109,10 @@ public class playerScript : MonoBehaviour
 
         if (Input.GetButtonDown("Fire1") && v >= 0 && canDash && !lockAtack && currentInteractObject != null)
         {
+            if(currentInteractObject.tag == "Door")
+            {
+                currentInteractObject.GetComponent<Doors>().tPlayer = this.transform;
+            }
             currentInteractObject.SendMessage("Interaction", SendMessageOptions.DontRequireReceiver);
         };
 
@@ -255,10 +261,12 @@ public class playerScript : MonoBehaviour
         if(interactionRaycast2D == true)
         {
             currentInteractObject = interactionRaycast2D.collider.gameObject;
+            interactionButtonAlert.SetActive(true);
         }
         else
         {
             currentInteractObject = null;
+            interactionButtonAlert.SetActive(false);
         };
     }
 

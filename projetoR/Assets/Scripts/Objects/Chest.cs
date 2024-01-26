@@ -18,23 +18,11 @@ public class Chest : MonoBehaviour
 
     public void Interaction()
     {
-        openedState = !openedState;
-
-        switch(openedState)
+        if (!openedState)
         {
-            case true:
-                objectSpriteRenderer.sprite = currentSprite[1];
-
-                if(gameDataController == null) //usado para prevenir o erro de perda do objeto durante loading da cena
-                {
-                   gameDataController = FindObjectOfType(typeof(GameDataController)) as GameDataController;
-                }
-                gameDataController.test += 1;
-                break;
-
-            case false:
-                objectSpriteRenderer.sprite = currentSprite[0];
-                break;
+            openedState = true;
+            objectSpriteRenderer.sprite = currentSprite[1];
+            GetComponent<Collider2D>().enabled = false;
         }
     }
 

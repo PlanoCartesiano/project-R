@@ -6,6 +6,7 @@ TagManager:
   tags:
   - attackCollision
   - collectible
+  - Door
   layers:
   - Default
   - TransparentFX
