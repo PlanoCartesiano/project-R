@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Security.Cryptography.X509Certificates;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -11,10 +12,15 @@ public class fadeEffect : MonoBehaviour
     public Color[]  transitionColor;
     public float step;
 
+    private bool inTransition;
+
     public void fadeIn()
     {
-        blackoutPanel.SetActive(true);
-        StartCoroutine("fadeI");
+        if (!inTransition)
+        {
+            blackoutPanel.SetActive(true);
+            StartCoroutine("fadeI");
+        }
     }
 
     public void fadeOut()
@@ -24,6 +30,7 @@ public class fadeEffect : MonoBehaviour
 
     IEnumerator fadeI()
     {
+        inTransition = true;
         for(float i = 0; i <=1; i+= step)
         {
             blackout.color = Color.Lerp(transitionColor[0], transitionColor[1], i);
@@ -40,5 +47,6 @@ public class fadeEffect : MonoBehaviour
         }
 
         blackoutPanel.SetActive(false);
+        inTransition = false;
     }
 }

@@ -8,7 +8,7 @@ public class essenceScript : MonoBehaviour
 
     void Start()
     {
-        gameDataController = FindObjectOfType(typeof(GameDataController)) as GameDataController;
+        gameDataController = FindFirstObjectByType(typeof(GameDataController)) as GameDataController;
     }
     public void collect()
     {

@@ -12,7 +12,7 @@ public class hud : MonoBehaviour
 
     void Start()
     {
-        player = FindObjectOfType(typeof(playerScript)) as playerScript;
+        player = FindFirstObjectByType(typeof(playerScript)) as playerScript;
     }
 
     void Update()

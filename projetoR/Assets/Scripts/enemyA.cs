@@ -26,7 +26,7 @@ public class enemyA : MonoBehaviour
 
     void Start()
     {
-        Player = FindObjectOfType(typeof(playerScript)) as playerScript;
+        Player = FindFirstObjectByType(typeof(playerScript)) as playerScript;
         EnemyAnimator = GetComponent<Animator>();
         EnemyRenderer = GetComponent<SpriteRenderer>();
         blowPosition.localPosition = new Vector3 (blowCurrentXPosition, blowPosition.localPosition.y, 0);

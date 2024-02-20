@@ -12,7 +12,7 @@ public class Chest : MonoBehaviour
 
     void Start()
     {
-        gameDataController = FindObjectOfType(typeof(GameDataController)) as GameDataController;
+        gameDataController = FindFirstObjectByType(typeof(GameDataController)) as GameDataController;
         objectSpriteRenderer = GetComponent<SpriteRenderer>();
     }
 
