@@ -20,6 +20,13 @@ public class playerScript : MonoBehaviour
     public int maximumHealth;
     public int currentHealth;
 
+    [Header("Slingshot variables")]
+    public GameObject slingshotRock;
+    public Transform slingshot;
+    private bool shooting;
+    public float slingshotRockSpeed;
+    private bool flipX = false;
+
     public Transform interactionRayCast;
     public LayerMask RayCastLayer;
     public GameObject currentInteractObject;
@@ -155,6 +162,11 @@ public class playerScript : MonoBehaviour
                     state = State.Rolling;
                     //StartCoroutine(Dash());
                 };
+
+                if (Input.GetButtonDown("Slingshot") && !shooting)
+                {
+                    Shoot();
+                }
                 break;
 
             case State.Rolling:
@@ -253,6 +265,7 @@ public class playerScript : MonoBehaviour
         {
             Vector3 rotator = new Vector3(transform.rotation.x, 180f, transform.rotation.z);
             transform.rotation = Quaternion.Euler(rotator);
+            slingshotRockSpeed *= -1;
             IsFacingRight = !IsFacingRight;
             cameraFollowObject.CallTurn();
         }
@@ -260,6 +273,7 @@ public class playerScript : MonoBehaviour
         {
             Vector3 rotator = new Vector3(transform.rotation.x, 0f, transform.rotation.z);
             transform.rotation = Quaternion.Euler(rotator);
+            slingshotRockSpeed *= -1;
             IsFacingRight = !IsFacingRight;
             cameraFollowObject.CallTurn();
         }
@@ -290,6 +304,14 @@ public class playerScript : MonoBehaviour
     void Jump()
     {
         playerRb.velocity = Vector2.up * 3.2f;
+    }
+
+    void Shoot()
+    {
+        GameObject temp = Instantiate(slingshotRock);
+        temp.transform.position = slingshot.position;
+        temp.GetComponent<Rigidbody2D>().velocity = new Vector2(slingshotRockSpeed, 0);
+        Destroy(temp.gameObject, 1.5f);
     }
 
     void Interact()

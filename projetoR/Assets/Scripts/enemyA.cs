@@ -100,6 +100,11 @@ public class enemyA : MonoBehaviour
                 Destroy(Knockback, 0.02f);
 
             break;
+
+            case "SlingshotBullet":
+                Destroy(collision.gameObject);
+                Destroy(this.gameObject);
+            break;
         }
     }
 

@@ -7,6 +7,9 @@ TagManager:
   - attackCollision
   - collectible
   - Door
+  - SlingshotBullet
+  - Ground
+  - SceneObject
   layers:
   - Default
   - TransparentFX

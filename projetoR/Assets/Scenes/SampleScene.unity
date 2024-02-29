@@ -374,7 +374,7 @@ Transform:
   m_GameObject: {fileID: 49747781}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.5736841, y: -0.7735853, z: -10.06093}
+  m_LocalPosition: {x: -2.41, y: -0.7735853, z: -10.06093}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -491,7 +491,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &73764334
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2238,7 +2238,7 @@ Transform:
   m_GameObject: {fileID: 397589449}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 18.83, y: -0.157, z: 0}
+  m_LocalPosition: {x: 0.22, y: -0.157, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -2249,6 +2249,7 @@ Transform:
   - {fileID: 2012223581}
   - {fileID: 2070620420}
   - {fileID: 628673403}
+  - {fileID: 1476719555}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &397589453
@@ -2341,6 +2342,9 @@ MonoBehaviour:
   crounchingCollider: {fileID: 397589456}
   maximumHealth: 5
   currentHealth: 0
+  slingshotRock: {fileID: 5400159529192805745, guid: 1b27f1a9e2078ba46abf491c0100e528, type: 3}
+  slingshot: {fileID: 1476719555}
+  slingshotRockSpeed: 7
   interactionRayCast: {fileID: 1587717977}
   RayCastLayer:
     serializedVersion: 2
@@ -3113,7 +3117,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.5736898, y: -0.5015553, z: -10.06093}
+  m_LocalPosition: {x: -2.4100058, y: -0.5015553, z: -10.06093}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3363,7 +3367,7 @@ GameObject:
   - component: {fileID: 604596849}
   m_Layer: 3
   m_Name: Plataform with Collider
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7468,7 +7472,7 @@ GameObject:
   - component: {fileID: 786135594}
   m_Layer: 3
   m_Name: rock (1)
-  m_TagString: Untagged
+  m_TagString: SceneObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7725,7 +7729,7 @@ GameObject:
   - component: {fileID: 842047838}
   m_Layer: 3
   m_Name: woodenLog
-  m_TagString: Untagged
+  m_TagString: SceneObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8499,7 +8503,7 @@ GameObject:
   - component: {fileID: 866676072}
   m_Layer: 3
   m_Name: pot_front
-  m_TagString: Untagged
+  m_TagString: SceneObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11771,6 +11775,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1470352436}
   m_CullTransparentMesh: 1
+--- !u!1 &1476719554
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1476719555}
+  m_Layer: 0
+  m_Name: Slingshot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1476719555
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1476719554}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.115, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 397589452}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1483694738
 GameObject:
   m_ObjectHideFlags: 0
@@ -12198,7 +12233,7 @@ Transform:
   m_GameObject: {fileID: 1616450093}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.8236841, y: 0.7735853, z: 0.060930025}
+  m_LocalPosition: {x: 2.66, y: 0.7735853, z: 0.060930025}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -12236,7 +12271,7 @@ GameObject:
   - component: {fileID: 1617949328}
   m_Layer: 3
   m_Name: rock
-  m_TagString: Untagged
+  m_TagString: SceneObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12385,7 +12420,7 @@ GameObject:
   - component: {fileID: 1640288277}
   m_Layer: 3
   m_Name: milkweedNewColor
-  m_TagString: Untagged
+  m_TagString: SceneObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22885,7 +22920,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1804871417
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23803,7 +23838,7 @@ Transform:
   m_GameObject: {fileID: 2000491884}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 19.5708, y: 1.21, z: -0.10292084}
+  m_LocalPosition: {x: 19.573, y: 1.217, z: -0.10292084}
   m_LocalScale: {x: 6.523295, y: 2.4978774, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
