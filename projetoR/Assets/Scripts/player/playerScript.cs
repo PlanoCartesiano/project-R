@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Resources;
+using System.Security.Cryptography;
 using Unity.VisualScripting;
 using UnityEngine;
 
@@ -26,6 +27,18 @@ public class playerScript : MonoBehaviour
     private bool shooting;
     public float slingshotRockSpeed;
     private bool flipX = false;
+
+    [Header("Jump Buffer and Coyote Time")]
+    private float coyoteTime = 0.2f;
+    private float coyoteTimeCounter;
+    private float jumpBufferTime = 0.2f;
+    private float jumpBufferCounter;
+
+    [Header("Wall Slide & Wall Jump")]
+    private bool isWallSliding;
+    private float wallSlidingSpeed = 0.05f;
+    [SerializeField] private Transform wallCheck;
+    [SerializeField] private LayerMask wallLayer;
 
     public Transform interactionRayCast;
     public LayerMask RayCastLayer;
@@ -91,6 +104,8 @@ public class playerScript : MonoBehaviour
                     cameraManager.instance.LerpYDamping(false);
                 }*/
 
+                WallSlide();
+
                 h = Input.GetAxisRaw("Horizontal");
 
                 v = Input.GetAxisRaw("Vertical");
@@ -141,9 +156,28 @@ public class playerScript : MonoBehaviour
                     currentInteractObject.SendMessage("Interaction", SendMessageOptions.DontRequireReceiver);
                 };
 
-                if (Input.GetButtonDown("Jump") && v >= 0 && Grounded) // tirei o !isDashing e o canDash
+                if (Grounded)
+                {
+                    coyoteTimeCounter = coyoteTime;
+                }
+                else
+                {
+                    coyoteTimeCounter -= Time.deltaTime;
+                }
+
+                if (Input.GetButtonDown("Jump"))
+                {
+                    jumpBufferCounter = jumpBufferTime;
+                }
+                else
+                {
+                    jumpBufferCounter -= Time.deltaTime;
+                }
+
+                if (jumpBufferCounter > 0f && v >= 0 && coyoteTimeCounter > 0f) // tirei o !isDashing e o canDash
                 {
                     isJumping = true;
+                    jumpBufferCounter = 0f;
                 }
                 if (Input.GetButton("Jump"))
                 {
@@ -226,6 +260,7 @@ public class playerScript : MonoBehaviour
                     else
                     {
                         isJumping = false;
+                        jumpBufferCounter = 0f;
                     }
                 }
 
@@ -304,6 +339,24 @@ public class playerScript : MonoBehaviour
     void Jump()
     {
         playerRb.velocity = Vector2.up * 3.2f;
+    }
+
+    bool IsWalled()
+    {
+        return Physics2D.OverlapCircle(wallCheck.position, 0.1f, wallLayer);
+    }
+
+    void WallSlide()
+    {
+        if(IsWalled() && !Grounded && h != 0f)
+        {
+            isWallSliding = true;
+            playerRb.velocity = new Vector2(playerRb.velocity.x, Mathf.Clamp(playerRb.velocity.y, -wallSlidingSpeed, float.MaxValue));
+        }
+        else
+        {
+            isWallSliding = false;
+        }
     }
 
     void Shoot()
