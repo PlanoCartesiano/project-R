@@ -1,0 +1,7156 @@
+fileFormatVersion: 2
+guid: ca1396e4ee0f61a43b06f244dfd06662
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4769994595434451352
+    second: Rafaela Sprite-Sheet_0
+  - first:
+      213: 2634523011433052894
+    second: Rafaela Sprite-Sheet_1
+  - first:
+      213: -8431494997256054655
+    second: Rafaela Sprite-Sheet_2
+  - first:
+      213: -1300612107124952407
+    second: Rafaela Sprite-Sheet_3
+  - first:
+      213: 3077587053168469500
+    second: Rafaela Sprite-Sheet_4
+  - first:
+      213: -4679870866806242016
+    second: Rafaela Sprite-Sheet_5
+  - first:
+      213: 1472513654114436435
+    second: Rafaela Sprite-Sheet_6
+  - first:
+      213: 5327619999802733062
+    second: Rafaela Sprite-Sheet_7
+  - first:
+      213: 2240398201332467282
+    second: Rafaela Sprite-Sheet_8
+  - first:
+      213: 6091757584112602764
+    second: Rafaela Sprite-Sheet_9
+  - first:
+      213: -6413878335265600803
+    second: Rafaela Sprite-Sheet_10
+  - first:
+      213: -2611000028605496940
+    second: Rafaela Sprite-Sheet_11
+  - first:
+      213: -6243161530991597156
+    second: Rafaela Sprite-Sheet_12
+  - first:
+      213: -3732402223599465329
+    second: Rafaela Sprite-Sheet_13
+  - first:
+      213: 8888322769452852627
+    second: Rafaela Sprite-Sheet_14
+  - first:
+      213: 2580205304033702754
+    second: Rafaela Sprite-Sheet_15
+  - first:
+      213: 5127393028853791523
+    second: Rafaela Sprite-Sheet_16
+  - first:
+      213: 8733198095418212981
+    second: Rafaela Sprite-Sheet_17
+  - first:
+      213: -6014855911532218928
+    second: Rafaela Sprite-Sheet_18
+  - first:
+      213: 7621481641988712543
+    second: Rafaela Sprite-Sheet_19
+  - first:
+      213: -6890678553148779281
+    second: Rafaela Sprite-Sheet_20
+  - first:
+      213: 889062798089078765
+    second: Rafaela Sprite-Sheet_21
+  - first:
+      213: -6036632504887046901
+    second: Rafaela Sprite-Sheet_22
+  - first:
+      213: 7385171632568325345
+    second: Rafaela Sprite-Sheet_23
+  - first:
+      213: 1357896067034484573
+    second: Rafaela Sprite-Sheet_24
+  - first:
+      213: 161120617249603601
+    second: Rafaela Sprite-Sheet_25
+  - first:
+      213: 1946758625322341395
+    second: Rafaela Sprite-Sheet_26
+  - first:
+      213: 2813603008735933368
+    second: Rafaela Sprite-Sheet_27
+  - first:
+      213: 7220135440021222110
+    second: Rafaela Sprite-Sheet_28
+  - first:
+      213: 4416536663089037342
+    second: Rafaela Sprite-Sheet_29
+  - first:
+      213: -21904853439269765
+    second: Rafaela Sprite-Sheet_30
+  - first:
+      213: 421130355904443452
+    second: Rafaela Sprite-Sheet_31
+  - first:
+      213: 2020713243047790663
+    second: Rafaela Sprite-Sheet_32
+  - first:
+      213: -7686801928610554234
+    second: Rafaela Sprite-Sheet_33
+  - first:
+      213: -814975288582031984
+    second: Rafaela Sprite-Sheet_34
+  - first:
+      213: -2723564103688355157
+    second: Rafaela Sprite-Sheet_35
+  - first:
+      213: -8527596891379560274
+    second: Rafaela Sprite-Sheet_36
+  - first:
+      213: -1190768855387836841
+    second: Rafaela Sprite-Sheet_37
+  - first:
+      213: 8137645283987352462
+    second: Rafaela Sprite-Sheet_38
+  - first:
+      213: -3264185460814348232
+    second: Rafaela Sprite-Sheet_39
+  - first:
+      213: -1485171766717320442
+    second: Rafaela Sprite-Sheet_40
+  - first:
+      213: 3027605202021287048
+    second: Rafaela Sprite-Sheet_41
+  - first:
+      213: 2195526526036423711
+    second: Rafaela Sprite-Sheet_42
+  - first:
+      213: -7857776876192422880
+    second: Rafaela Sprite-Sheet_43
+  - first:
+      213: -5071767138561168959
+    second: Rafaela Sprite-Sheet_44
+  - first:
+      213: -7492786821733792140
+    second: Rafaela Sprite-Sheet_45
+  - first:
+      213: 749838564181854112
+    second: Rafaela Sprite-Sheet_46
+  - first:
+      213: 1345477829706394604
+    second: Rafaela Sprite-Sheet_47
+  - first:
+      213: -3980905034652350745
+    second: Rafaela Sprite-Sheet_48
+  - first:
+      213: 6750087189270893521
+    second: Rafaela Sprite-Sheet_49
+  - first:
+      213: -5412726785439761480
+    second: Rafaela Sprite-Sheet_50
+  - first:
+      213: 1308897528719818580
+    second: Rafaela Sprite-Sheet_51
+  - first:
+      213: 9029658266704379302
+    second: Rafaela Sprite-Sheet_52
+  - first:
+      213: 3163548422499982015
+    second: Rafaela Sprite-Sheet_53
+  - first:
+      213: -2921988241962422802
+    second: Rafaela Sprite-Sheet_54
+  - first:
+      213: 463058724846998527
+    second: Rafaela Sprite-Sheet_55
+  - first:
+      213: 8595795021373863181
+    second: Rafaela Sprite-Sheet_56
+  - first:
+      213: -7810810213745424120
+    second: Rafaela Sprite-Sheet_57
+  - first:
+      213: 9086888238278764249
+    second: Rafaela Sprite-Sheet_58
+  - first:
+      213: 368581236397119932
+    second: Rafaela Sprite-Sheet_59
+  - first:
+      213: 2971621702785740710
+    second: Rafaela Sprite-Sheet_60
+  - first:
+      213: 52532019316833149
+    second: Rafaela Sprite-Sheet_61
+  - first:
+      213: -2918836070343744612
+    second: Rafaela Sprite-Sheet_62
+  - first:
+      213: -1141163172270248027
+    second: Rafaela Sprite-Sheet_63
+  - first:
+      213: -7278411480805417905
+    second: Rafaela Sprite-Sheet_64
+  - first:
+      213: 321136900151639524
+    second: Rafaela Sprite-Sheet_65
+  - first:
+      213: -1174711605989678980
+    second: Rafaela Sprite-Sheet_66
+  - first:
+      213: -5369333589308092569
+    second: Rafaela Sprite-Sheet_67
+  - first:
+      213: 2235188374782138432
+    second: Rafaela Sprite-Sheet_68
+  - first:
+      213: 789064044971413507
+    second: Rafaela Sprite-Sheet_69
+  - first:
+      213: 4396897031931182762
+    second: Rafaela Sprite-Sheet_70
+  - first:
+      213: 883686783431044911
+    second: Rafaela Sprite-Sheet_71
+  - first:
+      213: 257889042809019680
+    second: Rafaela Sprite-Sheet_72
+  - first:
+      213: 7828599333562569352
+    second: Rafaela Sprite-Sheet_73
+  - first:
+      213: 4886068507070662861
+    second: Rafaela Sprite-Sheet_74
+  - first:
+      213: -7938090379226852209
+    second: Rafaela Sprite-Sheet_75
+  - first:
+      213: 7975363796021102485
+    second: Rafaela Sprite-Sheet_76
+  - first:
+      213: -3417082443681840868
+    second: Rafaela Sprite-Sheet_77
+  - first:
+      213: 6088410279639505437
+    second: Rafaela Sprite-Sheet_78
+  - first:
+      213: 1233306865481914948
+    second: Rafaela Sprite-Sheet_79
+  - first:
+      213: 4805656448888605071
+    second: Rafaela Sprite-Sheet_80
+  - first:
+      213: -953044140188561529
+    second: Rafaela Sprite-Sheet_81
+  - first:
+      213: 9030796410431942813
+    second: Rafaela Sprite-Sheet_82
+  - first:
+      213: -2584276341864697853
+    second: Rafaela Sprite-Sheet_83
+  - first:
+      213: 1839470775242933830
+    second: Rafaela Sprite-Sheet_84
+  - first:
+      213: -4933835678625442504
+    second: Rafaela Sprite-Sheet_85
+  - first:
+      213: 1379816283400563138
+    second: Rafaela Sprite-Sheet_86
+  - first:
+      213: 6357926922886917882
+    second: Rafaela Sprite-Sheet_87
+  - first:
+      213: -7532932679621681875
+    second: Rafaela Sprite-Sheet_88
+  - first:
+      213: 7746687543922742462
+    second: Rafaela Sprite-Sheet_89
+  - first:
+      213: 3030359296692405597
+    second: Rafaela Sprite-Sheet_90
+  - first:
+      213: -8730707452961291741
+    second: Rafaela Sprite-Sheet_91
+  - first:
+      213: -8370762477108122649
+    second: Rafaela Sprite-Sheet_92
+  - first:
+      213: 5232048014351524405
+    second: Rafaela Sprite-Sheet_93
+  - first:
+      213: -949279885609826538
+    second: Rafaela Sprite-Sheet_94
+  - first:
+      213: -9177116997316141555
+    second: Rafaela Sprite-Sheet_95
+  - first:
+      213: 9101780252826857492
+    second: Rafaela Sprite-Sheet_96
+  - first:
+      213: 3377902478212992260
+    second: Rafaela Sprite-Sheet_97
+  - first:
+      213: -7794003684304651515
+    second: Rafaela Sprite-Sheet_98
+  - first:
+      213: 873646896643261324
+    second: Rafaela Sprite-Sheet_99
+  - first:
+      213: 6449776607289698021
+    second: Rafaela Sprite-Sheet_100
+  - first:
+      213: -7845089014956438886
+    second: Rafaela Sprite-Sheet_101
+  - first:
+      213: -691560141003197528
+    second: Rafaela Sprite-Sheet_102
+  - first:
+      213: 422497918936395652
+    second: Rafaela Sprite-Sheet_103
+  - first:
+      213: -2887835216277883747
+    second: Rafaela Sprite-Sheet_104
+  - first:
+      213: -3477617191871338367
+    second: Rafaela Sprite-Sheet_105
+  - first:
+      213: -8014191188476952024
+    second: Rafaela Sprite-Sheet_106
+  - first:
+      213: 5921374255419338990
+    second: Rafaela Sprite-Sheet_107
+  - first:
+      213: -3977411878519988464
+    second: Rafaela Sprite-Sheet_108
+  - first:
+      213: 1579314078400793042
+    second: Rafaela Sprite-Sheet_109
+  - first:
+      213: -6102771334470293623
+    second: Rafaela Sprite-Sheet_110
+  - first:
+      213: 411856279019833698
+    second: Rafaela Sprite-Sheet_111
+  - first:
+      213: 116971249180015045
+    second: Rafaela Sprite-Sheet_112
+  - first:
+      213: 7631428549258374161
+    second: Rafaela Sprite-Sheet_113
+  - first:
+      213: -5412421855400236705
+    second: Rafaela Sprite-Sheet_114
+  - first:
+      213: 8128652296766619811
+    second: Rafaela Sprite-Sheet_115
+  - first:
+      213: -2570495650826422394
+    second: Rafaela Sprite-Sheet_116
+  - first:
+      213: 5106361462366688
+    second: Rafaela Sprite-Sheet_117
+  - first:
+      213: -4188047981334283513
+    second: Rafaela Sprite-Sheet_118
+  - first:
+      213: 6444454569026061977
+    second: Rafaela Sprite-Sheet_119
+  - first:
+      213: -4048399658901887393
+    second: Rafaela Sprite-Sheet_120
+  - first:
+      213: 6202693081017861848
+    second: Rafaela Sprite-Sheet_121
+  - first:
+      213: 3499389029465267993
+    second: Rafaela Sprite-Sheet_122
+  - first:
+      213: 8999214720813865322
+    second: Rafaela Sprite-Sheet_123
+  - first:
+      213: -416505475456682068
+    second: Rafaela Sprite-Sheet_124
+  - first:
+      213: 5230850625430874297
+    second: Rafaela Sprite-Sheet_125
+  - first:
+      213: 4698126851022411841
+    second: Rafaela Sprite-Sheet_126
+  - first:
+      213: -3349380843030961036
+    second: Rafaela Sprite-Sheet_127
+  - first:
+      213: 5156209522850455691
+    second: Rafaela Sprite-Sheet_128
+  - first:
+      213: -3824970767539951524
+    second: Rafaela Sprite-Sheet_129
+  - first:
+      213: -8734680793819078070
+    second: Rafaela Sprite-Sheet_130
+  - first:
+      213: 6571029547496311696
+    second: Rafaela Sprite-Sheet_131
+  - first:
+      213: 6286164951968951092
+    second: Rafaela Sprite-Sheet_132
+  - first:
+      213: 669696335502822460
+    second: Rafaela Sprite-Sheet_133
+  - first:
+      213: 1426847778939017078
+    second: Rafaela Sprite-Sheet_134
+  - first:
+      213: -4796822517390231289
+    second: Rafaela Sprite-Sheet_135
+  - first:
+      213: 1903701917849100506
+    second: Rafaela Sprite-Sheet_136
+  - first:
+      213: 9191087474509243084
+    second: Rafaela Sprite-Sheet_137
+  - first:
+      213: 2955652673559878266
+    second: Rafaela Sprite-Sheet_138
+  - first:
+      213: 5961044485224931966
+    second: Rafaela Sprite-Sheet_139
+  - first:
+      213: -8517608689535315396
+    second: Rafaela Sprite-Sheet_140
+  - first:
+      213: -960832733532281405
+    second: Rafaela Sprite-Sheet_141
+  - first:
+      213: -3332558799909659311
+    second: Rafaela Sprite-Sheet_142
+  - first:
+      213: -3424488787083937880
+    second: Rafaela Sprite-Sheet_143
+  - first:
+      213: -3521798786949466094
+    second: Rafaela Sprite-Sheet_144
+  - first:
+      213: 7989943041427899993
+    second: Rafaela Sprite-Sheet_145
+  - first:
+      213: 1327027954580650477
+    second: Rafaela Sprite-Sheet_146
+  - first:
+      213: 6735426153102898112
+    second: Rafaela Sprite-Sheet_147
+  - first:
+      213: -7385560087484936648
+    second: Rafaela Sprite-Sheet_148
+  - first:
+      213: -8156965083243086112
+    second: Rafaela Sprite-Sheet_149
+  - first:
+      213: -8237546866258342493
+    second: Rafaela Sprite-Sheet_150
+  - first:
+      213: 299992632434968504
+    second: Rafaela Sprite-Sheet_151
+  - first:
+      213: -5280902263306243437
+    second: Rafaela Sprite-Sheet_152
+  - first:
+      213: -5866429010835723668
+    second: Rafaela Sprite-Sheet_153
+  - first:
+      213: 4456818692369260278
+    second: Rafaela Sprite-Sheet_154
+  - first:
+      213: -3383036950507694151
+    second: Rafaela Sprite-Sheet_155
+  - first:
+      213: 3550523287738752490
+    second: Rafaela Sprite-Sheet_156
+  - first:
+      213: -8997867863175520413
+    second: Rafaela Sprite-Sheet_157
+  - first:
+      213: -5302382486679365566
+    second: Rafaela Sprite-Sheet_158
+  - first:
+      213: -4565980665902531401
+    second: Rafaela Sprite-Sheet_159
+  - first:
+      213: -4317983349999806550
+    second: Rafaela Sprite-Sheet_160
+  - first:
+      213: 5976551462264148876
+    second: Rafaela Sprite-Sheet_161
+  - first:
+      213: 6055619280339757650
+    second: Rafaela Sprite-Sheet_162
+  - first:
+      213: 3033134856163073445
+    second: Rafaela Sprite-Sheet_163
+  - first:
+      213: 3784295649590818472
+    second: Rafaela Sprite-Sheet_164
+  - first:
+      213: 2881371561913890287
+    second: Rafaela Sprite-Sheet_165
+  - first:
+      213: -8212870973324851713
+    second: Rafaela Sprite-Sheet_166
+  - first:
+      213: 2380445835132752876
+    second: Rafaela Sprite-Sheet_167
+  - first:
+      213: -1832087993513555351
+    second: Rafaela Sprite-Sheet_168
+  - first:
+      213: -4774430075751638961
+    second: Rafaela Sprite-Sheet_169
+  - first:
+      213: 1854184333285558705
+    second: Rafaela Sprite-Sheet_170
+  - first:
+      213: -8043366701851718899
+    second: Rafaela Sprite-Sheet_171
+  - first:
+      213: -8316252221994110989
+    second: Rafaela Sprite-Sheet_172
+  - first:
+      213: -1442106555507506509
+    second: Rafaela Sprite-Sheet_173
+  - first:
+      213: -7445961845372194849
+    second: Rafaela Sprite-Sheet_174
+  - first:
+      213: 7642370655094745018
+    second: Rafaela Sprite-Sheet_175
+  - first:
+      213: 3785288738355576320
+    second: Rafaela Sprite-Sheet_176
+  - first:
+      213: -7974474484401773757
+    second: Rafaela Sprite-Sheet_177
+  - first:
+      213: 6854062382608603564
+    second: Rafaela Sprite-Sheet_178
+  - first:
+      213: 4287448061035660211
+    second: Rafaela Sprite-Sheet_179
+  - first:
+      213: -6707101134171666709
+    second: Rafaela Sprite-Sheet_180
+  - first:
+      213: -6792779563903245231
+    second: Rafaela Sprite-Sheet_181
+  - first:
+      213: -8203192204815466763
+    second: Rafaela Sprite-Sheet_182
+  - first:
+      213: 9144733289005501655
+    second: Rafaela Sprite-Sheet_183
+  - first:
+      213: 5283867782516133072
+    second: Rafaela Sprite-Sheet_184
+  - first:
+      213: -6927630284318134407
+    second: Rafaela Sprite-Sheet_185
+  - first:
+      213: -4046324420295298701
+    second: Rafaela Sprite-Sheet_186
+  - first:
+      213: 1954478950312995183
+    second: Rafaela Sprite-Sheet_187
+  - first:
+      213: 7920649940755267136
+    second: Rafaela Sprite-Sheet_188
+  - first:
+      213: -5695300542701152136
+    second: Rafaela Sprite-Sheet_189
+  - first:
+      213: -4684836979376221901
+    second: Rafaela Sprite-Sheet_190
+  - first:
+      213: -6461792012229612468
+    second: Rafaela Sprite-Sheet_191
+  - first:
+      213: 5356926450065073099
+    second: Rafaela Sprite-Sheet_192
+  - first:
+      213: 6847992099049970939
+    second: Rafaela Sprite-Sheet_193
+  - first:
+      213: -6736627280788978810
+    second: Rafaela Sprite-Sheet_194
+  - first:
+      213: 4892570497093059543
+    second: Rafaela Sprite-Sheet_195
+  - first:
+      213: -7316367052398691214
+    second: Rafaela Sprite-Sheet_196
+  - first:
+      213: 985251876494801118
+    second: Rafaela Sprite-Sheet_197
+  - first:
+      213: 3836885156772427983
+    second: Rafaela Sprite-Sheet_198
+  - first:
+      213: -3704642787811659451
+    second: Rafaela Sprite-Sheet_199
+  - first:
+      213: 3833961461363330654
+    second: Rafaela Sprite-Sheet_200
+  - first:
+      213: 5957511725225181628
+    second: Rafaela Sprite-Sheet_201
+  - first:
+      213: -7871065249681841802
+    second: Rafaela Sprite-Sheet_202
+  - first:
+      213: 1681832751645347441
+    second: Rafaela Sprite-Sheet_203
+  - first:
+      213: 8908357597608278084
+    second: Rafaela Sprite-Sheet_204
+  - first:
+      213: 7682822391552336298
+    second: Rafaela Sprite-Sheet_205
+  - first:
+      213: 2569455538691899518
+    second: Rafaela Sprite-Sheet_206
+  - first:
+      213: 2941513421632860875
+    second: Rafaela Sprite-Sheet_207
+  - first:
+      213: 2455045278729817078
+    second: Rafaela Sprite-Sheet_208
+  - first:
+      213: -5795076406134482500
+    second: Rafaela Sprite-Sheet_209
+  - first:
+      213: 9190521109066578010
+    second: Rafaela Sprite-Sheet_210
+  - first:
+      213: 1643759413235094757
+    second: Rafaela Sprite-Sheet_211
+  - first:
+      213: 1752391724787929460
+    second: Rafaela Sprite-Sheet_212
+  - first:
+      213: 7800841114506262919
+    second: Rafaela Sprite-Sheet_213
+  - first:
+      213: -5256704682210132114
+    second: Rafaela Sprite-Sheet_214
+  - first:
+      213: 8654151733071364051
+    second: Rafaela Sprite-Sheet_215
+  - first:
+      213: 5035956125722382298
+    second: Rafaela Sprite-Sheet_216
+  - first:
+      213: -1946930496397690436
+    second: Rafaela Sprite-Sheet_217
+  - first:
+      213: 3084330714292499119
+    second: Rafaela Sprite-Sheet_218
+  - first:
+      213: 8784439046895241985
+    second: Rafaela Sprite-Sheet_219
+  - first:
+      213: -1945386068746255495
+    second: Rafaela Sprite-Sheet_220
+  - first:
+      213: -5375411579321841559
+    second: Rafaela Sprite-Sheet_221
+  - first:
+      213: -9021684409720360338
+    second: Rafaela Sprite-Sheet_222
+  - first:
+      213: -2906773081004264372
+    second: Rafaela Sprite-Sheet_223
+  - first:
+      213: 4283761390577787061
+    second: Rafaela Sprite-Sheet_224
+  - first:
+      213: -4158284595305363802
+    second: Rafaela Sprite-Sheet_225
+  - first:
+      213: -697384168313765714
+    second: Rafaela Sprite-Sheet_226
+  - first:
+      213: 563458576371602586
+    second: Rafaela Sprite-Sheet_227
+  - first:
+      213: -7893045959852986032
+    second: Rafaela Sprite-Sheet_228
+  - first:
+      213: -3240290771882717653
+    second: Rafaela Sprite-Sheet_229
+  - first:
+      213: 9119155082152643923
+    second: Rafaela Sprite-Sheet_230
+  - first:
+      213: -7008983412028206911
+    second: Rafaela Sprite-Sheet_231
+  - first:
+      213: -4569923805034473157
+    second: Rafaela Sprite-Sheet_232
+  - first:
+      213: -4175211504647015838
+    second: Rafaela Sprite-Sheet_233
+  - first:
+      213: -3218551750513799202
+    second: Rafaela Sprite-Sheet_234
+  - first:
+      213: 619510722935197447
+    second: Rafaela Sprite-Sheet_235
+  - first:
+      213: 5785319820796289333
+    second: Rafaela Sprite-Sheet_236
+  - first:
+      213: 8536553018618254387
+    second: Rafaela Sprite-Sheet_237
+  - first:
+      213: -8255379978801903436
+    second: Rafaela Sprite-Sheet_238
+  - first:
+      213: 98676692648529785
+    second: Rafaela Sprite-Sheet_239
+  - first:
+      213: 1221729641875908210
+    second: Rafaela Sprite-Sheet_240
+  - first:
+      213: -5108870502467053809
+    second: Rafaela Sprite-Sheet_241
+  - first:
+      213: 1102599257731108713
+    second: Rafaela Sprite-Sheet_242
+  - first:
+      213: 5107135062392291016
+    second: Rafaela Sprite-Sheet_243
+  - first:
+      213: 4181930282496581778
+    second: Rafaela Sprite-Sheet_244
+  - first:
+      213: -6736663911657978264
+    second: Rafaela Sprite-Sheet_245
+  - first:
+      213: 5146115185607596643
+    second: Rafaela Sprite-Sheet_246
+  - first:
+      213: 7036655118080902855
+    second: Rafaela Sprite-Sheet_247
+  - first:
+      213: -4570659718668966967
+    second: Rafaela Sprite-Sheet_248
+  - first:
+      213: 4007446003775360562
+    second: Rafaela Sprite-Sheet_249
+  - first:
+      213: 8121112245023440187
+    second: Rafaela Sprite-Sheet_250
+  - first:
+      213: 2104093598042924525
+    second: Rafaela Sprite-Sheet_251
+  - first:
+      213: -987527094972030322
+    second: Rafaela Sprite-Sheet_252
+  - first:
+      213: -7199585487411307417
+    second: Rafaela Sprite-Sheet_253
+  - first:
+      213: 7165006795148209028
+    second: Rafaela Sprite-Sheet_254
+  - first:
+      213: 3055266732599270475
+    second: Rafaela Sprite-Sheet_255
+  - first:
+      213: -5531011480264184699
+    second: Rafaela Sprite-Sheet_256
+  - first:
+      213: -6670947055411864057
+    second: Rafaela Sprite-Sheet_257
+  - first:
+      213: 6549704576935214603
+    second: Rafaela Sprite-Sheet_258
+  - first:
+      213: 4829099183987009754
+    second: Rafaela Sprite-Sheet_259
+  - first:
+      213: -2525441030928638582
+    second: Rafaela Sprite-Sheet_260
+  - first:
+      213: 3002763261866926079
+    second: Rafaela Sprite-Sheet_261
+  - first:
+      213: 4348123627047740504
+    second: Rafaela Sprite-Sheet_262
+  - first:
+      213: -4217881450875311328
+    second: Rafaela Sprite-Sheet_263
+  - first:
+      213: 4777430263634425186
+    second: Rafaela Sprite-Sheet_264
+  - first:
+      213: -2586933895528663932
+    second: Rafaela Sprite-Sheet_265
+  - first:
+      213: -398011389304161290
+    second: Rafaela Sprite-Sheet_266
+  - first:
+      213: 7257645761615316727
+    second: Rafaela Sprite-Sheet_267
+  - first:
+      213: -6782511528550617738
+    second: Rafaela Sprite-Sheet_268
+  - first:
+      213: 2699060514046396701
+    second: Rafaela Sprite-Sheet_269
+  - first:
+      213: -2261182020744483325
+    second: Rafaela Sprite-Sheet_270
+  - first:
+      213: -7998149854550981095
+    second: Rafaela Sprite-Sheet_271
+  - first:
+      213: 3831410574052113233
+    second: Rafaela Sprite-Sheet_272
+  - first:
+      213: -1713871493203562209
+    second: Rafaela Sprite-Sheet_273
+  - first:
+      213: -5426152732401906223
+    second: Rafaela Sprite-Sheet_274
+  - first:
+      213: 5264001776630802528
+    second: Rafaela Sprite-Sheet_275
+  - first:
+      213: -5515555164794539206
+    second: Rafaela Sprite-Sheet_276
+  - first:
+      213: -1651240606247809811
+    second: Rafaela Sprite-Sheet_277
+  - first:
+      213: 8400217909375162917
+    second: Rafaela Sprite-Sheet_278
+  - first:
+      213: 8980287222205689864
+    second: Rafaela Sprite-Sheet_279
+  - first:
+      213: 792673793889564370
+    second: Rafaela Sprite-Sheet_280
+  - first:
+      213: -6752583989444393680
+    second: Rafaela Sprite-Sheet_281
+  - first:
+      213: 7628658194423355303
+    second: Rafaela Sprite-Sheet_282
+  - first:
+      213: -2226687283312293931
+    second: Rafaela Sprite-Sheet_283
+  - first:
+      213: -5392108224333855666
+    second: Rafaela Sprite-Sheet_284
+  - first:
+      213: -4349887373980914119
+    second: Rafaela Sprite-Sheet_285
+  - first:
+      213: 5491825851483071962
+    second: Rafaela Sprite-Sheet_286
+  - first:
+      213: -3850973975121007930
+    second: Rafaela Sprite-Sheet_287
+  - first:
+      213: -5619908718903744129
+    second: Rafaela Sprite-Sheet_288
+  - first:
+      213: 8608467057906672153
+    second: Rafaela Sprite-Sheet_289
+  - first:
+      213: -3768491702608535118
+    second: Rafaela Sprite-Sheet_290
+  - first:
+      213: 4840015691568204090
+    second: Rafaela Sprite-Sheet_291
+  - first:
+      213: 368707785022824303
+    second: Rafaela Sprite-Sheet_292
+  - first:
+      213: -4749793153488359960
+    second: Rafaela Sprite-Sheet_293
+  - first:
+      213: 409823362653552745
+    second: Rafaela Sprite-Sheet_294
+  - first:
+      213: -2525742675572219123
+    second: Rafaela Sprite-Sheet_295
+  - first:
+      213: -3478778829824835033
+    second: Rafaela Sprite-Sheet_296
+  - first:
+      213: 725113624130032985
+    second: Rafaela Sprite-Sheet_297
+  - first:
+      213: -359016377221146504
+    second: Rafaela Sprite-Sheet_298
+  - first:
+      213: -4098522532724823366
+    second: Rafaela Sprite-Sheet_299
+  - first:
+      213: -1038305164221733132
+    second: Rafaela Sprite-Sheet_300
+  - first:
+      213: -7574531978412220488
+    second: Rafaela Sprite-Sheet_301
+  - first:
+      213: 4942765546031827551
+    second: Rafaela Sprite-Sheet_302
+  - first:
+      213: -5606238333851926633
+    second: Rafaela Sprite-Sheet_303
+  - first:
+      213: -5387026360318845698
+    second: Rafaela Sprite-Sheet_304
+  - first:
+      213: -3368052621930530135
+    second: Rafaela Sprite-Sheet_305
+  - first:
+      213: 2698734140606167152
+    second: Rafaela Sprite-Sheet_306
+  - first:
+      213: 6195954214213040952
+    second: Rafaela Sprite-Sheet_307
+  - first:
+      213: 2883053551527672997
+    second: Rafaela Sprite-Sheet_308
+  - first:
+      213: -1917782323469645241
+    second: Rafaela Sprite-Sheet_309
+  - first:
+      213: -2967058789483052375
+    second: Rafaela Sprite-Sheet_310
+  - first:
+      213: 1157127825258396237
+    second: Rafaela Sprite-Sheet_311
+  - first:
+      213: 9062038673010633573
+    second: Rafaela Sprite-Sheet_312
+  - first:
+      213: -2129778262508956549
+    second: Rafaela Sprite-Sheet_313
+  - first:
+      213: -4482032714502667235
+    second: Rafaela Sprite-Sheet_314
+  - first:
+      213: 6532461472971502383
+    second: Rafaela Sprite-Sheet_315
+  - first:
+      213: -1823731442192795098
+    second: Rafaela Sprite-Sheet_316
+  - first:
+      213: 6998740875611220874
+    second: Rafaela Sprite-Sheet_317
+  - first:
+      213: -3980322955106243480
+    second: Rafaela Sprite-Sheet_318
+  - first:
+      213: 1310563557296549820
+    second: Rafaela Sprite-Sheet_319
+  - first:
+      213: 2448816935574718699
+    second: Rafaela Sprite-Sheet_320
+  - first:
+      213: 1403478500432757396
+    second: Rafaela Sprite-Sheet_321
+  - first:
+      213: -3116980604902098230
+    second: Rafaela Sprite-Sheet_322
+  - first:
+      213: 2155988434222156944
+    second: Rafaela Sprite-Sheet_323
+  - first:
+      213: -5034987003464037706
+    second: Rafaela Sprite-Sheet_324
+  - first:
+      213: -5505782206532825832
+    second: Rafaela Sprite-Sheet_325
+  - first:
+      213: -6195620165338362655
+    second: Rafaela Sprite-Sheet_326
+  - first:
+      213: -2161240253341401419
+    second: Rafaela Sprite-Sheet_327
+  - first:
+      213: -2212588236141891226
+    second: Rafaela Sprite-Sheet_328
+  - first:
+      213: 8605325579182271764
+    second: Rafaela Sprite-Sheet_329
+  - first:
+      213: 6639443663553331677
+    second: Rafaela Sprite-Sheet_330
+  - first:
+      213: -6535861533151677778
+    second: Rafaela Sprite-Sheet_331
+  - first:
+      213: -1496051227343945534
+    second: Rafaela Sprite-Sheet_332
+  - first:
+      213: 551567997941617488
+    second: Rafaela Sprite-Sheet_333
+  - first:
+      213: 5164292075361852362
+    second: Rafaela Sprite-Sheet_334
+  - first:
+      213: 7578674937624843705
+    second: Rafaela Sprite-Sheet_335
+  - first:
+      213: -8441904407776135100
+    second: Rafaela Sprite-Sheet_336
+  - first:
+      213: -4968529662668583000
+    second: Rafaela Sprite-Sheet_337
+  - first:
+      213: 131298151826483426
+    second: Rafaela Sprite-Sheet_338
+  - first:
+      213: -2104402783206627297
+    second: Rafaela Sprite-Sheet_339
+  - first:
+      213: -7715843671719717433
+    second: Rafaela Sprite-Sheet_340
+  - first:
+      213: -557122334148583161
+    second: Rafaela Sprite-Sheet_341
+  - first:
+      213: 4502988230532027192
+    second: Rafaela Sprite-Sheet_342
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Rafaela_idle_00
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 3095
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8915761efcc623240800000000000000
+      internalID: 4769994595434451352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_idle_01
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 3095
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eda3f0978b4bf8420800000000000000
+      internalID: 2634523011433052894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_idle_02
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 3095
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 188d113d8ff4dfa80800000000000000
+      internalID: -8431494997256054655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_idle_03
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 3095
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a2be34fd2c43fde0800000000000000
+      internalID: -1300612107124952407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_idle_04
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 3095
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf5a27d7e19c5ba20800000000000000
+      internalID: 3077587053168469500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_idle_05
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 3095
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 025805ddd32cd0fb0800000000000000
+      internalID: -4679870866806242016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_idle_06
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 3095
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3554760ed5b6f6410800000000000000
+      internalID: 1472513654114436435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_idle_07
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 3095
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6023282b9228fe940800000000000000
+      internalID: 5327619999802733062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_idle_08
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 3095
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25688d14b4e771f10800000000000000
+      internalID: 2240398201332467282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_idle_09
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 3002
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8ec2da4f354a8450800000000000000
+      internalID: 6091757584112602764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_idle_10
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 3002
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dda8be1e2a35df6a0800000000000000
+      internalID: -6413878335265600803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_idle_11
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 3002
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4914f62ce4dd3cbd0800000000000000
+      internalID: -2611000028605496940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_idle_12
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 3002
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c99acdd4aa5db59a0800000000000000
+      internalID: -6243161530991597156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_idle_13
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 3002
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8cc977e3f7d33cc0800000000000000
+      internalID: -3732402223599465329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_idle_14
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 3002
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 395e04a677aa95b70800000000000000
+      internalID: 8888322769452852627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_turning_00
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 3002
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 263f182bd0bbec320800000000000000
+      internalID: 2580205304033702754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_turning_01
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 3002
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32bf4ac2bc8282740800000000000000
+      internalID: 5127393028853791523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_turning_02
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 3002
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5724586b56d823970800000000000000
+      internalID: 8733198095418212981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_start_run_00
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 2723
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea09895fec3e7a980800000000000000
+      internalID: -8527596891379560274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_start_run_01
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 2723
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75e6205f80a897fe0800000000000000
+      internalID: -1190768855387836841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_running_00
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 2724
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8be23c4549bee070800000000000000
+      internalID: 8137645283987352462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_running_01
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 2724
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8308a272e9843b2d0800000000000000
+      internalID: -3264185460814348232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_running_02
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 2723
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 603ff5e952c936be0800000000000000
+      internalID: -1485171766717320442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_running_03
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 2723
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8848a9ae3e6340a20800000000000000
+      internalID: 3027605202021287048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_running_04
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 2724
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1439573eb3187e10800000000000000
+      internalID: 2195526526036423711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_running_05
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 2724
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 024a54a309193f290800000000000000
+      internalID: -7857776876192422880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_running_06
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 2723
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c9ef8aa8a67d99b0800000000000000
+      internalID: -5071767138561168959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_running_07
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 2630
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47644d88516440890800000000000000
+      internalID: -7492786821733792140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_break_run_00
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 2630
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a7c2f88336f76a00800000000000000
+      internalID: 749838564181854112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_break_run_01
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 2630
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceb20dc15f81ca210800000000000000
+      internalID: 1345477829706394604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_jump_00
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 2630
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e68bf476fbf0c8c0800000000000000
+      internalID: -3980905034652350745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_jump_01
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 2630
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d3186ff8802dad50800000000000000
+      internalID: 6750087189270893521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_jump_02
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 2630
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bbfe9f9aa122e4b0800000000000000
+      internalID: -5412726785439761480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_jump_03
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 2630
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45f3bb61e532a2210800000000000000
+      internalID: 1308897528719818580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_jump_04
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 2630
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ad75163a5acf4d70800000000000000
+      internalID: 9029658266704379302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_jump_05
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 2632
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbadbd0778e27eb20800000000000000
+      internalID: 3163548422499982015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_fall_00
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 2540
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eed26ffdc230377d0800000000000000
+      internalID: -2921988241962422802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_fall_01
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 2540
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff396a4f47d1d6600800000000000000
+      internalID: 463058724846998527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_fall_02
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 2537
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d057f0b87066a4770800000000000000
+      internalID: 8595795021373863181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_fall_03
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 2537
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80906b97e7d6a9390800000000000000
+      internalID: -7810810213745424120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_fall_looped_00
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 2537
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d6e74455bc1b1e70800000000000000
+      internalID: 9086888238278764249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_fall_looped_01
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 2537
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb913528ea67d1500800000000000000
+      internalID: 368581236397119932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_fall_looped_02
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 2537
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6afa261c1325d3920800000000000000
+      internalID: 2971621702785740710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_fall_looped_03
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 2537
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7bb6bed791aab000800000000000000
+      internalID: 52532019316833149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_fall_looped_04
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 2537
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9360950f063e77d0800000000000000
+      internalID: -2918836070343744612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_double_jump_00
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 2446
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5afe2161426c920f0800000000000000
+      internalID: -1141163172270248027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_double_jump_01
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 2448
+        width: 34
+        height: 35
+      alignment: 9
+      pivot: {x: 0.6319374, y: 0.35708007}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4cd7752253edfa90800000000000000
+      internalID: -7278411480805417905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_double_jump_02
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 2451
+        width: 32
+        height: 44
+      alignment: 9
+      pivot: {x: 0.6779237, y: 0.25297406}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4edfec92f48e47400800000000000000
+      internalID: 321136900151639524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_double_jump_03
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 2444
+        width: 32
+        height: 40
+      alignment: 9
+      pivot: {x: 0.6725321, y: 0.4223694}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c70e47ba40692bfe0800000000000000
+      internalID: -1174711605989678980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_double_jump_04
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 2444
+        width: 32
+        height: 33
+      alignment: 9
+      pivot: {x: 0.6877985, y: 0.46963778}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76fc7b86c8b4c75b0800000000000000
+      internalID: -5369333589308092569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_double_jump_05
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 2445
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 048d8fcfbfbf40f10800000000000000
+      internalID: 2235188374782138432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_double_jump_06
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 2447
+        width: 26
+        height: 29
+      alignment: 9
+      pivot: {x: 0.589886, y: 0.4999916}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 300dd89719153fa00800000000000000
+      internalID: 789064044971413507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_double_jump_07
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 2447
+        width: 25
+        height: 29
+      alignment: 9
+      pivot: {x: 0.55341554, y: 0.4999916}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aae3a360e8ae40d30800000000000000
+      internalID: 4396897031931182762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_double_jump_08
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 2445
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2f6d13927c734c00800000000000000
+      internalID: 883686783431044911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_landing_00
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 2351
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8825bddbd95c4ac60800000000000000
+      internalID: 7828599333562569352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_landing_01
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 2351
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc88b207b6dcec340800000000000000
+      internalID: 4886068507070662861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_landing_02
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 2351
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f84dc3f9bdc36d190800000000000000
+      internalID: -7938090379226852209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_landing_03
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 2351
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59749500e1f2eae60800000000000000
+      internalID: 7975363796021102485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_hard_landing_00
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 2351
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c11ce183f951490d0800000000000000
+      internalID: -3417082443681840868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_hard_landing_01
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 2351
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1adfbc34e06e7450800000000000000
+      internalID: 6088410279639505437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_hard_landing_02
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 2351
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44a99105f069d1110800000000000000
+      internalID: 1233306865481914948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_hard_landing_03
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 2351
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f89029c241f11b240800000000000000
+      internalID: 4805656448888605071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_hard_landing_04
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 2258
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78f0bc8676b16c2f0800000000000000
+      internalID: -953044140188561529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_hard_landing_05
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 2258
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d903ba2fc75d35d70800000000000000
+      internalID: 9030796410431942813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_hard_landing_06
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 2258
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30075b1fb5ec22cd0800000000000000
+      internalID: -2584276341864697853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_interaction_00
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 2258
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 835d163479e778bb0800000000000000
+      internalID: -4933835678625442504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_interaction_01
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 2259
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c9e3636997162310800000000000000
+      internalID: 1379816283400563138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_interaction_02
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 2258
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afe2192c9d4eb3850800000000000000
+      internalID: 6357926922886917882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_interaction_03
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 2258
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2dd73a93a5a57790800000000000000
+      internalID: -7532932679621681875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_interaction_04
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 2258
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb455790743c18b60800000000000000
+      internalID: 7746687543922742462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_interaction_05
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 2165
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d55472d89bffd0a20800000000000000
+      internalID: 3030359296692405597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_interaction_06
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 2165
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 322036c24db46d680800000000000000
+      internalID: -8730707452961291741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_dash_00
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 2165
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50b7fea81f226d390800000000000000
+      internalID: -7794003684304651515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_dash_01
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 2072
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c834b854931df1c00800000000000000
+      internalID: 873646896643261324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_dash_02
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 2072
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e66026e6a5328950800000000000000
+      internalID: 6449776607289698021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_dash_03
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 2072
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9ac3302b15a02390800000000000000
+      internalID: -7845089014956438886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_dash_04
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 2072
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a37fae37b51766f0800000000000000
+      internalID: -691560141003197528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_dash_05
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 2072
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48fab886e930dd500800000000000000
+      internalID: 422497918936395652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_dash_06
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 2072
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d94b4e3db295ce7d0800000000000000
+      internalID: -2887835216277883747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_crounching_00
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 2072
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 188a7b5d6950dbfc0800000000000000
+      internalID: -3477617191871338367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_crounching_01
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 2072
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82204c8339fd7c090800000000000000
+      internalID: -8014191188476952024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_crounching_02
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 2072
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee0b9643382fc2250800000000000000
+      internalID: 5921374255419338990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_crounching_03
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1979
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01f956f38f46dc8c0800000000000000
+      internalID: -3977411878519988464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_down_shot_00
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 1979
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d94ad769c9dae510800000000000000
+      internalID: 1579314078400793042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_down_shot_01
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 1979
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 987267f1ec99e4ba0800000000000000
+      internalID: -6102771334470293623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_down_shot_02
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 1979
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 269cd798a1537b500800000000000000
+      internalID: 411856279019833698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_down_shot_03
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 1979
+        width: 27
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c9fe4c3bb09f9100800000000000000
+      internalID: 116971249180015045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_upStanding_00
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 1979
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11ce15f15d748e960800000000000000
+      internalID: 7631428549258374161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_upStanding_01
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 1979
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f59ee4eaff633e4b0800000000000000
+      internalID: -5412421855400236705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_upStanding_02
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 1979
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a0007b4236cec070800000000000000
+      internalID: 8128652296766619811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_upStanding_03
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 1979
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 687fdcb13d3c35cd0800000000000000
+      internalID: -2570495650826422394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_slingshot_00
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1886
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e12f0d6534221000800000000000000
+      internalID: 5106361462366688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_slingshot_01
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 1886
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70b374adc8011e5c0800000000000000
+      internalID: -4188047981334283513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_slingshot_02
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 1886
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99601fd494d4f6950800000000000000
+      internalID: 6444454569026061977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_slingshot_03
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 1886
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f562756a5f131d7c0800000000000000
+      internalID: -4048399658901887393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_charging_slingshot_00
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 1886
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d6c7d07e74641650800000000000000
+      internalID: 6202693081017861848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_charging_slingshot_01
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 1886
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91f1d2028c3509030800000000000000
+      internalID: 3499389029465267993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_charging_slingshot_02
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 1886
+        width: 33
+        height: 29
+      alignment: 9
+      pivot: {x: 0.5505852, y: 0.4999958}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a699393db12a3ec70800000000000000
+      internalID: 8999214720813865322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_charging_slingshot_03
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 1886
+        width: 36
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5927395, y: 0.45825958}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca736601a76483af0800000000000000
+      internalID: -416505475456682068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_charging_slingshot_04
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 1886
+        width: 35
+        height: 39
+      alignment: 9
+      pivot: {x: 0.5763096, y: 0.40582746}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b80ecf40e398e8740800000000000000
+      internalID: 5156209522850455691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_charging_slingshot_05
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1793
+        width: 35
+        height: 41
+      alignment: 9
+      pivot: {x: 0.53815645, y: 0.36156332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c58278c3a59faeac0800000000000000
+      internalID: -3824970767539951524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_charging_slingshot_06
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 1793
+        width: 35
+        height: 42
+      alignment: 9
+      pivot: {x: 0.54769504, y: 0.36485654}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43bae91e7b1fc3750800000000000000
+      internalID: 6286164951968951092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_charging_slingshot_07
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 1793
+        width: 35
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5095385, y: 0.38075766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad020abdece4b6a10800000000000000
+      internalID: 1903701917849100506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_charging_slingshot_08
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 1793
+        width: 40
+        height: 42
+      alignment: 9
+      pivot: {x: 0.43322524, y: 0.36485943}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7a58f66276940920800000000000000
+      internalID: 2955652673559878266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_charging_slingshot_10
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 1793
+        width: 38
+        height: 38
+      alignment: 9
+      pivot: {x: 0.44727847, y: 0.41212866}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 218b97d99ae002fc0800000000000000
+      internalID: -3521798786949466094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_charging_slingshot_11
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 1793
+        width: 40
+        height: 39
+      alignment: 9
+      pivot: {x: 0.44991606, y: 0.38870317}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9560ae71ddaf1ee60800000000000000
+      internalID: 7989943041427899993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_charging_slingshot_12
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 1793
+        width: 40
+        height: 39
+      alignment: 9
+      pivot: {x: 0.4499176, y: 0.43150917}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de9facfc4ec8a6210800000000000000
+      internalID: 1327027954580650477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_charging_slingshot_13
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 1793
+        width: 40
+        height: 39
+      alignment: 9
+      pivot: {x: 0.4415695, y: 0.41438803}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c3f292866a097d50800000000000000
+      internalID: 6735426153102898112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_charging_slingshot_09
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 1793
+        width: 34
+        height: 36
+      alignment: 9
+      pivot: {x: 0.43126094, y: 0.4258016}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fe9dfaccfcc9dd30800000000000000
+      internalID: 4456818692369260278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_charging_slingshot_14
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 1700
+        width: 27
+        height: 29
+      alignment: 9
+      pivot: {x: 0.41344085, y: 0.5230208}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aed9b646e1ef54130800000000000000
+      internalID: 3550523287738752490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_charging_slingshot_15
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 1700
+        width: 27
+        height: 29
+      alignment: 9
+      pivot: {x: 0.4134403, y: 0.5230208}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36f1587e9d6212380800000000000000
+      internalID: -8997867863175520413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_charging_slingshot_16
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 1700
+        width: 27
+        height: 29
+      alignment: 9
+      pivot: {x: 0.4381714, y: 0.5115083}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 248593ab8372a66b0800000000000000
+      internalID: -5302382486679365566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_brutal_shot_00
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1700
+        width: 51
+        height: 29
+      alignment: 9
+      pivot: {x: 0.2577796, y: 0.5115083}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bcf395a6c062a0c0800000000000000
+      internalID: -4565980665902531401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_brutal_shot_01
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 1700
+        width: 46
+        height: 31
+      alignment: 9
+      pivot: {x: 0.23870917, y: 0.47845656}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa7d53555017314c0800000000000000
+      internalID: -4317983349999806550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_brutal_shot_02
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 1700
+        width: 46
+        height: 31
+      alignment: 9
+      pivot: {x: 0.26048344, y: 0.47845656}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c83981ac3e9f0f250800000000000000
+      internalID: 5976551462264148876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_brutal_shot_03
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 1700
+        width: 45
+        height: 31
+      alignment: 9
+      pivot: {x: 0.24774034, y: 0.4892263}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25a68a3c6a1e90450800000000000000
+      internalID: 6055619280339757650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_brutal_shot_04
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 1700
+        width: 46
+        height: 31
+      alignment: 9
+      pivot: {x: 0.2387085, y: 0.4892263}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a6baeed7d4848430800000000000000
+      internalID: 3784295649590818472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_brutal_shot_05
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 1700
+        width: 26
+        height: 28
+      alignment: 9
+      pivot: {x: 0.42295015, y: 0.49999565}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe53acd5b20bcf720800000000000000
+      internalID: 2881371561913890287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_upper_attack_00
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1607
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff50bd80d55060e80800000000000000
+      internalID: -8212870973324851713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_upper_attack_01
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 1607
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce3552affda090120800000000000000
+      internalID: 2380445835132752876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_upper_attack_02
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1608
+        width: 68
+        height: 68
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96acd5d3dad1396e0800000000000000
+      internalID: -1832087993513555351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_upper_attack_03
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 1607
+        width: 68
+        height: 68
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f48d1e16421ddbdb0800000000000000
+      internalID: -4774430075751638961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_upper_attack_04
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1607
+        width: 68
+        height: 68
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b98495c3d26bb910800000000000000
+      internalID: 1854184333285558705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_upper_attack_05
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1607
+        width: 68
+        height: 68
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0b4ce9a998306090800000000000000
+      internalID: -8043366701851718899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_upper_attack_06
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 1607
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ffec7d5aacb69c80800000000000000
+      internalID: -8316252221994110989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_parry_00
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 1607
+        width: 36
+        height: 28
+      alignment: 9
+      pivot: {x: 0.7782237, y: 0.49999565}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b286b67abb9cfbe0800000000000000
+      internalID: -1442106555507506509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_parry_01
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 1607
+        width: 30
+        height: 31
+      alignment: 9
+      pivot: {x: 0.7114461, y: 0.47845262}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdf6a7be621aaa890800000000000000
+      internalID: -7445961845372194849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_parry_02
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 1514
+        width: 41
+        height: 44
+      alignment: 9
+      pivot: {x: 0.3208498, y: 0.35582665}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab7aacaae972f0a60800000000000000
+      internalID: 7642370655094745018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_parry_03
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 1513
+        width: 48
+        height: 46
+      alignment: 9
+      pivot: {x: 0.36088625, y: 0.35482654}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00e78fd5d0c088430800000000000000
+      internalID: 3785288738355576320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_parry_04
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 1510
+        width: 52
+        height: 49
+      alignment: 9
+      pivot: {x: 0.41011137, y: 0.35009766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca9d0cf2c658e1f50800000000000000
+      internalID: 6854062382608603564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_parry_05
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 1510
+        width: 52
+        height: 49
+      alignment: 9
+      pivot: {x: 0.3972702, y: 0.35009766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be60411ed079be2a0800000000000000
+      internalID: -6707101134171666709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_parry_06
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 1510
+        width: 47
+        height: 43
+      alignment: 9
+      pivot: {x: 0.45027322, y: 0.38353074}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 154a300f9f23bb1a0800000000000000
+      internalID: -6792779563903245231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_parry_07
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 1514
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.4373989, y: 0.4060936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fe78bfe628682e80800000000000000
+      internalID: -8203192204815466763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_counter_attack_00
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1514
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dcccd8b97e98ee70800000000000000
+      internalID: 9144733289005501655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_counter_attack_01
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 1514
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dc4109c0c1145940800000000000000
+      internalID: 5283867782516133072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_counter_attack_02
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 1515
+        width: 62
+        height: 28
+      alignment: 9
+      pivot: {x: 0.37614194, y: 0.476144}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97faaf7e5fc1cdf90800000000000000
+      internalID: -6927630284318134407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_counter_attack_03
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 1421
+        width: 62
+        height: 29
+      alignment: 9
+      pivot: {x: 0.3439317, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6962620044bf1b10800000000000000
+      internalID: 1954478950312995183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_counter_attack_04
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 1421
+        width: 69
+        height: 30
+      alignment: 9
+      pivot: {x: 0.3948236, y: 0.48656005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04ebfecd72dcbed60800000000000000
+      internalID: 7920649940755267136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_counter_attack_05
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 1421
+        width: 52
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8785537d45a36f0b0800000000000000
+      internalID: -5695300542701152136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_counter_attack_06
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 1421
+        width: 36
+        height: 28
+      alignment: 9
+      pivot: {x: 0.7575853, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3319aada69d1cfeb0800000000000000
+      internalID: -4684836979376221901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_miss_parry_00
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 1421
+        width: 36
+        height: 28
+      alignment: 9
+      pivot: {x: 0.76878524, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4ce892a66a1356a0800000000000000
+      internalID: -6461792012229612468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_miss_parry_01
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1421
+        width: 30
+        height: 31
+      alignment: 9
+      pivot: {x: 0.71502686, y: 0.47398722}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc3e5006930a75a40800000000000000
+      internalID: 5356926450065073099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_miss_parry_02
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 1421
+        width: 32
+        height: 31
+      alignment: 9
+      pivot: {x: 0.46220207, y: 0.4609808}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfc1e882884f80f50800000000000000
+      internalID: 6847992099049970939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_miss_parry_03
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 1421
+        width: 32
+        height: 31
+      alignment: 9
+      pivot: {x: 0.46220207, y: 0.40895918}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6830e582e21b282a0800000000000000
+      internalID: -6736627280788978810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_miss_parry_04
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 1421
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.47480202, y: 0.4118042}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d3c9c5f1f6e5e340800000000000000
+      internalID: 4892570497093059543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_miss_parry_05
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 1328
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.4874009, y: 0.44960403}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27c776bfdea077a90800000000000000
+      internalID: -7316367052398691214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_miss_parry_06
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1328
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.47480154, y: 0.4370041}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed872c09c515cad00800000000000000
+      internalID: 985251876494801118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_miss_parry_07
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 1328
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.487401, y: 0.4370041}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc8b36da8ba5f3530800000000000000
+      internalID: 3836885156772427983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_miss_parry_08
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 1328
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 541f5c43307769cc0800000000000000
+      internalID: -3704642787811659451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_miss_parry_09
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 1328
+        width: 36
+        height: 27
+      alignment: 9
+      pivot: {x: 0.71278805, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5e491bc2a7f43530800000000000000
+      internalID: 3833961461363330654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_miss_parry_10
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 1328
+        width: 37
+        height: 27
+      alignment: 9
+      pivot: {x: 0.7288307, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb1854f89555da250800000000000000
+      internalID: 5957511725225181628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_miss_parry_11
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 1328
+        width: 36
+        height: 28
+      alignment: 9
+      pivot: {x: 0.76878524, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 671eaccabdb54c290800000000000000
+      internalID: -7871065249681841802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_dodge_roll_00
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 1332
+        width: 34
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17e40751af1175710800000000000000
+      internalID: 1681832751645347441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_dodge_roll_01
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 1331
+        width: 33
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 448f7995908d0ab70800000000000000
+      internalID: 8908357597608278084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_dodge_roll_02
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1235
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa1e4e0824ede9a60800000000000000
+      internalID: 7682822391552336298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_dodge_roll_03
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1235
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7004e9e23a88a320800000000000000
+      internalID: 2569455538691899518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_dodge_roll_04
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 1235
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc278764fda52d820800000000000000
+      internalID: 2941513421632860875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_dodge_roll_05
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1235
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fbc0327ca2121220800000000000000
+      internalID: 2455045278729817078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_dodge_roll_06
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 1235
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb95b1656b0c39fa0800000000000000
+      internalID: -5795076406134482500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_dodge_roll_07
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 1235
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5874a6514a4b8f70800000000000000
+      internalID: 9190521109066578010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_dodge_roll_08
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 1237
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e415123a7ecfc610800000000000000
+      internalID: 1643759413235094757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_dodge_roll_09
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 1235
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47191573dfeb15810800000000000000
+      internalID: 1752391724787929460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_dodge_roll_10
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 1235
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 789786bb9a7224c60800000000000000
+      internalID: 7800841114506262919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_attack_00
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1142
+        width: 25
+        height: 26
+      alignment: 9
+      pivot: {x: 0.6773978, y: 0.53101057}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6f7bb751fe6c07b0800000000000000
+      internalID: -5256704682210132114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_attack_01
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 1142
+        width: 23
+        height: 26
+      alignment: 9
+      pivot: {x: 0.64023554, y: 0.5465182}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dfbc0a4629b91870800000000000000
+      internalID: 8654151733071364051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_attack_02
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 1142
+        width: 64
+        height: 26
+      alignment: 9
+      pivot: {x: 0.44330335, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adf822a2a6f43e540800000000000000
+      internalID: 5035956125722382298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_attack_03
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 1142
+        width: 61
+        height: 27
+      alignment: 9
+      pivot: {x: 0.46695247, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb937df570d1bf4e0800000000000000
+      internalID: -1946930496397690436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_attack_04
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 1142
+        width: 41
+        height: 27
+      alignment: 9
+      pivot: {x: 0.62783664, y: 0.51492876}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa23b33717ebdca20800000000000000
+      internalID: 3084330714292499119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_attack_05
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 1142
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10b034d65c898e970800000000000000
+      internalID: 8784439046895241985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_attack_06
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 1142
+        width: 25
+        height: 28
+      alignment: 9
+      pivot: {x: 0.59676516, y: 0.48560005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 973c2657da99005e0800000000000000
+      internalID: -1945386068746255495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_attack_07
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 1142
+        width: 58
+        height: 27
+      alignment: 9
+      pivot: {x: 0.44950604, y: 0.50000906}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 968000516a3b665b0800000000000000
+      internalID: -5375411579321841559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_attack_08
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 1142
+        width: 47
+        height: 27
+      alignment: 9
+      pivot: {x: 0.34320977, y: 0.50000906}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6230fa04d98cc280800000000000000
+      internalID: -9021684409720360338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_attack_09
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 1049
+        width: 47
+        height: 27
+      alignment: 9
+      pivot: {x: 0.40946636, y: 0.48369682}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c44b218984119a7d0800000000000000
+      internalID: -2906773081004264372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_attack_10
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 1049
+        width: 25
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5155029}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b02ce3d94af27b30800000000000000
+      internalID: 4283761390577787061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_healing_00
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 1049
+        width: 23
+        height: 29
+      alignment: 9
+      pivot: {x: 0.46643862, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0517127c484467290800000000000000
+      internalID: -7893045959852986032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_healing_01
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 1049
+        width: 31
+        height: 37
+      alignment: 9
+      pivot: {x: 0.50000197, y: 0.39540553}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2e44f4f5bc2803d0800000000000000
+      internalID: -3240290771882717653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_healing_02
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 1049
+        width: 35
+        height: 39
+      alignment: 9
+      pivot: {x: 0.5000017, y: 0.37462127}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35d086b5b3fbd8e70800000000000000
+      internalID: 9119155082152643923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_healing_03
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 1049
+        width: 39
+        height: 41
+      alignment: 9
+      pivot: {x: 0.49999842, y: 0.36111972}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c01471d8b61bbe90800000000000000
+      internalID: -7008983412028206911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_healing_04
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 956
+        width: 35
+        height: 39
+      alignment: 9
+      pivot: {x: 0.5000001, y: 0.38262314}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b399156038e5490c0800000000000000
+      internalID: -4569923805034473157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_healing_05
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 956
+        width: 35
+        height: 39
+      alignment: 9
+      pivot: {x: 0.50408715, y: 0.37899858}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 262f36bf14bae06c0800000000000000
+      internalID: -4175211504647015838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_healing_06
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 956
+        width: 35
+        height: 39
+      alignment: 9
+      pivot: {x: 0.50749946, y: 0.37800795}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edfc96b4c386553d0800000000000000
+      internalID: -3218551750513799202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_climbing_stairs_00
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 956
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 531e69e99b5994050800000000000000
+      internalID: 5785319820796289333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_climbing_stairs_01
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 957
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3349709edbde77670800000000000000
+      internalID: 8536553018618254387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_climbing_stairs_02
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 956
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b804ade5affe6d80800000000000000
+      internalID: -8255379978801903436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_climbing_stairs_03
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 956
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97f0decdde19e5100800000000000000
+      internalID: 98676692648529785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_climbing_looped_00
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 955
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2762493e2a474f010800000000000000
+      internalID: 1221729641875908210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_climbing_looped_01
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 862
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f07daf09855a919b0800000000000000
+      internalID: -5108870502467053809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_climbing_looped_02
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 864
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96f0caede283d4f00800000000000000
+      internalID: 1102599257731108713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_climbing_looped_03
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 864
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ceb5ddc74030e640800000000000000
+      internalID: 5107135062392291016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_climbing_looped_04
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 862
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29068a36f63390a30800000000000000
+      internalID: 4181930282496581778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_climbing_looped_05
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 862
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 866ce6e5ddf8282a0800000000000000
+      internalID: -6736663911657978264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_climbing_looped_06
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 862
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36a526bfe7caa6740800000000000000
+      internalID: 5146115185607596643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_climbing_looped_07
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 864
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c685205c8837a160800000000000000
+      internalID: 7036655118080902855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_climbing_looped_08
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 864
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c3ac87c331c190c0800000000000000
+      internalID: -4570659718668966967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_climbing_looped_09
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 862
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23ec69778ee4d9730800000000000000
+      internalID: 4007446003775360562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_climbing_end_00
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 770
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3d72b13f8cf3b070800000000000000
+      internalID: 8121112245023440187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_climbing_end_01
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 777
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de5a58dbafd333d10800000000000000
+      internalID: 2104093598042924525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_climbing_end_02
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 777
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e826e1ad6599b42f0800000000000000
+      internalID: -987527094972030322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_climbing_end_03
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 777
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76c9acce42fe51c90800000000000000
+      internalID: -7199585487411307417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_climbing_end_04
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 788
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48ba116e7b73f6360800000000000000
+      internalID: 7165006795148209028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_climbing_end_05
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 791
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4cd5a2e7ec766a20800000000000000
+      internalID: 3055266732599270475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_climbing_end_06
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 793
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58cee3efc56ed33b0800000000000000
+      internalID: -5531011480264184699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_climbing_end_07
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 793
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70edcbe4ff80c63a0800000000000000
+      internalID: -6670947055411864057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_climbing_end_08
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 793
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0e39f36c9935ea50800000000000000
+      internalID: 6549704576935214603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_climbing_end_09
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 700
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad8aca64f18640340800000000000000
+      internalID: 4829099183987009754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_downstairs_00
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 700
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fffdb200745fba920800000000000000
+      internalID: 3002763261866926079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_downstairs_01
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 700
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 854e9a5c663a75c30800000000000000
+      internalID: 4348123627047740504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_downstairs_02
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 700
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02b2edfea231775c0800000000000000
+      internalID: -4217881450875311328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_downstairs_03
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 698
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 265712b4387dc4240800000000000000
+      internalID: 4777430263634425186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_downstairs_04
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 695
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 484b893045d591cd0800000000000000
+      internalID: -2586933895528663932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_downstairs_05
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 684
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fb37fb00caf97af0800000000000000
+      internalID: -398011389304161290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_downstairs_06
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 684
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f643b61e5658b460800000000000000
+      internalID: 7257645761615316727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_downstairs_07
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 591
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67dafb733bdafd1a0800000000000000
+      internalID: -6782511528550617738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_downstairs_08
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 584
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d19c40fbc3df47520800000000000000
+      internalID: 2699060514046396701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_downstairs_looped_00
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 583
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30e6601beeaae90e0800000000000000
+      internalID: -2261182020744483325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_downstairs_looped_01
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 583
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9168523551dd00190800000000000000
+      internalID: -7998149854550981095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_downstairs_looped_02
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 584
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15b3d0f0e97eb2530800000000000000
+      internalID: 3831410574052113233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_downstairs_looped_03
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 584
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f11fee815fa1738e0800000000000000
+      internalID: -1713871493203562209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_downstairs_looped_04
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 583
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dd4b20c6de62b4b0800000000000000
+      internalID: -5426152732401906223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_downstairs_end_00
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 584
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 068aa19d9bd7d0940800000000000000
+      internalID: 5264001776630802528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_downstairs_end_01
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 584
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a33b95fdccfc473b0800000000000000
+      internalID: -5515555164794539206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_downstairs_end_02
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 492
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dec06e1da6d9519e0800000000000000
+      internalID: -1651240606247809811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_downstairs_end_03
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 491
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52a5e2caea1939470800000000000000
+      internalID: 8400217909375162917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_downstairs_end_04
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 491
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 800bc8426a360ac70800000000000000
+      internalID: 8980287222205689864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_saving_state_00
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 491
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0354d2963a00a42a0800000000000000
+      internalID: -6752583989444393680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_saving_state_01
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 491
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a71a7f95307ed960800000000000000
+      internalID: 7628658194423355303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_saving_state_02
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 491
+        width: 23
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5000027, y: 0.44741026}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d78a4c96b73911e0800000000000000
+      internalID: -2226687283312293931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_saving_state_03
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 491
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e444e1a73226b25b0800000000000000
+      internalID: -5392108224333855666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_saving_state_04
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 491
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93e29e4ea7812a3c0800000000000000
+      internalID: -4349887373980914119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_saving_state_05
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 398
+        width: 23
+        height: 21
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4808001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad5a4f5d382e63c40800000000000000
+      internalID: 5491825851483071962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_wall_slide_00
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 397
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ca63ada2979e8ac0800000000000000
+      internalID: -3850973975121007930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_wall_slide_01
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 398
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f792f93bbc21202b0800000000000000
+      internalID: -5619908718903744129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_wall_slide_02
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 398
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 912ed27fd2b677770800000000000000
+      internalID: 8608467057906672153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_wall_slide_03
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 398
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b1e20743c0a3bbc0800000000000000
+      internalID: -3768491702608535118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_wall_slide_04
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 398
+        width: 21
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a394d33c0a03b2340800000000000000
+      internalID: 4840015691568204090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_wall_slide_05
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 398
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6fd438e6c9ed1500800000000000000
+      internalID: 368707785022824303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_wall_slide_06
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 398
+        width: 21
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ed6eb9da48551eb0800000000000000
+      internalID: -4749793153488359960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_wall_slide_07
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 398
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9600f9f4d2cffa500800000000000000
+      internalID: 409823362653552745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_wall_slide_08
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 305
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0329742b62c2fcd0800000000000000
+      internalID: -2525742675572219123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_wall_jump_00
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 307
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 722442ce515e8bfc0800000000000000
+      internalID: -3478778829824835033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_wall_jump_01
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 309
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9551114dffe101a00800000000000000
+      internalID: 725113624130032985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_wall_jump_02
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 310
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8789f2fc184840bf0800000000000000
+      internalID: -359016377221146504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_wall_jump_03
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 309
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abaa00da87f1f17c0800000000000000
+      internalID: -4098522532724823366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_hit_00
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 303
+        width: 37
+        height: 45
+      alignment: 9
+      pivot: {x: 0.5653802, y: 0.44624227}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f62c1e44f23791f0800000000000000
+      internalID: -1038305164221733132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_hit_01
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 304
+        width: 37
+        height: 45
+      alignment: 9
+      pivot: {x: 0.5435873, y: 0.45520088}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bf17e61c4bd1e690800000000000000
+      internalID: -7574531978412220488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_hit_02
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 303
+        width: 39
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5103384, y: 0.46494126}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efc978521107d35b0800000000000000
+      internalID: -5387026360318845698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_hit_03
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 303
+        width: 39
+        height: 46
+      alignment: 9
+      pivot: {x: 0.53101367, y: 0.42988187}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aaf10d2cf54241d0800000000000000
+      internalID: -3368052621930530135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_brutal_death_00
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 213
+        width: 24
+        height: 31
+      alignment: 9
+      pivot: {x: 0.51679915, y: 0.57803345}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4a3f3850a1fe0010800000000000000
+      internalID: 1157127825258396237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_brutal_death_01
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 213
+        width: 24
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5335986, y: 0.53901625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56ba6ad0924d2cd70800000000000000
+      internalID: 9062038673010633573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_brutal_death_02
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 212
+        width: 34
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5000009, y: 0.3717248}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b741ecc44f18172e0800000000000000
+      internalID: -2129778262508956549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_brutal_death_03
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 212
+        width: 48
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5, y: 0.32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2334656917f7aa50800000000000000
+      internalID: 6532461472971502383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_brutal_death_04
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 213
+        width: 64
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5, y: 0.32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86c2f896c5d03c8c0800000000000000
+      internalID: -3980322955106243480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_brutal_death_05
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 212
+        width: 76
+        height: 35
+      alignment: 9
+      pivot: {x: 0.5, y: 0.42}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 492413c92482a7310800000000000000
+      internalID: 1403478500432757396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_brutal_death_06
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 212
+        width: 82
+        height: 35
+      alignment: 9
+      pivot: {x: 0.5, y: 0.42}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aca370187a24eb4d0800000000000000
+      internalID: -3116980604902098230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_brutal_death_07
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 212
+        width: 82
+        height: 35
+      alignment: 9
+      pivot: {x: 0.5, y: 0.42}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81dc1f801488793b0800000000000000
+      internalID: -5505782206532825832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_brutal_death_08
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 212
+        width: 79
+        height: 35
+      alignment: 9
+      pivot: {x: 0.5, y: 0.42}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5be7f49b07bb102e0800000000000000
+      internalID: -2161240253341401419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_brutal_death_09
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 119
+        width: 76
+        height: 35
+      alignment: 9
+      pivot: {x: 0.5, y: 0.42}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41dedb375024c6770800000000000000
+      internalID: 8605325579182271764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_brutal_death_10
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 119
+        width: 80
+        height: 35
+      alignment: 9
+      pivot: {x: 0.5, y: 0.42}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd18050b5da042c50800000000000000
+      internalID: 6639443663553331677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_brutal_death_11
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 119
+        width: 81
+        height: 35
+      alignment: 9
+      pivot: {x: 0.5, y: 0.42}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea2ba576094fb45a0800000000000000
+      internalID: -6535861533151677778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_brutal_death_12
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 119
+        width: 82
+        height: 35
+      alignment: 9
+      pivot: {x: 0.5, y: 0.42}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c0806cc555fc3be0800000000000000
+      internalID: -1496051227343945534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_air_slingshot_00
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 124
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05398cafb2097a700800000000000000
+      internalID: 551567997941617488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_air_slingshot_01
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 123
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acbde4ce7404ba740800000000000000
+      internalID: 5164292075361852362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_air_slingshot_02
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 123
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b5d845c3bcdc2960800000000000000
+      internalID: 7578674937624843705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_air_slingshot_03
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 124
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 448f2b21ba458da80800000000000000
+      internalID: -8441904407776135100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_air_down_attack_00
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 124
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8afc5a0a89c3c0bb0800000000000000
+      internalID: -4968529662668583000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_air_down_attack_01
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 31
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e8684339f672d100800000000000000
+      internalID: 131298151826483426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_air_down_attack_02
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 0
+        width: 45
+        height: 68
+      alignment: 9
+      pivot: {x: 0.5098453, y: 0.63030905}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1820aa71d8abc2e0800000000000000
+      internalID: -2104402783206627297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_air_down_attack_03
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 0
+        width: 48
+        height: 70
+      alignment: 9
+      pivot: {x: 0.5184606, y: 0.62025666}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c553b49f01dbe490800000000000000
+      internalID: -7715843671719717433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_air_down_attack_04
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 4
+        width: 36
+        height: 65
+      alignment: 9
+      pivot: {x: 0.62306976, y: 0.62269187}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70123a85034b448f0800000000000000
+      internalID: -557122334148583161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafaela_air_down_attack_05
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 23
+        width: 35
+        height: 47
+      alignment: 9
+      pivot: {x: 0.58861, y: 0.5000015}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83350a410f3dd7e30800000000000000
+      internalID: 4502988230532027192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: dbda1769c7c40a4498751c4cbaddb925
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Rafaela Sprite-Sheet_125: 5230850625430874297
+      Rafaela Sprite-Sheet_126: 4698126851022411841
+      Rafaela Sprite-Sheet_127: -3349380843030961036
+      Rafaela Sprite-Sheet_130: -8734680793819078070
+      Rafaela Sprite-Sheet_131: 6571029547496311696
+      Rafaela Sprite-Sheet_133: 669696335502822460
+      Rafaela Sprite-Sheet_134: 1426847778939017078
+      Rafaela Sprite-Sheet_135: -4796822517390231289
+      Rafaela Sprite-Sheet_137: 9191087474509243084
+      Rafaela Sprite-Sheet_139: 5961044485224931966
+      Rafaela Sprite-Sheet_140: -8517608689535315396
+      Rafaela Sprite-Sheet_141: -960832733532281405
+      Rafaela Sprite-Sheet_142: -3332558799909659311
+      Rafaela Sprite-Sheet_143: -3424488787083937880
+      Rafaela Sprite-Sheet_148: -7385560087484936648
+      Rafaela Sprite-Sheet_149: -8156965083243086112
+      Rafaela Sprite-Sheet_150: -8237546866258342493
+      Rafaela Sprite-Sheet_151: 299992632434968504
+      Rafaela Sprite-Sheet_152: -5280902263306243437
+      Rafaela Sprite-Sheet_153: -5866429010835723668
+      Rafaela Sprite-Sheet_155: -3383036950507694151
+      Rafaela Sprite-Sheet_163: 3033134856163073445
+      Rafaela Sprite-Sheet_177: -7974474484401773757
+      Rafaela Sprite-Sheet_179: 4287448061035660211
+      Rafaela Sprite-Sheet_18: -6014855911532218928
+      Rafaela Sprite-Sheet_186: -4046324420295298701
+      Rafaela Sprite-Sheet_19: 7621481641988712543
+      Rafaela Sprite-Sheet_20: -6890678553148779281
+      Rafaela Sprite-Sheet_21: 889062798089078765
+      Rafaela Sprite-Sheet_22: -6036632504887046901
+      Rafaela Sprite-Sheet_225: -4158284595305363802
+      Rafaela Sprite-Sheet_226: -697384168313765714
+      Rafaela Sprite-Sheet_227: 563458576371602586
+      Rafaela Sprite-Sheet_23: 7385171632568325345
+      Rafaela Sprite-Sheet_24: 1357896067034484573
+      Rafaela Sprite-Sheet_25: 161120617249603601
+      Rafaela Sprite-Sheet_26: 1946758625322341395
+      Rafaela Sprite-Sheet_260: -2525441030928638582
+      Rafaela Sprite-Sheet_27: 2813603008735933368
+      Rafaela Sprite-Sheet_28: 7220135440021222110
+      Rafaela Sprite-Sheet_280: 792673793889564370
+      Rafaela Sprite-Sheet_29: 4416536663089037342
+      Rafaela Sprite-Sheet_30: -21904853439269765
+      Rafaela Sprite-Sheet_302: 4942765546031827551
+      Rafaela Sprite-Sheet_303: -5606238333851926633
+      Rafaela Sprite-Sheet_306: 2698734140606167152
+      Rafaela Sprite-Sheet_307: 6195954214213040952
+      Rafaela Sprite-Sheet_308: 2883053551527672997
+      Rafaela Sprite-Sheet_309: -1917782323469645241
+      Rafaela Sprite-Sheet_31: 421130355904443452
+      Rafaela Sprite-Sheet_310: -2967058789483052375
+      Rafaela Sprite-Sheet_314: -4482032714502667235
+      Rafaela Sprite-Sheet_316: -1823731442192795098
+      Rafaela Sprite-Sheet_317: 6998740875611220874
+      Rafaela Sprite-Sheet_319: 1310563557296549820
+      Rafaela Sprite-Sheet_32: 2020713243047790663
+      Rafaela Sprite-Sheet_320: 2448816935574718699
+      Rafaela Sprite-Sheet_323: 2155988434222156944
+      Rafaela Sprite-Sheet_324: -5034987003464037706
+      Rafaela Sprite-Sheet_326: -6195620165338362655
+      Rafaela Sprite-Sheet_328: -2212588236141891226
+      Rafaela Sprite-Sheet_33: -7686801928610554234
+      Rafaela Sprite-Sheet_34: -814975288582031984
+      Rafaela Sprite-Sheet_35: -2723564103688355157
+      Rafaela Sprite-Sheet_72: 257889042809019680
+      Rafaela Sprite-Sheet_84: 1839470775242933830
+      Rafaela Sprite-Sheet_92: -8370762477108122649
+      Rafaela Sprite-Sheet_93: 5232048014351524405
+      Rafaela Sprite-Sheet_94: -949279885609826538
+      Rafaela Sprite-Sheet_95: -9177116997316141555
+      Rafaela Sprite-Sheet_96: 9101780252826857492
+      Rafaela Sprite-Sheet_97: 3377902478212992260
+      Rafaela_air_down_attack_00: -4968529662668583000
+      Rafaela_air_down_attack_01: 131298151826483426
+      Rafaela_air_down_attack_02: -2104402783206627297
+      Rafaela_air_down_attack_03: -7715843671719717433
+      Rafaela_air_down_attack_04: -557122334148583161
+      Rafaela_air_down_attack_05: 4502988230532027192
+      Rafaela_air_slingshot_00: 551567997941617488
+      Rafaela_air_slingshot_01: 5164292075361852362
+      Rafaela_air_slingshot_02: 7578674937624843705
+      Rafaela_air_slingshot_03: -8441904407776135100
+      Rafaela_attack_00: -5256704682210132114
+      Rafaela_attack_01: 8654151733071364051
+      Rafaela_attack_02: 5035956125722382298
+      Rafaela_attack_03: -1946930496397690436
+      Rafaela_attack_04: 3084330714292499119
+      Rafaela_attack_05: 8784439046895241985
+      Rafaela_attack_06: -1945386068746255495
+      Rafaela_attack_07: -5375411579321841559
+      Rafaela_attack_08: -9021684409720360338
+      Rafaela_attack_09: -2906773081004264372
+      Rafaela_attack_10: 4283761390577787061
+      Rafaela_break_run_00: 749838564181854112
+      Rafaela_break_run_01: 1345477829706394604
+      Rafaela_brutal_death_00: 1157127825258396237
+      Rafaela_brutal_death_01: 9062038673010633573
+      Rafaela_brutal_death_02: -2129778262508956549
+      Rafaela_brutal_death_03: 6532461472971502383
+      Rafaela_brutal_death_04: -3980322955106243480
+      Rafaela_brutal_death_05: 1403478500432757396
+      Rafaela_brutal_death_06: -3116980604902098230
+      Rafaela_brutal_death_07: -5505782206532825832
+      Rafaela_brutal_death_08: -2161240253341401419
+      Rafaela_brutal_death_09: 8605325579182271764
+      Rafaela_brutal_death_10: 6639443663553331677
+      Rafaela_brutal_death_11: -6535861533151677778
+      Rafaela_brutal_death_12: -1496051227343945534
+      Rafaela_brutal_shot_00: -4565980665902531401
+      Rafaela_brutal_shot_01: -4317983349999806550
+      Rafaela_brutal_shot_02: 5976551462264148876
+      Rafaela_brutal_shot_03: 6055619280339757650
+      Rafaela_brutal_shot_04: 3784295649590818472
+      Rafaela_brutal_shot_05: 2881371561913890287
+      Rafaela_charging_slingshot_00: 6202693081017861848
+      Rafaela_charging_slingshot_01: 3499389029465267993
+      Rafaela_charging_slingshot_02: 8999214720813865322
+      Rafaela_charging_slingshot_03: -416505475456682068
+      Rafaela_charging_slingshot_04: 5156209522850455691
+      Rafaela_charging_slingshot_05: -3824970767539951524
+      Rafaela_charging_slingshot_06: 6286164951968951092
+      Rafaela_charging_slingshot_07: 1903701917849100506
+      Rafaela_charging_slingshot_08: 2955652673559878266
+      Rafaela_charging_slingshot_09: 4456818692369260278
+      Rafaela_charging_slingshot_10: -3521798786949466094
+      Rafaela_charging_slingshot_11: 7989943041427899993
+      Rafaela_charging_slingshot_12: 1327027954580650477
+      Rafaela_charging_slingshot_13: 6735426153102898112
+      Rafaela_charging_slingshot_14: 3550523287738752490
+      Rafaela_charging_slingshot_15: -8997867863175520413
+      Rafaela_charging_slingshot_16: -5302382486679365566
+      Rafaela_climbing_end_00: 8121112245023440187
+      Rafaela_climbing_end_01: 2104093598042924525
+      Rafaela_climbing_end_02: -987527094972030322
+      Rafaela_climbing_end_03: -7199585487411307417
+      Rafaela_climbing_end_04: 7165006795148209028
+      Rafaela_climbing_end_05: 3055266732599270475
+      Rafaela_climbing_end_06: -5531011480264184699
+      Rafaela_climbing_end_07: -6670947055411864057
+      Rafaela_climbing_end_08: 6549704576935214603
+      Rafaela_climbing_end_09: 4829099183987009754
+      Rafaela_climbing_looped_00: 1221729641875908210
+      Rafaela_climbing_looped_01: -5108870502467053809
+      Rafaela_climbing_looped_02: 1102599257731108713
+      Rafaela_climbing_looped_03: 5107135062392291016
+      Rafaela_climbing_looped_04: 4181930282496581778
+      Rafaela_climbing_looped_05: -6736663911657978264
+      Rafaela_climbing_looped_06: 5146115185607596643
+      Rafaela_climbing_looped_07: 7036655118080902855
+      Rafaela_climbing_looped_08: -4570659718668966967
+      Rafaela_climbing_looped_09: 4007446003775360562
+      Rafaela_climbing_stairs_00: 5785319820796289333
+      Rafaela_climbing_stairs_01: 8536553018618254387
+      Rafaela_climbing_stairs_02: -8255379978801903436
+      Rafaela_climbing_stairs_03: 98676692648529785
+      Rafaela_counter_attack_00: 9144733289005501655
+      Rafaela_counter_attack_01: 5283867782516133072
+      Rafaela_counter_attack_02: -6927630284318134407
+      Rafaela_counter_attack_03: 1954478950312995183
+      Rafaela_counter_attack_04: 7920649940755267136
+      Rafaela_counter_attack_05: -5695300542701152136
+      Rafaela_counter_attack_06: -4684836979376221901
+      Rafaela_crounching_00: -3477617191871338367
+      Rafaela_crounching_01: -8014191188476952024
+      Rafaela_crounching_02: 5921374255419338990
+      Rafaela_crounching_03: -3977411878519988464
+      Rafaela_dash_00: -7794003684304651515
+      Rafaela_dash_01: 873646896643261324
+      Rafaela_dash_02: 6449776607289698021
+      Rafaela_dash_03: -7845089014956438886
+      Rafaela_dash_04: -691560141003197528
+      Rafaela_dash_05: 422497918936395652
+      Rafaela_dash_06: -2887835216277883747
+      Rafaela_dodge_roll_00: 1681832751645347441
+      Rafaela_dodge_roll_01: 8908357597608278084
+      Rafaela_dodge_roll_02: 7682822391552336298
+      Rafaela_dodge_roll_03: 2569455538691899518
+      Rafaela_dodge_roll_04: 2941513421632860875
+      Rafaela_dodge_roll_05: 2455045278729817078
+      Rafaela_dodge_roll_06: -5795076406134482500
+      Rafaela_dodge_roll_07: 9190521109066578010
+      Rafaela_dodge_roll_08: 1643759413235094757
+      Rafaela_dodge_roll_09: 1752391724787929460
+      Rafaela_dodge_roll_10: 7800841114506262919
+      Rafaela_double_jump_00: -1141163172270248027
+      Rafaela_double_jump_01: -7278411480805417905
+      Rafaela_double_jump_02: 321136900151639524
+      Rafaela_double_jump_03: -1174711605989678980
+      Rafaela_double_jump_04: -5369333589308092569
+      Rafaela_double_jump_05: 2235188374782138432
+      Rafaela_double_jump_06: 789064044971413507
+      Rafaela_double_jump_07: 4396897031931182762
+      Rafaela_double_jump_08: 883686783431044911
+      Rafaela_down_shot_00: 1579314078400793042
+      Rafaela_down_shot_01: -6102771334470293623
+      Rafaela_down_shot_02: 411856279019833698
+      Rafaela_down_shot_03: 116971249180015045
+      Rafaela_downstairs_00: 3002763261866926079
+      Rafaela_downstairs_01: 4348123627047740504
+      Rafaela_downstairs_02: -4217881450875311328
+      Rafaela_downstairs_03: 4777430263634425186
+      Rafaela_downstairs_04: -2586933895528663932
+      Rafaela_downstairs_05: -398011389304161290
+      Rafaela_downstairs_06: 7257645761615316727
+      Rafaela_downstairs_07: -6782511528550617738
+      Rafaela_downstairs_08: 2699060514046396701
+      Rafaela_downstairs_end_00: 5264001776630802528
+      Rafaela_downstairs_end_01: -5515555164794539206
+      Rafaela_downstairs_end_02: -1651240606247809811
+      Rafaela_downstairs_end_03: 8400217909375162917
+      Rafaela_downstairs_end_04: 8980287222205689864
+      Rafaela_downstairs_looped_00: -2261182020744483325
+      Rafaela_downstairs_looped_01: -7998149854550981095
+      Rafaela_downstairs_looped_02: 3831410574052113233
+      Rafaela_downstairs_looped_03: -1713871493203562209
+      Rafaela_downstairs_looped_04: -5426152732401906223
+      Rafaela_fall_00: -2921988241962422802
+      Rafaela_fall_01: 463058724846998527
+      Rafaela_fall_02: 8595795021373863181
+      Rafaela_fall_03: -7810810213745424120
+      Rafaela_fall_looped_00: 9086888238278764249
+      Rafaela_fall_looped_01: 368581236397119932
+      Rafaela_fall_looped_02: 2971621702785740710
+      Rafaela_fall_looped_03: 52532019316833149
+      Rafaela_fall_looped_04: -2918836070343744612
+      Rafaela_hard_landing_00: -3417082443681840868
+      Rafaela_hard_landing_01: 6088410279639505437
+      Rafaela_hard_landing_02: 1233306865481914948
+      Rafaela_hard_landing_03: 4805656448888605071
+      Rafaela_hard_landing_04: -953044140188561529
+      Rafaela_hard_landing_05: 9030796410431942813
+      Rafaela_hard_landing_06: -2584276341864697853
+      Rafaela_healing_00: -7893045959852986032
+      Rafaela_healing_01: -3240290771882717653
+      Rafaela_healing_02: 9119155082152643923
+      Rafaela_healing_03: -7008983412028206911
+      Rafaela_healing_04: -4569923805034473157
+      Rafaela_healing_05: -4175211504647015838
+      Rafaela_healing_06: -3218551750513799202
+      Rafaela_healing_07: 619510722935197447
+      Rafaela_hit_00: -1038305164221733132
+      Rafaela_hit_01: -7574531978412220488
+      Rafaela_hit_02: -5387026360318845698
+      Rafaela_hit_03: -3368052621930530135
+      Rafaela_idle_00: 4769994595434451352
+      Rafaela_idle_01: 2634523011433052894
+      Rafaela_idle_02: -8431494997256054655
+      Rafaela_idle_03: -1300612107124952407
+      Rafaela_idle_04: 3077587053168469500
+      Rafaela_idle_05: -4679870866806242016
+      Rafaela_idle_06: 1472513654114436435
+      Rafaela_idle_07: 5327619999802733062
+      Rafaela_idle_08: 2240398201332467282
+      Rafaela_idle_09: 6091757584112602764
+      Rafaela_idle_10: -6413878335265600803
+      Rafaela_idle_11: -2611000028605496940
+      Rafaela_idle_12: -6243161530991597156
+      Rafaela_idle_13: -3732402223599465329
+      Rafaela_idle_14: 8888322769452852627
+      Rafaela_interaction_00: -4933835678625442504
+      Rafaela_interaction_01: 1379816283400563138
+      Rafaela_interaction_02: 6357926922886917882
+      Rafaela_interaction_03: -7532932679621681875
+      Rafaela_interaction_04: 7746687543922742462
+      Rafaela_interaction_05: 3030359296692405597
+      Rafaela_interaction_06: -8730707452961291741
+      Rafaela_jump_00: -3980905034652350745
+      Rafaela_jump_01: 6750087189270893521
+      Rafaela_jump_02: -5412726785439761480
+      Rafaela_jump_03: 1308897528719818580
+      Rafaela_jump_04: 9029658266704379302
+      Rafaela_jump_05: 3163548422499982015
+      Rafaela_landing_00: 7828599333562569352
+      Rafaela_landing_01: 4886068507070662861
+      Rafaela_landing_02: -7938090379226852209
+      Rafaela_landing_03: 7975363796021102485
+      Rafaela_miss_parry_00: -6461792012229612468
+      Rafaela_miss_parry_01: 5356926450065073099
+      Rafaela_miss_parry_02: 6847992099049970939
+      Rafaela_miss_parry_03: -6736627280788978810
+      Rafaela_miss_parry_04: 4892570497093059543
+      Rafaela_miss_parry_05: -7316367052398691214
+      Rafaela_miss_parry_06: 985251876494801118
+      Rafaela_miss_parry_07: 3836885156772427983
+      Rafaela_miss_parry_08: -3704642787811659451
+      Rafaela_miss_parry_09: 3833961461363330654
+      Rafaela_miss_parry_10: 5957511725225181628
+      Rafaela_miss_parry_11: -7871065249681841802
+      Rafaela_parry_00: -1442106555507506509
+      Rafaela_parry_01: -7445961845372194849
+      Rafaela_parry_02: 7642370655094745018
+      Rafaela_parry_03: 3785288738355576320
+      Rafaela_parry_04: 6854062382608603564
+      Rafaela_parry_05: -6707101134171666709
+      Rafaela_parry_06: -6792779563903245231
+      Rafaela_parry_07: -8203192204815466763
+      Rafaela_running_00: 8137645283987352462
+      Rafaela_running_01: -3264185460814348232
+      Rafaela_running_02: -1485171766717320442
+      Rafaela_running_03: 3027605202021287048
+      Rafaela_running_04: 2195526526036423711
+      Rafaela_running_05: -7857776876192422880
+      Rafaela_running_06: -5071767138561168959
+      Rafaela_running_07: -7492786821733792140
+      Rafaela_saving_state_00: -6752583989444393680
+      Rafaela_saving_state_01: 7628658194423355303
+      Rafaela_saving_state_02: -2226687283312293931
+      Rafaela_saving_state_03: -5392108224333855666
+      Rafaela_saving_state_04: -4349887373980914119
+      Rafaela_saving_state_05: 5491825851483071962
+      Rafaela_slingshot_00: 5106361462366688
+      Rafaela_slingshot_01: -4188047981334283513
+      Rafaela_slingshot_02: 6444454569026061977
+      Rafaela_slingshot_03: -4048399658901887393
+      Rafaela_start_run_00: -8527596891379560274
+      Rafaela_start_run_01: -1190768855387836841
+      Rafaela_turning_00: 2580205304033702754
+      Rafaela_turning_01: 5127393028853791523
+      Rafaela_turning_02: 8733198095418212981
+      Rafaela_upStanding_00: 7631428549258374161
+      Rafaela_upStanding_01: -5412421855400236705
+      Rafaela_upStanding_02: 8128652296766619811
+      Rafaela_upStanding_03: -2570495650826422394
+      Rafaela_upper_attack_00: -8212870973324851713
+      Rafaela_upper_attack_01: 2380445835132752876
+      Rafaela_upper_attack_02: -1832087993513555351
+      Rafaela_upper_attack_03: -4774430075751638961
+      Rafaela_upper_attack_04: 1854184333285558705
+      Rafaela_upper_attack_05: -8043366701851718899
+      Rafaela_upper_attack_06: -8316252221994110989
+      Rafaela_wall_jump_00: -3478778829824835033
+      Rafaela_wall_jump_01: 725113624130032985
+      Rafaela_wall_jump_02: -359016377221146504
+      Rafaela_wall_jump_03: -4098522532724823366
+      Rafaela_wall_slide_00: -3850973975121007930
+      Rafaela_wall_slide_01: -5619908718903744129
+      Rafaela_wall_slide_02: 8608467057906672153
+      Rafaela_wall_slide_03: -3768491702608535118
+      Rafaela_wall_slide_04: 4840015691568204090
+      Rafaela_wall_slide_05: 368707785022824303
+      Rafaela_wall_slide_06: -4749793153488359960
+      Rafaela_wall_slide_07: 409823362653552745
+      Rafaela_wall_slide_08: -2525742675572219123
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -13,6 +13,23 @@ public enum GameState
 }
 public class GameDataController : MonoBehaviour
 {
+
+    public string transitionedFromScene;
+    public static GameDataController Instance { get; private set; }
+
+    private void Awake()
+    {
+        if(Instance != null && Instance != this)
+        {
+            Destroy(gameObject);
+        }
+        else
+        {
+            Instance = this;
+        }
+        DontDestroyOnLoad(gameObject);
+    }
+
     public GameState currentState;
     private fadeEffect fadeEffect;
     public int test;

@@ -1,3 +1,4 @@
+using FMOD.Studio;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -8,11 +9,13 @@ using UnityEngine;
 
 public class playerScript : MonoBehaviour
 {
+    public static playerScript Instance { get; private set; }
     private GameDataController gameDataController;
     [SerializeField] private GameObject cameraFollowGameObject;
     private cameraFollowObject cameraFollowObject;
     private float _fallSpeedYDampingChangeThreshold;
     private Animator playerAnimator;
+    private string currentAnimationState;
     private Rigidbody2D playerRb;
     private float h, v;
     public Collider2D standingCollider, crounchingCollider;
@@ -20,25 +23,58 @@ public class playerScript : MonoBehaviour
     [Header("Health Settings")]
     public int maximumHealth;
     public int currentHealth;
+    public bool isHealing;
 
     [Header("Slingshot variables")]
     public GameObject slingshotRock;
     public Transform slingshot;
-    private bool shooting;
+    private bool isShooting;
     public float slingshotRockSpeed;
-    private bool flipX = false;
+    [SerializeField] private bool hasCharge;
+    [SerializeField] private GameObject chargedRock;
+    [SerializeField] private float timeToCharge;
+    private float chargeTime;
 
     [Header("Jump Buffer and Coyote Time")]
-    private float coyoteTime = 0.2f;
+    private float coyoteTime = 0.05f;
     private float coyoteTimeCounter;
     private float jumpBufferTime = 0.2f;
-    private float jumpBufferCounter;
+    [SerializeField] private float jumpBufferCounter;
 
     [Header("Wall Slide & Wall Jump")]
     private bool isWallSliding;
-    private float wallSlidingSpeed = 0.05f;
+    private float wallSlidingSpeed = 0.8f;
     [SerializeField] private Transform wallCheck;
     [SerializeField] private LayerMask wallLayer;
+
+    [Header("Ladder Settings")]
+    [SerializeField] private bool climbing;
+    [SerializeField] private float climbingSpeed;
+    public LayerMask ladderMask;
+    public float checkRadius = 0.06f;
+
+    [Header("EdgeDetection Settings")]
+    public LayerMask edgeDetectionLayer;
+    public Transform outerLeftLine;
+    public Transform innerLeftLine;
+    public Transform innerRightLine;
+    public Transform outerRightLine;
+
+    [Header("Parry Settings")]
+    public Transform parryCheck;
+    public bool isCollidingEnemyAttack;
+    public LayerMask parryCheckLayer;
+    [SerializeField] private float parryCooldown = 1.55f;
+    private bool canParry = true;
+    private bool isParrying = false;
+
+    [Header("Platform System")]
+    [SerializeField] private LayerMask platformLayer;
+    private bool isOnPlatform;
+
+    [Header("Sounds Config")]
+    private EventInstance footSteps;
+    private EventInstance climbingLadder;
 
     public Transform interactionRayCast;
     public LayerMask RayCastLayer;
@@ -50,6 +86,7 @@ public class playerScript : MonoBehaviour
     public bool isJumping;
     public float counterJump = 0.25f;
     public bool IsFacingRight = true;
+    private float direction = 1f;
     public int idAnimation;
     public bool Grounded;
     public int combo;
@@ -59,12 +96,49 @@ public class playerScript : MonoBehaviour
     {
         Normal,
         Rolling,
+        Dead,
+    }
+
+    private enum AnimationState
+    {
+        idle,
+        run,
+        JumpFall,
+        crounch,
+        slingshot,
+        wall_sliding,
+        first_atack,
+        second_atack,
+        air_upper_atack,
+        air_down_atack,
+        dodgeRoll,
+        climbingLadders,
+        healing,
+        hit,
+        death,
+        chargingSlingshot,
+        readyChargedSlingshot,
+        missParry,
+        parry,
     }
 
     private float rollSpeed;
-    private State state;
+    [SerializeField] private State state;
 
     public GameObject interactionButtonAlert;
+
+    private void Awake()
+    {
+        if (Instance != null && Instance != this)
+        {
+            Destroy(gameObject);
+        }
+        else
+        {
+            Instance = this;
+        }
+        DontDestroyOnLoad(gameObject);
+    }
 
     void Start()
     {
@@ -73,6 +147,9 @@ public class playerScript : MonoBehaviour
         cameraFollowObject = cameraFollowGameObject.GetComponent<cameraFollowObject>();
         playerRb = GetComponent<Rigidbody2D>();
         playerAnimator = GetComponent<Animator>();
+
+        footSteps = AudioManager.instance.CreateInstance(FMODEvents.instance.footSteps);
+        climbingLadder = AudioManager.instance.CreateInstance(FMODEvents.instance.climbingLadder);
 
         maximumHealth = gameDataController.maximumHealth;
         currentHealth = maximumHealth;
@@ -83,6 +160,8 @@ public class playerScript : MonoBehaviour
     void Update()
     {
 
+        TurnCheck();
+
         if(gameDataController.currentState != GameState.RUN)
         {
             return;
@@ -92,17 +171,36 @@ public class playerScript : MonoBehaviour
         {
             case State.Normal:
 
-                /*if (playerRb.velocity.y < _fallSpeedYDampingChangeThreshold && !cameraManager.instance.IsLerpingYDamping && !cameraManager.instance.LerpedFromPlayerFalling)
+                if (currentHealth <= 0)
                 {
-                    cameraManager.instance.LerpYDamping(true);
+                    state = State.Dead;
                 }
 
-                if (playerRb.velocity.y >= 0f && !cameraManager.instance.IsLerpingYDamping && cameraManager.instance.LerpedFromPlayerFalling)
+                if (isWallSliding)
                 {
-                    cameraManager.instance.LerpedFromPlayerFalling = false;
+                    EndAllAttackState();
+                }
 
-                    cameraManager.instance.LerpYDamping(false);
-                }*/
+                if (Grounded && !attackingState && !isShooting && !isHealing && !climbing && !isParrying)
+                {
+                    if(h != 0)
+                    {
+                        ChangeAnimationState(AnimationState.run.ToString());
+                    }
+                    else if(h == 0)
+                    {
+                        ChangeAnimationState(AnimationState.idle.ToString());
+                    }
+                }
+                else if(!Grounded && !isShooting && !climbing)
+                {
+                    ChangeAnimationState(AnimationState.JumpFall.ToString());
+                }
+
+                if(counterJump == 0.25f)
+                {
+                    isJumping = false;
+                }
 
                 WallSlide();
 
@@ -127,17 +225,17 @@ public class playerScript : MonoBehaviour
                     idAnimation = 0;
                 };
 
-                if (Input.GetButtonDown("Fire1") && v > 0 && currentInteractObject == null)
+                if (Input.GetButtonDown("Fire1") && v > 0 && !isShooting && !isParrying && currentInteractObject == null)
                 {
                     UpAttack();
                 };
 
-                if (Input.GetButtonDown("Fire1") && v < 0 && !Grounded)
+                if (Input.GetButtonDown("Fire1") && v < 0 && !Grounded && !isShooting)
                 {
                     DownAttack();
                 };
 
-                if (Input.GetButtonDown("Fire1") && v == 0 && !lockAtack && currentInteractObject == null)
+                if (Input.GetButtonDown("Fire1") && v == 0 && !lockAtack && !isShooting && !isParrying && currentInteractObject == null)
                 {
                     Attack();
 
@@ -156,6 +254,16 @@ public class playerScript : MonoBehaviour
                     currentInteractObject.SendMessage("Interaction", SendMessageOptions.DontRequireReceiver);
                 };
 
+                if (Input.GetButtonDown("Fire2") && currentHealth < maximumHealth && !isParrying)
+                {
+                    StartCoroutine(Healing());
+                }
+
+                if (Input.GetButtonDown("Left Bumper") && canParry && Grounded)
+                {
+                    StartCoroutine(Parry());
+                };
+
                 if (Grounded)
                 {
                     coyoteTimeCounter = coyoteTime;
@@ -165,16 +273,21 @@ public class playerScript : MonoBehaviour
                     coyoteTimeCounter -= Time.deltaTime;
                 }
 
-                if (Input.GetButtonDown("Jump"))
+                if(isOnPlatform && Input.GetButtonDown("Jump") && v < 0f)
+                {
+                    StartCoroutine(Drop());
+                }
+                else if (Input.GetButtonDown("Jump") && Grounded)
                 {
                     jumpBufferCounter = jumpBufferTime;
+                    //emitterSFX[1].Play();
                 }
                 else
                 {
                     jumpBufferCounter -= Time.deltaTime;
                 }
 
-                if (jumpBufferCounter > 0f && v >= 0 && coyoteTimeCounter > 0f) // tirei o !isDashing e o canDash
+                if (jumpBufferCounter > 0f && coyoteTimeCounter > 0f && !isShooting && !isParrying)
                 {
                     isJumping = true;
                     jumpBufferCounter = 0f;
@@ -189,18 +302,48 @@ public class playerScript : MonoBehaviour
                     counterJump = 0.25f;
                 };
 
-                if (Input.GetButtonDown("Fire3") && Grounded && !attackingState && h != 0) // tirei o && canDash
+                if (Input.GetButtonDown("Fire3") && Grounded && !isShooting && !attackingState && h != 0 && !isParrying)
                 {
-                    playerAnimator.SetTrigger("dash");
                     rollSpeed = 8f;
                     state = State.Rolling;
+                    AudioManager.instance.PlayOneShotSound(FMODEvents.instance.Roll, this.transform.position);
+                    playerAnimator.SetTrigger("dash");
                     //StartCoroutine(Dash());
                 };
 
-                if (Input.GetButtonDown("Slingshot") && !shooting)
+
+                if (Input.GetButtonDown("Slingshot"))
                 {
-                    Shoot();
+                    //ChangeAnimationState(AnimationState.slingshot.ToString());
                 }
+                if (!hasCharge) return;
+
+                if (Input.GetButton("Slingshot"))
+                {
+                    chargeTime += Time.deltaTime;
+                    if(chargeTime <= timeToCharge)
+                    {
+                        ChangeAnimationState(AnimationState.chargingSlingshot.ToString());
+                    }else if (chargeTime > timeToCharge)
+                    {
+                        ChangeAnimationState(AnimationState.readyChargedSlingshot.ToString());
+                    }
+                }
+                if (Input.GetButtonUp("Slingshot"))
+                {
+                    if (chargeTime >= timeToCharge)
+                    {
+                        isShooting = false;
+                        ChangeAnimationState(AnimationState.idle.ToString());
+                        ChargedShoot();
+                    }
+                    else
+                    {
+                        ChangeAnimationState(AnimationState.slingshot.ToString());
+                    }
+                    chargeTime = 0f;
+                }
+
                 break;
 
             case State.Rolling:
@@ -215,10 +358,19 @@ public class playerScript : MonoBehaviour
                     isJumping = false;
                 }
                 break;
+
+            case State.Dead:
+                ChangeAnimationState(AnimationState.death.ToString());
+                break;
         }
 
-
         if(attackingState && Grounded)
+        {
+            h = 0;
+        }else if(isShooting && Grounded)
+        {
+            h = 0;
+        }else if (isParrying)
         {
             h = 0;
         };
@@ -237,6 +389,7 @@ public class playerScript : MonoBehaviour
         playerAnimator.SetBool("Grounded", Grounded);
         playerAnimator.SetInteger("idAnimation", idAnimation);
         playerAnimator.SetFloat("speedY", playerRb.velocity.y);
+        playerAnimator.SetBool("wallSliding", isWallSliding);
         //playerRb.velocity = new Vector2(h * speed, playerRb.velocity.y);
     }
 
@@ -251,17 +404,24 @@ public class playerScript : MonoBehaviour
         {
             case State.Normal:
 
+                //playerAnimator.SetBool("dodgeRoll", false);
+
                 if (isJumping)
                 {
-                    if (counterJump > 0)
+
+                    if (counterJump > 0f)
                     {
                         playerRb.velocity = Vector2.up * 2f;
                     }
                     else
                     {
                         isJumping = false;
-                        jumpBufferCounter = 0f;
                     }
+                }
+
+                if (playerRb.velocity.y > 0)
+                {
+                    EdgeDetection();
                 }
 
                 if (h > 0 || h < 0)
@@ -270,16 +430,25 @@ public class playerScript : MonoBehaviour
                 }
 
                 Grounded = Physics2D.OverlapCircle(groundCheck.position, 0.02f, ground);
+                isOnPlatform = Physics2D.OverlapCircle(groundCheck.position, 0.02f, platformLayer);
                 playerRb.velocity = new Vector2(h * speed, playerRb.velocity.y);
 
+                isCollidingEnemyAttack = Physics2D.OverlapBox(parryCheck.position, new Vector2(0.2f, 0.25f), 0, parryCheckLayer);
 
                 Interact();
+                ClimbLadder();
                 break;
 
             case State.Rolling:
-                playerRb.velocity = new Vector2(h * rollSpeed, 0f);
+                StartCoroutine(Invulnerable());
+                ChangeAnimationState(AnimationState.dodgeRoll.ToString());
+                //playerAnimator.SetBool("dodgeRoll", true);
+                playerRb.velocity = new Vector2(h * rollSpeed, -2f); // Criar um método único para chamar esse método dentro de um sprite (Event dentro do sprite de Roll)
                 break;
         }
+
+        UpdateSound();
+
     }
 
     private void TurnCheck()
@@ -302,7 +471,8 @@ public class playerScript : MonoBehaviour
             transform.rotation = Quaternion.Euler(rotator);
             slingshotRockSpeed *= -1;
             IsFacingRight = !IsFacingRight;
-            cameraFollowObject.CallTurn();
+            direction *= -1;
+            //cameraFollowObject.CallTurn();
         }
         else
         {
@@ -310,24 +480,28 @@ public class playerScript : MonoBehaviour
             transform.rotation = Quaternion.Euler(rotator);
             slingshotRockSpeed *= -1;
             IsFacingRight = !IsFacingRight;
-            cameraFollowObject.CallTurn();
+            direction *= -1;
+            //cameraFollowObject.CallTurn();
         }
     }
 
     void UpAttack()
     {
         playerAnimator.SetBool("upAttack", true);
+        AudioManager.instance.PlayOneShotSound(FMODEvents.instance.attackSlash, this.transform.position);
     }
 
     void DownAttack()
     {
         playerAnimator.SetBool("downAttack", true);
+        AudioManager.instance.PlayOneShotSound(FMODEvents.instance.attackSlash, this.transform.position);
     }
 
     void Attack()
     {
         playerAnimator.SetBool("firstAttack", true);
         playerAnimator.SetBool("secondAttack", false);
+        AudioManager.instance.PlayOneShotSound(FMODEvents.instance.attackSlash, this.transform.position);
     }
 
     void doubleAttack()
@@ -348,7 +522,7 @@ public class playerScript : MonoBehaviour
 
     void WallSlide()
     {
-        if(IsWalled() && !Grounded && h != 0f)
+        if(IsWalled() && !Grounded && h != 0f && !climbing && playerRb.velocity.y < 0)
         {
             isWallSliding = true;
             playerRb.velocity = new Vector2(playerRb.velocity.x, Mathf.Clamp(playerRb.velocity.y, -wallSlidingSpeed, float.MaxValue));
@@ -359,11 +533,98 @@ public class playerScript : MonoBehaviour
         }
     }
 
+    bool OnLadder()
+    {
+        return standingCollider.IsTouchingLayers(ladderMask);
+    }
+    void ClimbLadder()
+    {
+
+        bool up = Physics2D.OverlapCircle(transform.position, checkRadius, ladderMask);
+        bool down = Physics2D.OverlapCircle(transform.position + new Vector3(0, -0.2f), checkRadius, ladderMask);
+
+        if(v != 0 && OnLadder())
+        {
+            climbing = true;
+        }
+        else
+        {
+            climbing = false;
+        }
+
+        if (climbing)
+        {
+            if(!up && v >= 0)
+            {
+                FinishClimbing();
+                return;
+            }
+
+            if (!down && v <= 0)
+            {
+                FinishClimbing();
+                return;
+            }
+
+            ChangeAnimationState(AnimationState.climbingLadders.ToString());
+            playerAnimator.SetFloat("climbingSpeed", v);
+            playerRb.velocity = new Vector2(0, v * climbingSpeed);
+
+            if (Input.GetButtonDown("Jump"))
+            {
+                FinishClimbing();
+
+                int direction = Convert.ToInt32(IsFacingRight);
+                if (h != 0)
+                    direction = h > 0 ? 1 : -1;
+
+                playerRb.AddForce(new Vector2(6 * direction, 2), ForceMode2D.Impulse);
+            }
+        }
+    }
+
+    void EdgeDetection()
+    {
+        RaycastHit2D edgeDetection1 = Physics2D.Raycast(outerLeftLine.position, transform.up, 0.1f, edgeDetectionLayer);
+        Debug.DrawRay(outerLeftLine.position, transform.up * 0.1f, Color.blue);
+
+        RaycastHit2D edgeDetection2 = Physics2D.Raycast(innerLeftLine.position, transform.up, 0.1f, edgeDetectionLayer);
+        Debug.DrawRay(innerLeftLine.position, transform.up * 0.1f, Color.blue);
+
+        RaycastHit2D edgeDetection3 = Physics2D.Raycast(innerRightLine.position, transform.up, 0.1f, edgeDetectionLayer);
+        Debug.DrawRay(innerRightLine.position, transform.up * 0.1f, Color.blue);
+
+        RaycastHit2D edgeDetection4 = Physics2D.Raycast(outerRightLine.position, transform.up, 0.1f, edgeDetectionLayer);
+        Debug.DrawRay(outerRightLine.position, transform.up * 0.1f, Color.blue);
+
+        if (outerRightLine && !innerRightLine && !innerLeftLine && !outerLeftLine)
+        {
+            transform.position = new Vector2(-5f, transform.position.y);
+        }
+        else if(outerLeftLine && !innerLeftLine && innerRightLine && !outerRightLine)
+        {
+            transform.position = new Vector2(-5f, transform.position.y);
+        }
+    }
+
+    void FinishClimbing()
+    {
+        climbing = false;
+    }
+
     void Shoot()
     {
         GameObject temp = Instantiate(slingshotRock);
         temp.transform.position = slingshot.position;
-        temp.GetComponent<Rigidbody2D>().velocity = new Vector2(slingshotRockSpeed, 0);
+        temp.GetComponent<Rigidbody2D>().velocity = new Vector2(slingshotRockSpeed, 0f);
+        Destroy(temp.gameObject, 1.5f);
+    }
+
+    void ChargedShoot()
+    {
+        GameObject temp = Instantiate(chargedRock);
+        temp.transform.position = slingshot.position;
+        temp.GetComponent<Rigidbody2D>().velocity = new Vector2(slingshotRockSpeed, 0f);
         Destroy(temp.gameObject, 1.5f);
     }
 
@@ -371,6 +632,8 @@ public class playerScript : MonoBehaviour
     {
         RaycastHit2D interactionRaycast2D = Physics2D.Raycast(interactionRayCast.position, transform.right, 0.1f, RayCastLayer);
         Debug.DrawRay(interactionRayCast.position, transform.right * 0.1f, Color.red);
+
+
 
         if(interactionRaycast2D == true)
         {
@@ -382,6 +645,22 @@ public class playerScript : MonoBehaviour
             currentInteractObject = null;
             interactionButtonAlert.SetActive(false);
         };
+    }
+
+    void ChangeAnimationState(string newState)
+    {
+        if (currentAnimationState == newState)
+        {
+            return;
+        }
+
+        if (currentAnimationState == "slingshot" && newState == "chargingSlingshot")
+        {
+            return;
+        }
+
+        playerAnimator.Play(newState);
+        currentAnimationState = newState;
     }
 
     public void finishAttackAnimation()
@@ -406,6 +685,16 @@ public class playerScript : MonoBehaviour
         playerAnimator.SetBool("downAttack", false);
     }
 
+    public void EndAllAttackState()
+    {
+        attackingState = false;
+        isShooting = false;
+        finishAttackAnimation();
+        finishDoubleAttackAnimation();
+        finishUpAttackAnimation();
+        finishDownAttackAnimation();
+    }
+
     public void atk(int atk)
     {
         switch(atk)
@@ -420,19 +709,146 @@ public class playerScript : MonoBehaviour
         };
     }
 
+    public void shoot(int shoot)
+    {
+        switch (shoot)
+        {
+            case 0:
+                isShooting = false;
+                attackingState = false;
+                break;
+
+            case 1:
+                isShooting = true;
+                break;
+        };
+    }
+
     public void OnTriggerEnter2D(Collider2D collision)
     {
         switch(collision.gameObject.tag)
         {
             case "collectible":
                 collision.gameObject.SendMessage("collect", SendMessageOptions.DontRequireReceiver);
-            break;
+                break;
         }
     }
 
     public void hitDamage()
     {
+        if (attackingState)
+        {
+            EndAllAttackState();
+        }
+
         playerAnimator.SetTrigger("hit");
         currentHealth -= 1;
+    }
+
+    private IEnumerator Invulnerable()
+    {
+        Physics2D.IgnoreLayerCollision(7, 14, true);
+
+        yield return new WaitForSeconds(0.2f);
+
+        Physics2D.IgnoreLayerCollision(7, 14, false);
+    }
+
+    private IEnumerator Healing()
+    {
+        isHealing = true;
+        //emitterSFX[3].Play();
+        ChangeAnimationState(AnimationState.healing.ToString());
+        currentHealth += 1;
+
+        yield return new WaitForSeconds(0.6f);
+
+        isHealing = false;
+    }
+
+    private IEnumerator Drop()
+    {
+        Physics2D.IgnoreLayerCollision(13, 14, true);
+
+        yield return new WaitForSeconds(0.2f);
+
+        Physics2D.IgnoreLayerCollision(13, 14, false);
+    }
+
+    private IEnumerator Parry()
+    {
+
+        isParrying = true;
+        canParry = false;
+
+        ChangeAnimationState(AnimationState.missParry.ToString());
+        AudioManager.instance.PlayOneShotSound(FMODEvents.instance.missParry, this.transform.position);
+
+        if (isCollidingEnemyAttack)
+        {
+            ChangeAnimationState(AnimationState.parry.ToString());
+            AudioManager.instance.PlayOneShotSound(FMODEvents.instance.parryStrike, this.transform.position);
+
+            yield return new WaitForSeconds(0.8f);
+
+            isParrying = false;
+            canParry = true;
+
+            ChangeAnimationState(AnimationState.idle.ToString());
+
+            yield break;
+        }
+
+        yield return new WaitForSeconds(parryCooldown);
+
+        ChangeAnimationState(AnimationState.idle.ToString());
+
+        isParrying = false;
+        canParry = true;
+
+    }
+
+    private void UpdateSound()
+    {
+
+        if (playerRb.velocity.x != 0 && Grounded)
+        {
+            PLAYBACK_STATE playbackState;
+            footSteps.getPlaybackState(out playbackState);
+
+            if(playbackState.Equals(PLAYBACK_STATE.STOPPED))
+            {
+                footSteps.start();
+            }
+        }
+        else
+        {
+            footSteps.stop(STOP_MODE.IMMEDIATE);
+        }
+
+        if (playerRb.velocity.y != 0 && climbing)
+        {
+            PLAYBACK_STATE playbackState;
+            climbingLadder.getPlaybackState(out playbackState);
+
+            if (playbackState.Equals(PLAYBACK_STATE.STOPPED))
+            {
+                climbingLadder.start();
+            }
+        }
+        else
+        {
+            climbingLadder.stop(STOP_MODE.ALLOWFADEOUT);
+        }
+    }
+
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.cyan;
+
+        Gizmos.DrawWireSphere(transform.position, checkRadius);
+        Gizmos.DrawWireSphere(transform.position + new Vector3(0, -0.2f), checkRadius);
+
+        Gizmos.DrawWireCube(parryCheck.position, new Vector3(0.2f, 0.25f));
     }
 }

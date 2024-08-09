@@ -13,6 +13,7 @@ public class essenceScript : MonoBehaviour
     public void collect()
     {
         gameDataController.Essence += 1;
+        AudioManager.instance.PlayOneShotSound(FMODEvents.instance.coinCollected, this.transform.position);
         Destroy(this.gameObject);
     }
 }

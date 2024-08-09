@@ -1,0 +1,851 @@
+fileFormatVersion: 2
+guid: a6f93707118ccb147bf7d1b35c3dd8f7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2185775479783044072
+    second: Inimigo 37x33 - Abelha_0
+  - first:
+      213: 7802583540252265575
+    second: Inimigo 37x33 - Abelha_1
+  - first:
+      213: -2842811040287850267
+    second: Inimigo 37x33 - Abelha_2
+  - first:
+      213: 3609996512380208360
+    second: Inimigo 37x33 - Abelha_3
+  - first:
+      213: -1283972696043060500
+    second: Inimigo 37x33 - Abelha_4
+  - first:
+      213: 819296236575290456
+    second: Inimigo 37x33 - Abelha_5
+  - first:
+      213: 6702833951073278619
+    second: Inimigo 37x33 - Abelha_6
+  - first:
+      213: 7561033228527738837
+    second: Inimigo 37x33 - Abelha_7
+  - first:
+      213: 5464229809368950764
+    second: Inimigo 37x33 - Abelha_8
+  - first:
+      213: 41138242866273246
+    second: Inimigo 37x33 - Abelha_9
+  - first:
+      213: -321236711473218167
+    second: Inimigo 37x33 - Abelha_10
+  - first:
+      213: 6731639399646761011
+    second: Inimigo 37x33 - Abelha_11
+  - first:
+      213: 598422748059882114
+    second: Inimigo 37x33 - Abelha_12
+  - first:
+      213: -5010246476706723639
+    second: Inimigo 37x33 - Abelha_13
+  - first:
+      213: 2441393123169451731
+    second: Inimigo 37x33 - Abelha_14
+  - first:
+      213: -1477817806840790641
+    second: Inimigo 37x33 - Abelha_15
+  - first:
+      213: 7008954854782377277
+    second: Inimigo 37x33 - Abelha_16
+  - first:
+      213: -1095400554645807344
+    second: Inimigo 37x33 - Abelha_17
+  - first:
+      213: 1676924633415365696
+    second: Inimigo 37x33 - Abelha_18
+  - first:
+      213: -8074186394889276099
+    second: Inimigo 37x33 - Abelha_19
+  - first:
+      213: 1226341180343692434
+    second: Inimigo 37x33 - Abelha_20
+  - first:
+      213: -2206885013298711763
+    second: Inimigo 37x33 - Abelha_21
+  - first:
+      213: 7319867859285045367
+    second: Inimigo 37x33 - Abelha_22
+  - first:
+      213: -365145201604817219
+    second: Inimigo 37x33 - Abelha_23
+  - first:
+      213: 6242039830434240146
+    second: Inimigo 37x33 - Abelha_24
+  - first:
+      213: -1562398395507723258
+    second: Inimigo 37x33 - Abelha_25
+  - first:
+      213: 5982010597379492687
+    second: Inimigo 37x33 - Abelha_26
+  - first:
+      213: 736781434634722476
+    second: Inimigo 37x33 - Abelha_27
+  - first:
+      213: -1791323509905778814
+    second: Inimigo 37x33 - Abelha_28
+  - first:
+      213: -7443969462776758935
+    second: Inimigo 37x33 - Abelha_29
+  - first:
+      213: 6593598019537207951
+    second: Inimigo 37x33 - Abelha_30
+  - first:
+      213: -7485088548624837487
+    second: Inimigo 37x33 - Abelha_31
+  - first:
+      213: -8222156319219839583
+    second: Inimigo 37x33 - Abelha_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bee_fly_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 165
+        width: 37
+        height: 33
+      alignment: 9
+      pivot: {x: 0.15951113, y: 0.3020505}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e33a37d73f655e10800000000000000
+      internalID: 2185775479783044072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bee_fly_01
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 165
+        width: 37
+        height: 33
+      alignment: 9
+      pivot: {x: 0.17212172, y: 0.33032873}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76ccb07d368584c60800000000000000
+      internalID: 7802583540252265575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bee_fly_02
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 165
+        width: 37
+        height: 33
+      alignment: 9
+      pivot: {x: 0.16581644, y: 0.35860744}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e08514bb6e4c88d0800000000000000
+      internalID: -2842811040287850267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bee_fly_03
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 165
+        width: 37
+        height: 33
+      alignment: 9
+      pivot: {x: 0.13428971, y: 0.35860744}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e442d093b8491230800000000000000
+      internalID: 3609996512380208360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bee_fly_04
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 165
+        width: 37
+        height: 33
+      alignment: 9
+      pivot: {x: 0.14690049, y: 0.3303292}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce28d0fb2a96e2ee0800000000000000
+      internalID: -1283972696043060500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bee_fly_05
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 165
+        width: 37
+        height: 33
+      alignment: 9
+      pivot: {x: 0.1405953, y: 0.28084126}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85472ea1699be5b00800000000000000
+      internalID: 819296236575290456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bee_sting_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 132
+        width: 37
+        height: 33
+      alignment: 9
+      pivot: {x: 0.13428974, y: 0.33032873}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9a962227ff350d50800000000000000
+      internalID: 6702833951073278619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bee_sting_01
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 132
+        width: 37
+        height: 33
+      alignment: 9
+      pivot: {x: 0.17212172, y: 0.43637362}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5df125949af2ee860800000000000000
+      internalID: 7561033228527738837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bee_sting_02
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 132
+        width: 37
+        height: 33
+      alignment: 9
+      pivot: {x: 0.16581644, y: 0.4293037}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce769869f08d4db40800000000000000
+      internalID: 5464229809368950764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bee_sting_03
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 132
+        width: 37
+        height: 33
+      alignment: 9
+      pivot: {x: 0.19103777, y: 0.48586065}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edb5ab09307229000800000000000000
+      internalID: 41138242866273246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bee_sting_04
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 132
+        width: 37
+        height: 33
+      alignment: 9
+      pivot: {x: 0.2225647, y: 0.5494875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98df2d3b9ecba8bf0800000000000000
+      internalID: -321236711473218167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bee_sting_05
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 99
+        width: 37
+        height: 33
+      alignment: 9
+      pivot: {x: 0.2414807, y: 0.598975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33018f34e569b6d50800000000000000
+      internalID: 6731639399646761011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bee_sting_06
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 99
+        width: 37
+        height: 33
+      alignment: 9
+      pivot: {x: 0.22256449, y: 0.5565572}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2825f9b91560e4800800000000000000
+      internalID: 598422748059882114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bee_sting_recovery_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 66
+        width: 37
+        height: 33
+      alignment: 9
+      pivot: {x: 0.22256465, y: 0.5636268}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c84eb6ff57087ab0800000000000000
+      internalID: -5010246476706723639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bee_sting_recovery_01
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 66
+        width: 37
+        height: 33
+      alignment: 9
+      pivot: {x: 0.19734326, y: 0.50000024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3deb8974c1291e120800000000000000
+      internalID: 2441393123169451731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bee_sting_recovery_02
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 66
+        width: 37
+        height: 33
+      alignment: 9
+      pivot: {x: 0.17212182, y: 0.43637338}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f810284d88cbd7be0800000000000000
+      internalID: -1477817806840790641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bee_sting_recovery_03
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 66
+        width: 37
+        height: 33
+      alignment: 9
+      pivot: {x: 0.14059511, y: 0.35153776}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3d9d0e2e4fc44160800000000000000
+      internalID: 7008954854782377277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bee_hit_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 33
+        width: 37
+        height: 33
+      alignment: 9
+      pivot: {x: 0.17842719, y: 0.33032873}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01f129dcffa5cc0f0800000000000000
+      internalID: -1095400554645807344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bee_hit_01
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 33
+        width: 37
+        height: 33
+      alignment: 9
+      pivot: {x: 0.178427, y: 0.4293037}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04433d1c112a54710800000000000000
+      internalID: 1676924633415365696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bee_hit_02
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 33
+        width: 37
+        height: 33
+      alignment: 9
+      pivot: {x: 0.19734316, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d353552b04ab2ff80800000000000000
+      internalID: -8074186394889276099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bee_hit_03
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 33
+        width: 37
+        height: 33
+      alignment: 9
+      pivot: {x: 0.14059511, y: 0.35153764}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29ca1db5ec6d40110800000000000000
+      internalID: 1226341180343692434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bee_death_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 37
+        height: 33
+      alignment: 9
+      pivot: {x: 0.14690043, y: 0.3515376}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d237232e5c19f51e0800000000000000
+      internalID: -2206885013298711763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bee_death_01
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 0
+        width: 37
+        height: 33
+      alignment: 9
+      pivot: {x: 0.178427, y: 0.45758212}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 770fb732905659560800000000000000
+      internalID: 7319867859285045367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bee_death_02
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 0
+        width: 37
+        height: 33
+      alignment: 9
+      pivot: {x: 0.20364854, y: 0.5212088}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbe08eeaf5ebeeaf0800000000000000
+      internalID: -365145201604817219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bee_death_03
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 0
+        width: 37
+        height: 33
+      alignment: 9
+      pivot: {x: 0.14059511, y: 0.3515376}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2965fde672e20a650800000000000000
+      internalID: 6242039830434240146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bee_death_04
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 0
+        width: 37
+        height: 33
+      alignment: 9
+      pivot: {x: 0.17212203, y: 0.17479669}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6043f1eefee315ae0800000000000000
+      internalID: -1562398395507723258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bee_death_05
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 0
+        width: 37
+        height: 33
+      alignment: 9
+      pivot: {x: 0.15951125, y: 0.061682507}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4b4d6bb1fe540350800000000000000
+      internalID: 5982010597379492687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bee_death_06
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 0
+        width: 37
+        height: 33
+      alignment: 9
+      pivot: {x: 0.17212203, y: 0.06875215}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cac5188afc2993a00800000000000000
+      internalID: 736781434634722476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bee_death_07
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 0
+        width: 37
+        height: 33
+      alignment: 9
+      pivot: {x: 0.17212161, y: 0.06875215}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 287924232c0f327e0800000000000000
+      internalID: -1791323509905778814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: f0a23e67e674d6f4d9b8b949de34116a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      bee_death_00: -2206885013298711763
+      bee_death_01: 7319867859285045367
+      bee_death_02: -365145201604817219
+      bee_death_03: 6242039830434240146
+      bee_death_04: -1562398395507723258
+      bee_death_05: 5982010597379492687
+      bee_death_06: 736781434634722476
+      bee_death_07: -1791323509905778814
+      bee_fly_00: 2185775479783044072
+      bee_fly_01: 7802583540252265575
+      bee_fly_02: -2842811040287850267
+      bee_fly_03: 3609996512380208360
+      bee_fly_04: -1283972696043060500
+      bee_fly_05: 819296236575290456
+      bee_hit_00: -1095400554645807344
+      bee_hit_01: 1676924633415365696
+      bee_hit_02: -8074186394889276099
+      bee_hit_03: 1226341180343692434
+      bee_sting_00: 6702833951073278619
+      bee_sting_01: 7561033228527738837
+      bee_sting_02: 5464229809368950764
+      bee_sting_03: 41138242866273246
+      bee_sting_04: -321236711473218167
+      bee_sting_05: 6731639399646761011
+      bee_sting_06: 598422748059882114
+      bee_sting_recovery_00: -5010246476706723639
+      bee_sting_recovery_01: 2441393123169451731
+      bee_sting_recovery_02: -1477817806840790641
+      bee_sting_recovery_03: 7008954854782377277
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

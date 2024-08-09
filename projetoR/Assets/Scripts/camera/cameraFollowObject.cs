@@ -10,6 +10,7 @@ public class cameraFollowObject : MonoBehaviour
     private Coroutine turnCoroutine;
     private playerScript player;
     private bool isFacingRight = true;
+
     void Start()
     {
         player = playerTransform.gameObject.GetComponent<playerScript>();
@@ -21,10 +22,18 @@ public class cameraFollowObject : MonoBehaviour
         transform.position = playerTransform.position;
     }
 
+    void FixedUpdate()
+    {
+        if(playerTransform == null)
+        {
+            playerTransform = GameObject.FindGameObjectWithTag("Player").transform;
+        }
+    }
+
     public void CallTurn()
     {
         //turnCoroutine = StartCoroutine(FlipYLerp());
-        LeanTween.rotateY(gameObject, DetermineEndRotation(), flipYRotationTime).setEaseInOutSine();
+        //LeanTween.rotateY(gameObject, DetermineEndRotation(), flipYRotationTime).setEaseInOutSine();
     }
 
     private IEnumerator FlipYLerp()

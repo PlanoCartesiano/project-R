@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 9181454447639152860}
   - component: {fileID: 3607712151824184078}
   - component: {fileID: 1644854685997765104}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: slingshotRock
   m_TagString: SlingshotBullet
   m_Icon: {fileID: 0}

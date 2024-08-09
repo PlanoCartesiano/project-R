@@ -1,0 +1,1471 @@
+fileFormatVersion: 2
+guid: eedbc798fe940fc45b33cb76ea75ccb8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7096867306065723544
+    second: Inimigo 46x30 - Inseto Escudo_0
+  - first:
+      213: 8838493305779273459
+    second: Inimigo 46x30 - Inseto Escudo_1
+  - first:
+      213: 1349655785020870922
+    second: Inimigo 46x30 - Inseto Escudo_2
+  - first:
+      213: -2460195988990955249
+    second: Inimigo 46x30 - Inseto Escudo_3
+  - first:
+      213: 5582044074222896326
+    second: Inimigo 46x30 - Inseto Escudo_4
+  - first:
+      213: 1557406538875612795
+    second: Inimigo 46x30 - Inseto Escudo_5
+  - first:
+      213: -2982940597742396762
+    second: Inimigo 46x30 - Inseto Escudo_6
+  - first:
+      213: -5454980675975867937
+    second: Inimigo 46x30 - Inseto Escudo_7
+  - first:
+      213: 5682499798970082280
+    second: Inimigo 46x30 - Inseto Escudo_8
+  - first:
+      213: -7090614068272905005
+    second: Inimigo 46x30 - Inseto Escudo_9
+  - first:
+      213: -3511897618641140411
+    second: Inimigo 46x30 - Inseto Escudo_10
+  - first:
+      213: 4735091951350738959
+    second: Inimigo 46x30 - Inseto Escudo_11
+  - first:
+      213: 7328228659101579411
+    second: Inimigo 46x30 - Inseto Escudo_12
+  - first:
+      213: -5655832787623197594
+    second: Inimigo 46x30 - Inseto Escudo_13
+  - first:
+      213: -582918627292068930
+    second: Inimigo 46x30 - Inseto Escudo_14
+  - first:
+      213: 339521870963711095
+    second: Inimigo 46x30 - Inseto Escudo_15
+  - first:
+      213: 5157851312358373733
+    second: Inimigo 46x30 - Inseto Escudo_16
+  - first:
+      213: 8811788175930607219
+    second: Inimigo 46x30 - Inseto Escudo_17
+  - first:
+      213: -8527570834038886999
+    second: Inimigo 46x30 - Inseto Escudo_18
+  - first:
+      213: 2244828622839067546
+    second: Inimigo 46x30 - Inseto Escudo_19
+  - first:
+      213: -9138730584096584171
+    second: Inimigo 46x30 - Inseto Escudo_20
+  - first:
+      213: 8831267458104903425
+    second: Inimigo 46x30 - Inseto Escudo_21
+  - first:
+      213: 5436553781419463210
+    second: Inimigo 46x30 - Inseto Escudo_22
+  - first:
+      213: 3060205006270660103
+    second: Inimigo 46x30 - Inseto Escudo_23
+  - first:
+      213: 2623017243780713419
+    second: Inimigo 46x30 - Inseto Escudo_24
+  - first:
+      213: -1872065284186054042
+    second: Inimigo 46x30 - Inseto Escudo_25
+  - first:
+      213: -768753034383214364
+    second: Inimigo 46x30 - Inseto Escudo_26
+  - first:
+      213: -940741672333117342
+    second: Inimigo 46x30 - Inseto Escudo_27
+  - first:
+      213: -2987886277031190511
+    second: Inimigo 46x30 - Inseto Escudo_28
+  - first:
+      213: 7791899449563173065
+    second: Inimigo 46x30 - Inseto Escudo_29
+  - first:
+      213: 4777855986220730233
+    second: Inimigo 46x30 - Inseto Escudo_30
+  - first:
+      213: 1047413861408359706
+    second: Inimigo 46x30 - Inseto Escudo_31
+  - first:
+      213: 2218742971709324633
+    second: Inimigo 46x30 - Inseto Escudo_32
+  - first:
+      213: 6882245789262140308
+    second: Inimigo 46x30 - Inseto Escudo_33
+  - first:
+      213: 7649400674306901518
+    second: Inimigo 46x30 - Inseto Escudo_34
+  - first:
+      213: 4806552002639820148
+    second: Inimigo 46x30 - Inseto Escudo_35
+  - first:
+      213: 8125133985090663071
+    second: Inimigo 46x30 - Inseto Escudo_36
+  - first:
+      213: -559673798148609378
+    second: Inimigo 46x30 - Inseto Escudo_37
+  - first:
+      213: 5986582854453950155
+    second: Inimigo 46x30 - Inseto Escudo_38
+  - first:
+      213: -7347879722953661350
+    second: Inimigo 46x30 - Inseto Escudo_39
+  - first:
+      213: -3565428710593101793
+    second: Inimigo 46x30 - Inseto Escudo_40
+  - first:
+      213: 8131252641986785927
+    second: Inimigo 46x30 - Inseto Escudo_41
+  - first:
+      213: 6175226693631885584
+    second: Inimigo 46x30 - Inseto Escudo_42
+  - first:
+      213: 7494812683183144557
+    second: Inimigo 46x30 - Inseto Escudo_43
+  - first:
+      213: 2785323130460491852
+    second: Inimigo 46x30 - Inseto Escudo_44
+  - first:
+      213: 140304251415729480
+    second: Inimigo 46x30 - Inseto Escudo_45
+  - first:
+      213: 3307754859107621341
+    second: Inimigo 46x30 - Inseto Escudo_46
+  - first:
+      213: 424782401189012494
+    second: Inimigo 46x30 - Inseto Escudo_47
+  - first:
+      213: -3728514976253451620
+    second: Inimigo 46x30 - Inseto Escudo_48
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: beetle_shield_idle_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0ba2b20d006e374eb6e391729bc3cef
+      internalID: -1853672250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beetle_shield_idle_01
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 240
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c734ad3293b3fc4a8ad9ec7f6f3001b
+      internalID: 88811221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beetle_shield_idle_02
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 240
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e62186eded3d85748ad1ebb1ae38f950
+      internalID: 1531029738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beetle_shield_idle_03
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 240
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eec2cbc8816f47a4cab550dfe6ca0052
+      internalID: -409213124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beetle_shield_idle_04
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 240
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44fe0f4c21392fa48920395cc4f856e1
+      internalID: 357482098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beetle_shield_idle_05
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 240
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eb47a9c27881be45adce17cd84a5d4d
+      internalID: 1385375539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beetle_shield_idle_06
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 240
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f216a6cf4f8abb45ac5b21522b7dc74
+      internalID: -1900253094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beetle_shield_idle_07
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 240
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dad744b0f34902143a9f2e4fa49cda10
+      internalID: -10560653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beetle_shield_idle_08
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 240
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b2d0ea45475f4d40ae562c07b9dfd31
+      internalID: -403351229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beetle_shield_idle_09
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 240
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c0a547a8d9a3a040b4f6eb52fddcd89
+      internalID: 137374677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beetle_shield_walk_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 210
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4454a20f508628c4ea82793f166a701c
+      internalID: -310544746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beetle_shield_walk_01
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 210
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89db1d33a08481347814130d222b876f
+      internalID: 1495262603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beetle_shield_walk_02
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 210
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce875535123e4f342ab57fd87e04092e
+      internalID: 1426701368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beetle_shield_walk_03
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 210
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abf1f9056fe8ae449ac2695904d24fde
+      internalID: 1446300857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beetle_shield_walk_04
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 210
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c583f0884d9ca35429620750bdeef46e
+      internalID: 533969881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beetle_shield_walk_05
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 210
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 618c5e51e64aad34b872e04d07ec03d1
+      internalID: -1957355249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beetle_shield_walk_06
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 210
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 048f805bec7f4ea4a9c7fb9db8f0ec8c
+      internalID: -1290194633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beetle_shield_walk_07
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 210
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8e07ddb42737cc468137175e95dfd2b
+      internalID: -1369640616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beetle_shield_walk_08
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 210
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66db7573d9f1b774eacd59e7e942dce0
+      internalID: -736165381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beetle_shield_walk_09
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 210
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e307c70b9b2b82a40b8733d7995e61f3
+      internalID: 395721694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beetle_shield_defense_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 180
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaae78081d4d9974c85ae839cc59bc58
+      internalID: -1397359533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beetle_shield_defense_01
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 180
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 218edc7111bf22d4c9bbf50e93c03eec
+      internalID: -1869723906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beetle_shield_defense_02
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 180
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3f052a1f853e864c801afb256bffe16
+      internalID: -1110633499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beetle_shield_defense_03
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 180
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 285c67128ccd49740a3575bb866da535
+      internalID: 1837177450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beetle_shield_block_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 150
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e73b940e735daf4184df07bbb11902a
+      internalID: -1971040632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beetle_shield_block_01
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 150
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49bc0478f3a970f479afcbea7efb47b5
+      internalID: 1603794351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beetle_shield_block_02
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 150
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faabeade983ae26499f80098ffab007f
+      internalID: 1074288448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beetle_shield_block_03
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 150
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04e5305da29898b428d366fef94ab9a3
+      internalID: -1004395265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beetle_shield_attack_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 120
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85b7403bc53351a489cc2acdb9eb9b80
+      internalID: -810262969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beetle_shield_attack_01
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 120
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf8fc8e29ea236c4db350bcf0a2854e0
+      internalID: 568789388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beetle_shield_attack_02
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 120
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c53c202c54f47241a2bbf0a704c48d9
+      internalID: -1015600018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beetle_shield_attack_03
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 120
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acccd1ba113201748ba4a214fcefd15f
+      internalID: -869694068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beetle_shield_attack_04
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 90
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd64f9ad7ecb1744c8f69099c97fd793
+      internalID: 77276696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beetle_shield_attack_05
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 90
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6493195dd1908b5499a76ce8004ad3f0
+      internalID: 639497110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beetle_shield_attack_06
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 90
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c67d8ec7a07587542beeb94f2f9adb8d
+      internalID: 182571822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beetle_shield_recovery_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 60
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 632e5102020e39144b4d81e56c2290ce
+      internalID: -1330752308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beetle_shield_recovery_01
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 60
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0f97886ff4542b47b44c13ba3f609ef
+      internalID: 463363681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beetle_shield_recovery_02
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 60
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99c84e1d034bc374787c75549664de9c
+      internalID: -676711401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beetle_shield_recovery_03
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 60
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ea6797fdd08e504392bc1a8dca609e3
+      internalID: -1649662784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beetle_shield_recovery_04
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 60
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 941b85c43b61a93439500db66fdfd583
+      internalID: 2012772303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beetle_shield_recovery_05
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 60
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a12493afa8c9874b879c986c1ed0426
+      internalID: -1803247410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beetle_shield_recovery_06
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 60
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 228466fe41a35cc48aba8716b6e0ed93
+      internalID: 254057741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beetle_shield_hit_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 30
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b80c8cb95512b614294bcfe1481422e8
+      internalID: 1554438916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beetle_shield_hit_01
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 30
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cac0810937992104f91474c597e2292f
+      internalID: -1624535915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beetle_shield_hit_02
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 30
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b23de002be37bab48aec6daebf5d9bb0
+      internalID: -847223849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beetle_shield_hit_03
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 30
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 380c920bbe7b2f149b6eb67603d7d754
+      internalID: 129385489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beetle_shield_death_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28ce90c99989e4840982cfce41c02b6c
+      internalID: 1001646687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beetle_shield_death_01
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 0
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 543c3580c496bc24ebf6356cf66e649c
+      internalID: 1989276676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beetle_shield_death_02
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 0
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bce6584d006bcc44a8b11b3baa4c4878
+      internalID: 611220703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beetle_shield_death_03
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 0
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4702adc9947de4a419f42dddcb13e3f8
+      internalID: 107356228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beetle_shield_death_04
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 0
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eee07ae5a5104a46b16b9c8316c1438
+      internalID: -1905488292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beetle_shield_death_05
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 0
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22084195275932f4d9da3c4af4fe7abf
+      internalID: -1146789378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beetle_shield_death_06
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 0
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9104d7d599394e24eabfe0f46436e5ed
+      internalID: 832623708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beetle_shield_death_07
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 0
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b65bca18acd7c64e9909e4ede6d9741
+      internalID: 1033939752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beetle_shield_death_08
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 0
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d0d94e606b7a0e42ab7213e5b2d7b58
+      internalID: -106683929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: a722cb52c640ae94c9e5cf9fe09b37f3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      beetle_shield_attack_00: -1015600018
+      beetle_shield_attack_01: -869694068
+      beetle_shield_attack_02: 77276696
+      beetle_shield_attack_03: 639497110
+      beetle_shield_attack_04: 182571822
+      beetle_shield_attack_05: -1330752308
+      beetle_shield_attack_06: 463363681
+      beetle_shield_block_00: 1074288448
+      beetle_shield_block_01: -1004395265
+      beetle_shield_block_02: -810262969
+      beetle_shield_block_03: 568789388
+      beetle_shield_death_00: 611220703
+      beetle_shield_death_01: 1989276676
+      beetle_shield_death_02: 611220703
+      beetle_shield_death_03: 107356228
+      beetle_shield_death_04: -1905488292
+      beetle_shield_death_05: -1146789378
+      beetle_shield_death_06: 832623708
+      beetle_shield_death_07: 1033939752
+      beetle_shield_death_08: -106683929
+      beetle_shield_defense_00: -1110633499
+      beetle_shield_defense_01: 1837177450
+      beetle_shield_defense_02: -1971040632
+      beetle_shield_defense_03: 1603794351
+      beetle_shield_hit_00: -847223849
+      beetle_shield_hit_01: 129385489
+      beetle_shield_hit_02: 1001646687
+      beetle_shield_hit_03: 1989276676
+      beetle_shield_idle_00: -409213124
+      beetle_shield_idle_01: -1900253094
+      beetle_shield_idle_02: 1385375539
+      beetle_shield_idle_03: 88811221
+      beetle_shield_idle_04: 1531029738
+      beetle_shield_idle_05: -10560653
+      beetle_shield_idle_06: -403351229
+      beetle_shield_idle_07: 137374677
+      beetle_shield_idle_08: -310544746
+      beetle_shield_idle_09: 1495262603
+      beetle_shield_recovery_00: -676711401
+      beetle_shield_recovery_01: -1649662784
+      beetle_shield_recovery_02: 2012772303
+      beetle_shield_recovery_03: -1803247410
+      beetle_shield_recovery_04: 254057741
+      beetle_shield_recovery_05: 1554438916
+      beetle_shield_recovery_06: -1624535915
+      beetle_shield_walk_00: 1426701368
+      beetle_shield_walk_01: 1446300857
+      beetle_shield_walk_02: 533969881
+      beetle_shield_walk_03: -1957355249
+      beetle_shield_walk_04: -1290194633
+      beetle_shield_walk_05: -1369640616
+      beetle_shield_walk_06: -736165381
+      beetle_shield_walk_07: 395721694
+      beetle_shield_walk_08: -1397359533
+      beetle_shield_walk_09: -1869723906
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

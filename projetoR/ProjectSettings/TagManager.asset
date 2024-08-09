@@ -10,6 +10,10 @@ TagManager:
   - SlingshotBullet
   - Ground
   - SceneObject
+  - Enemy
+  - Ladder
+  - enemyAttackCollision
+  - parryCollision
   layers:
   - Default
   - TransparentFX
@@ -24,13 +28,13 @@ TagManager:
   - Camera
   - Parallax
   - Wall
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Plataform
+  - Player
+  - Obstruction
+  - Detection Area
+  - Player Attack
+  - Ladder
+  - Enemy Attack
   - 
   - 
   - 

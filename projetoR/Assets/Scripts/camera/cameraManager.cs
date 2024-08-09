@@ -40,6 +40,7 @@ public class cameraManager : MonoBehaviour
             }
         }
 
+        //DontDestroyOnLoad(gameObject);
         //_normYPanAmount = _positionComposer.Damping.y;
     }
 
