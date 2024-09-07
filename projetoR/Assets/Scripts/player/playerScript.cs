@@ -1,4 +1,5 @@
 using FMOD.Studio;
+using Unity.Cinemachine;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -13,6 +14,7 @@ public class playerScript : MonoBehaviour
     private GameDataController gameDataController;
     [SerializeField] private GameObject cameraFollowGameObject;
     private cameraFollowObject cameraFollowObject;
+    private HitEffect hitEffect;
     private float _fallSpeedYDampingChangeThreshold;
     private Animator playerAnimator;
     private string currentAnimationState;
@@ -24,6 +26,7 @@ public class playerScript : MonoBehaviour
     public int maximumHealth;
     public int currentHealth;
     public bool isHealing;
+    public bool isDead = false;
 
     [Header("Slingshot variables")]
     public GameObject slingshotRock;
@@ -72,6 +75,10 @@ public class playerScript : MonoBehaviour
     [SerializeField] private LayerMask platformLayer;
     private bool isOnPlatform;
 
+    [Header("Camera Effect")]
+    [SerializeField] private ScreenShakeProfile profile;
+    private CinemachineImpulseSource impulseSource;
+
     [Header("Sounds Config")]
     private EventInstance footSteps;
     private EventInstance climbingLadder;
@@ -91,6 +98,7 @@ public class playerScript : MonoBehaviour
     public bool Grounded;
     public int combo;
     public bool doubleAtack, lockAtack = false;
+    public bool inTransition;
 
     private enum State
     {
@@ -145,6 +153,8 @@ public class playerScript : MonoBehaviour
         state = State.Normal;
         gameDataController = FindFirstObjectByType(typeof(GameDataController)) as GameDataController;
         cameraFollowObject = cameraFollowGameObject.GetComponent<cameraFollowObject>();
+        impulseSource = GetComponent<CinemachineImpulseSource>();
+        hitEffect = GetComponent<HitEffect>();
         playerRb = GetComponent<Rigidbody2D>();
         playerAnimator = GetComponent<Animator>();
 
@@ -181,7 +191,7 @@ public class playerScript : MonoBehaviour
                     EndAllAttackState();
                 }
 
-                if (Grounded && !attackingState && !isShooting && !isHealing && !climbing && !isParrying)
+                if (Grounded && !attackingState && !isShooting && !isHealing && !climbing && !isParrying && !inTransition)
                 {
                     if(h != 0)
                     {
@@ -254,7 +264,7 @@ public class playerScript : MonoBehaviour
                     currentInteractObject.SendMessage("Interaction", SendMessageOptions.DontRequireReceiver);
                 };
 
-                if (Input.GetButtonDown("Fire2") && currentHealth < maximumHealth && !isParrying)
+                if (Input.GetButtonDown("Fire2") && currentHealth < maximumHealth && !isParrying && !inTransition)
                 {
                     StartCoroutine(Healing());
                 }
@@ -360,7 +370,11 @@ public class playerScript : MonoBehaviour
                 break;
 
             case State.Dead:
+                StopAllCoroutines();
+                EndAllAttackState();
                 ChangeAnimationState(AnimationState.death.ToString());
+                h = 0;
+                isDead = true;
                 break;
         }
 
@@ -373,7 +387,14 @@ public class playerScript : MonoBehaviour
         }else if (isParrying)
         {
             h = 0;
-        };
+        }else if (isHealing)
+        {
+            h = 0;
+        }
+        else if (inTransition)
+        {
+            h = 0;
+        }
 
         if (v < 0 && Grounded)
         {
@@ -741,8 +762,18 @@ public class playerScript : MonoBehaviour
             EndAllAttackState();
         }
 
+        hitEffect.HitBlinkEffect();
         playerAnimator.SetTrigger("hit");
+        //CameraShakeManager.instance.CameraShake(impulseSource);
+        CameraShakeManager.instance.ScreenShakeFromProfile(profile, impulseSource);
         currentHealth -= 1;
+    }
+
+    public void Death()
+    {
+        EndAllAttackState();
+        hitDamage();
+        Debug.Log("Rafaela morreu");
     }
 
     private IEnumerator Invulnerable()

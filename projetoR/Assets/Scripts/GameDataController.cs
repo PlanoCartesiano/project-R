@@ -4,6 +4,7 @@ using UnityEngine;
 using TMPro;
 using UnityEditor.Tilemaps;
 using UnityEngine.UI;
+using UnityEngine.Diagnostics;
 
 public enum GameState
 {
@@ -11,6 +12,7 @@ public enum GameState
     RUN,
     INVENTORY
 }
+
 public class GameDataController : MonoBehaviour
 {
 
@@ -38,6 +40,7 @@ public class GameDataController : MonoBehaviour
 
     [Header("Raffa Player Information")]
     public int maximumHealth;
+    [HideInInspector] public Vector2 startPosition;
 
     [Header("Panels")]
     public GameObject PausePanel;
@@ -50,6 +53,7 @@ public class GameDataController : MonoBehaviour
     void Start()
     {
         DontDestroyOnLoad(this.gameObject);
+        startPosition = playerScript.Instance.transform.position;
         fadeEffect = FindFirstObjectByType(typeof(fadeEffect)) as fadeEffect;
         PausePanel.SetActive(false);
         InventoryPanel.SetActive(false);

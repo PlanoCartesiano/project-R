@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using Unity.Cinemachine;
 
 public class basicEnemy : MonoBehaviour
 {
@@ -48,12 +49,15 @@ public class basicEnemy : MonoBehaviour
     public LayerMask playerLayer;
     public bool isTurnRayAtivacted;
     private float distance;
+    private CinemachineImpulseSource impulseSource;
+    [SerializeField] private ScreenShakeProfile profile;
 
     void Start()
     {
         playerScript = FindFirstObjectByType(typeof(playerScript)) as playerScript;
         enemyRb = GetComponent<Rigidbody2D>();
         enemyAnimator = GetComponent<Animator>();
+        impulseSource = GetComponent<CinemachineImpulseSource>();
         blowPosition.localPosition = new Vector3(blowCurrentXPosition, blowPosition.localPosition.y, 0);
 
         if (!IsFacingRight)
@@ -168,6 +172,8 @@ public class basicEnemy : MonoBehaviour
 
 
                 enemyAnimator.SetTrigger("hit");
+                //CameraShakeManager.instance.CameraShake(impulseSource);
+                CameraShakeManager.instance.ScreenShakeFromProfile(profile, impulseSource);
                 //ChangeAnimationState(AnimationState.hit);
 
                 healthPoint -= Mathf.RoundToInt(damageTaken);
@@ -193,10 +199,14 @@ public class basicEnemy : MonoBehaviour
                 Destroy(collision.gameObject);
                 Destroy(this.gameObject);
                 break;
+
+            case "Player":
+                collision.gameObject.SendMessage("hitDamage", SendMessageOptions.DontRequireReceiver);
+                break;
         }
     }
 
-    public void OnCollisionEnter2D(Collision2D collision)
+    /*public void OnTriggerEnter2D(Collision2D collision)
     {
 
         if (dead) { return; }
@@ -209,7 +219,7 @@ public class basicEnemy : MonoBehaviour
 
                 break;
         }
-    }
+    }*/
 
     void ChangeState(enemyState newState)
     {
