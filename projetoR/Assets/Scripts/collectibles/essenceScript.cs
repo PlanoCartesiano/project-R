@@ -5,6 +5,7 @@ using UnityEngine;
 public class essenceScript : MonoBehaviour
 {
     private GameDataController gameDataController;
+    private int value = 236;
 
     void Start()
     {
@@ -12,7 +13,7 @@ public class essenceScript : MonoBehaviour
     }
     public void collect()
     {
-        gameDataController.Essence += 1;
+        gameDataController.Essence += value;
         AudioManager.instance.PlayOneShotSound(FMODEvents.instance.coinCollected, this.transform.position);
         Destroy(this.gameObject);
     }

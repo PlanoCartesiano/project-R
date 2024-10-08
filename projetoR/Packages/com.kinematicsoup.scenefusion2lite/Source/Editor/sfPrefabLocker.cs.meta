@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 503c836c3b45c44468222cbe5b83ffdc
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 285247
+  packageName: Scene Fusion 2 Lite - Real-time Collaboration
+  packageVersion: 2.0.3
+  assetPath: Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfPrefabLocker.cs
+  uploadId: 682344

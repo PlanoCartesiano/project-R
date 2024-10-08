@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 7b368acbd74290243bbdc9117fc6dd8c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 285247
+  packageName: Scene Fusion 2 Lite - Real-time Collaboration
+  packageVersion: 2.0.3
+  assetPath: Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/Terrain/sfITerrainCompressor.cs
+  uploadId: 682344

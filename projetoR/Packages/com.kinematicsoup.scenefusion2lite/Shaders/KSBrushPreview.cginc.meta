@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: a6410bd14985a9842bccae9a32acc722
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 285247
+  packageName: Scene Fusion 2 Lite - Real-time Collaboration
+  packageVersion: 2.0.3
+  assetPath: Packages/com.kinematicsoup.scenefusion2lite/Shaders/KSBrushPreview.cginc
+  uploadId: 682344
