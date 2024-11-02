@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.EventSystems;
 
 public class Inventory : MonoBehaviour
 {
@@ -28,11 +29,6 @@ public class Inventory : MonoBehaviour
     public void LoadInventory()
     {
         ClearLoadedItems();
-
-        foreach (Button b in slot)
-        {
-            b.interactable = false;
-        }
 
         int s = 0;
 
