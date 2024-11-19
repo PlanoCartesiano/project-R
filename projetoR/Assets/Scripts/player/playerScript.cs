@@ -21,6 +21,7 @@ public class playerScript : MonoBehaviour
     private Rigidbody2D playerRb;
     private float h, v;
     public Collider2D standingCollider, crounchingCollider;
+    private TrailRenderer trailRenderer;
 
     [Header("Health Settings")]
     public int maximumHealth;
@@ -47,6 +48,12 @@ public class playerScript : MonoBehaviour
     [Header("Wall Slide & Wall Jump")]
     private bool isWallSliding;
     private float wallSlidingSpeed = 0.8f;
+    private bool isWallJumping;
+    private float wallJumpingDirection;
+    private float MaxJumpingTime = 0.3f, MinJumpingTime = 0.1f;
+    //private float wallJumpingCounter;
+    private float wallJumpingTime;
+    private Vector2 wallJumpingPower = new Vector2(1.2f, 3.2f);
     [SerializeField] private Transform wallCheck;
     [SerializeField] private LayerMask wallLayer;
 
@@ -83,6 +90,9 @@ public class playerScript : MonoBehaviour
     private EventInstance footSteps;
     private EventInstance climbingLadder;
 
+    [Header("Dash & Roll Config")]
+    private bool canDash = false;
+
     public Transform interactionRayCast;
     public LayerMask RayCastLayer;
     public GameObject currentInteractObject;
@@ -99,6 +109,8 @@ public class playerScript : MonoBehaviour
     public int combo;
     public bool doubleAtack, lockAtack = false;
     public bool inTransition;
+    private int jumpCounter;
+    public int resetJumpCounter;
 
     private enum State
     {
@@ -128,6 +140,7 @@ public class playerScript : MonoBehaviour
         readyChargedSlingshot,
         missParry,
         parry,
+        dash,
     }
 
     private float rollSpeed;
@@ -157,6 +170,7 @@ public class playerScript : MonoBehaviour
         hitEffect = GetComponent<HitEffect>();
         playerRb = GetComponent<Rigidbody2D>();
         playerAnimator = GetComponent<Animator>();
+        trailRenderer = GetComponent<TrailRenderer>();
 
         footSteps = AudioManager.instance.CreateInstance(FMODEvents.instance.footSteps);
         climbingLadder = AudioManager.instance.CreateInstance(FMODEvents.instance.climbingLadder);
@@ -213,6 +227,7 @@ public class playerScript : MonoBehaviour
                 }
 
                 WallSlide();
+                WallJump();
 
                 h = Input.GetAxisRaw("Horizontal");
 
@@ -290,12 +305,14 @@ public class playerScript : MonoBehaviour
                 else if (Input.GetButtonDown("Jump") && Grounded)
                 {
                     jumpBufferCounter = jumpBufferTime;
+                    canDash = true;
                     //emitterSFX[1].Play();
                 }
                 else
                 {
                     jumpBufferCounter -= Time.deltaTime;
                 }
+                if (Grounded) jumpCounter = resetJumpCounter;
 
                 if (jumpBufferCounter > 0f && coyoteTimeCounter > 0f && !isShooting && !isParrying)
                 {
@@ -319,7 +336,15 @@ public class playerScript : MonoBehaviour
                     AudioManager.instance.PlayOneShotSound(FMODEvents.instance.Roll, this.transform.position);
                     playerAnimator.SetTrigger("dash");
                     //StartCoroutine(Dash());
-                };
+                }else if (Input.GetButtonDown("Fire3") && !Grounded && !isShooting && !attackingState && h != 0 && !isParrying && canDash)
+                {
+                    canDash = false;
+                    rollSpeed = 8f;
+                    state = State.Rolling;
+                    //AudioManager.instance.PlayOneShotSound(FMODEvents.instance.Roll, this.transform.position); dash sound here!
+                    ChangeAnimationState(AnimationState.dash.ToString());
+                    trailRenderer.emitting = true;
+                }
 
 
                 if (Input.GetButtonDown("Slingshot"))
@@ -366,6 +391,7 @@ public class playerScript : MonoBehaviour
                     state = State.Normal;
                     playerRb.velocity = new Vector2(h * speed, playerRb.velocity.y);
                     isJumping = false;
+                    trailRenderer.emitting = false;
                 }
                 break;
 
@@ -452,7 +478,15 @@ public class playerScript : MonoBehaviour
 
                 Grounded = Physics2D.OverlapCircle(groundCheck.position, 0.02f, ground);
                 isOnPlatform = Physics2D.OverlapCircle(groundCheck.position, 0.02f, platformLayer);
-                playerRb.velocity = new Vector2(h * speed, playerRb.velocity.y);
+
+                if (isWallJumping)
+                {
+                    playerRb.velocity = new Vector2(wallJumpingDirection * wallJumpingPower.x, playerRb.velocity.y);
+                }
+                else
+                {
+                    playerRb.velocity = new Vector2(h * speed, playerRb.velocity.y);
+                }
 
                 isCollidingEnemyAttack = Physics2D.OverlapBox(parryCheck.position, new Vector2(0.2f, 0.25f), 0, parryCheckLayer);
 
@@ -462,9 +496,15 @@ public class playerScript : MonoBehaviour
 
             case State.Rolling:
                 StartCoroutine(Invulnerable());
-                ChangeAnimationState(AnimationState.dodgeRoll.ToString());
-                //playerAnimator.SetBool("dodgeRoll", true);
-                playerRb.velocity = new Vector2(h * rollSpeed, -2f); // Criar um método único para chamar esse método dentro de um sprite (Event dentro do sprite de Roll)
+                if (Grounded)
+                {
+                    ChangeAnimationState(AnimationState.dodgeRoll.ToString());
+                    playerRb.velocity = new Vector2(h * rollSpeed, -2f); // Criar um método único para chamar esse método dentro de um sprite (Event dentro do sprite de Roll)
+                }else if (!Grounded)
+                {
+                    ChangeAnimationState(AnimationState.dash.ToString());
+                    playerRb.velocity = new Vector2(h * rollSpeed, 0f);
+                }
                 break;
         }
 
@@ -474,11 +514,11 @@ public class playerScript : MonoBehaviour
 
     private void TurnCheck()
     {
-        if (h > 0 && !IsFacingRight && !attackingState)
+        if (h > 0 && !IsFacingRight && !attackingState && !isWallJumping)
         {
             Turn();
         }
-        else if (h < 0 && IsFacingRight && !attackingState)
+        else if (h < 0 && IsFacingRight && !attackingState && !isWallJumping)
         {
             Turn();
         };
@@ -536,6 +576,18 @@ public class playerScript : MonoBehaviour
         playerRb.velocity = Vector2.up * 3.2f;
     }
 
+    void WallJump()
+    {
+        if (isWallSliding && Input.GetButtonDown("Jump"))
+        {
+            wallJumpingDirection = IsFacingRight ? -1 : 1;
+            wallJumpingTime = 0f;
+            isWallJumping = true;
+            playerRb.velocity = new Vector2(playerRb.velocity.x, wallJumpingPower.y);
+            StartCoroutine(WallJumping());
+        }
+    }
+
     bool IsWalled()
     {
         return Physics2D.OverlapCircle(wallCheck.position, 0.1f, wallLayer);
@@ -545,6 +597,7 @@ public class playerScript : MonoBehaviour
     {
         if(IsWalled() && !Grounded && h != 0f && !climbing && playerRb.velocity.y < 0)
         {
+            canDash = true;
             isWallSliding = true;
             playerRb.velocity = new Vector2(playerRb.velocity.x, Mathf.Clamp(playerRb.velocity.y, -wallSlidingSpeed, float.MaxValue));
         }
@@ -774,6 +827,18 @@ public class playerScript : MonoBehaviour
         EndAllAttackState();
         hitDamage();
         Debug.Log("Rafaela morreu");
+    }
+
+    private IEnumerator WallJumping()
+    {
+        while (wallJumpingTime < MaxJumpingTime && Input.GetButton("Jump") || wallJumpingTime < MinJumpingTime) 
+        {
+            wallJumpingTime += Time.deltaTime;
+            yield return new WaitForSeconds(Time.deltaTime);
+        }
+
+        isWallJumping = false;
+        wallJumpingTime = 0f;
     }
 
     private IEnumerator Invulnerable()
