@@ -65,5 +65,29 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/garden_19.unity
     guid: 0793d1d1263db2346aeb71c15bfb21ef
+  - enabled: 1
+    path: Assets/Scenes/tree_00.unity
+    guid: 7b45653313503454f9545ab18bea4416
+  - enabled: 1
+    path: Assets/Scenes/tree_01.unity
+    guid: 18f524a1319468146a7396c39094312d
+  - enabled: 1
+    path: Assets/Scenes/tree_02.unity
+    guid: 93f07dd1b717a2b4d900bb89a655979e
+  - enabled: 1
+    path: Assets/Scenes/tree_03.unity
+    guid: 2b0efbb07cf6c8c4db639c27f0c403d9
+  - enabled: 1
+    path: Assets/Scenes/tree_04.unity
+    guid: 988a564061695e04cbcf82af0e3666d0
+  - enabled: 1
+    path: Assets/Scenes/tree_05.unity
+    guid: 300c11f7c3decd94ca22d0758e305712
+  - enabled: 1
+    path: Assets/Scenes/tree_06.unity
+    guid: 0c87cee15c3a89546bdd99739b67c037
+  - enabled: 1
+    path: Assets/Scenes/tree_07.unity
+    guid: e0272d556ca9fbd41a60fdfeb6fc696b
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
