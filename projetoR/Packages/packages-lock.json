@@ -1,11 +1,5 @@
 {
   "dependencies": {
-    "com.kinematicsoup.scenefusion2lite": {
-      "version": "file:com.kinematicsoup.scenefusion2lite",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
     "com.unity.2d.animation": {
       "version": "10.1.0",
       "depth": 1,

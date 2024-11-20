@@ -20,6 +20,7 @@ public class GameDataController : MonoBehaviour
     public static GameDataController Instance { get; private set; }
 
     private Inventory inventory;
+    private itensInformations itemInfo;
 
     private void Awake()
     {
@@ -45,7 +46,7 @@ public class GameDataController : MonoBehaviour
     [HideInInspector] public Vector2 startPosition;
 
     [Header("Panels")]
-    public GameObject PausePanel;
+    //public GameObject PausePanel;
     public GameObject InventoryPanel;
 
     [Header("First Element of Each Panel")]
@@ -62,9 +63,9 @@ public class GameDataController : MonoBehaviour
     {
         DontDestroyOnLoad(this.gameObject);
         inventory = FindFirstObjectByType(typeof(Inventory)) as Inventory;
+        itemInfo = FindFirstObjectByType(typeof(itensInformations)) as itensInformations;
         startPosition = playerScript.Instance.transform.position;
         fadeEffect = FindFirstObjectByType(typeof(fadeEffect)) as fadeEffect;
-        PausePanel.SetActive(false);
         InventoryPanel.SetActive(false);
         fadeEffect.fadeOut();
     }
@@ -80,23 +81,25 @@ public class GameDataController : MonoBehaviour
 
         if (Input.GetButtonDown("Fire3") && currentState == GameState.INVENTORY)
         {
-            closePanel();
+            PauseGame();
         }
     }
 
     void PauseGame()
     {
-        bool pauseState = PausePanel.activeSelf;
-        pauseState = !pauseState;
+        bool inventoryState = InventoryPanel.activeSelf;
+        inventoryState = !inventoryState;
 
-        PausePanel.SetActive(pauseState);
+        InventoryPanel.SetActive(inventoryState);
 
-        switch (pauseState)
+        switch (inventoryState)
         {
             case true:
                 Time.timeScale = 0;
                 changeState(GameState.PAUSE);
-                firstButtonPausePanel.Select();
+                firstButtonInventoryPanel.Select();
+                inventory.LoadInventory();
+                changeState(GameState.INVENTORY);
                 break;
 
             case false:
@@ -109,23 +112,5 @@ public class GameDataController : MonoBehaviour
     public void changeState(GameState newState)
     {
         currentState = newState;
-    }
-
-    public void buttonInventoryDown()
-    {
-        PausePanel.SetActive(false);
-        InventoryPanel.SetActive(true);
-        firstButtonInventoryPanel.Select();
-        inventory.LoadInventory();
-        changeState(GameState.INVENTORY);
-    }
-
-    public void closePanel()
-    {
-        InventoryPanel.SetActive(false);
-        PausePanel.SetActive(true);
-        inventory.ClearLoadedItems();
-        firstButtonPausePanel.Select();
-        changeState(GameState.PAUSE);
     }
 }

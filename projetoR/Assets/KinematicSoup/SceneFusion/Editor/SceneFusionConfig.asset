@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: -82291597, guid: f6b09d2f9a84f2a4882f76cf40a6098b, type: 3}
   m_Name: SceneFusionConfig
   m_EditorClassIdentifier: 
+  ServerVersion: 2.5.2
   Debug: 1
   LastVersion: 2.0.3
   ShowGettingStartedScreen: 1
@@ -24,9 +25,11 @@ MonoBehaviour:
   Network:
     Timeout: 30
     ReceiveBufferSize: 1024
+    OverrideServerPort: 0
   Performance:
     PropertySyncRate: 10
     TerrainSyncRate: 2
   Logging:
     m_verbosity: 2
     LogHistorySize: 5
+  m_projectId: 9184
