@@ -3684,19 +3684,20 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 8192
   profile: {fileID: 11400000, guid: 23dafdc518a8c4649841e54e2aac1fa8, type: 2}
+  groundCheck: {fileID: 750438438}
+  ground:
+    serializedVersion: 2
+    m_Bits: 8200
+  isJumping: 0
+  counterJump: 0.25
+  doubleJump: 0
   interactionRayCast: {fileID: 1587717977}
   RayCastLayer:
     serializedVersion: 2
     m_Bits: 64
   currentInteractObject: {fileID: 0}
-  groundCheck: {fileID: 750438438}
-  ground:
-    serializedVersion: 2
-    m_Bits: 8200
   attackingState: 0
   speed: 1.2
-  isJumping: 0
-  counterJump: 0.25
   IsFacingRight: 1
   idAnimation: 0
   Grounded: 0

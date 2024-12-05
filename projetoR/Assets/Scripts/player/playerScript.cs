@@ -93,15 +93,18 @@ public class playerScript : MonoBehaviour
     [Header("Dash & Roll Config")]
     private bool canDash = false;
 
+    [Header("Jump & DoubleJump sets")]
+    public Transform groundCheck;
+    public LayerMask ground;
+    public bool isJumping;
+    public float counterJump = 0.25f;
+    public bool doubleJump;
+
     public Transform interactionRayCast;
     public LayerMask RayCastLayer;
     public GameObject currentInteractObject;
-    public Transform groundCheck;
-    public LayerMask ground;
     public bool attackingState;
     public float speed;
-    public bool isJumping;
-    public float counterJump = 0.25f;
     public bool IsFacingRight = true;
     private float direction = 1f;
     public int idAnimation;
@@ -109,8 +112,6 @@ public class playerScript : MonoBehaviour
     public int combo;
     public bool doubleAtack, lockAtack = false;
     public bool inTransition;
-    private int jumpCounter;
-    public int resetJumpCounter;
 
     private enum State
     {
@@ -194,6 +195,16 @@ public class playerScript : MonoBehaviour
         switch (state)
         {
             case State.Normal:
+
+                if(Grounded && !Input.GetButton("Jump"))
+                {
+                    doubleJump = false;
+                }
+
+                if (doubleJump && Input.GetButtonDown("Jump") && !isWallSliding && !isWallJumping)
+                {
+                    DoubleJump();
+                }
 
                 if (currentHealth <= 0)
                 {
@@ -305,6 +316,7 @@ public class playerScript : MonoBehaviour
                 else if (Input.GetButtonDown("Jump") && Grounded)
                 {
                     jumpBufferCounter = jumpBufferTime;
+                    doubleJump = !doubleJump;
                     canDash = true;
                     //emitterSFX[1].Play();
                 }
@@ -312,7 +324,6 @@ public class playerScript : MonoBehaviour
                 {
                     jumpBufferCounter -= Time.deltaTime;
                 }
-                if (Grounded) jumpCounter = resetJumpCounter;
 
                 if (jumpBufferCounter > 0f && coyoteTimeCounter > 0f && !isShooting && !isParrying)
                 {
@@ -451,8 +462,6 @@ public class playerScript : MonoBehaviour
         {
             case State.Normal:
 
-                //playerAnimator.SetBool("dodgeRoll", false);
-
                 if (isJumping)
                 {
 
@@ -574,6 +583,13 @@ public class playerScript : MonoBehaviour
     void Jump()
     {
         playerRb.velocity = Vector2.up * 3.2f;
+    }
+
+    void DoubleJump()
+    {
+        playerRb.velocity = new Vector2(playerRb.velocity.x, 0);
+        playerRb.velocity = Vector2.up * 3.2f;
+        doubleJump = false;
     }
 
     void WallJump()
