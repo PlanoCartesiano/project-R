@@ -19,8 +19,6 @@ public class Slots : MonoBehaviour, ISelectHandler, IDeselectHandler, IPointerEn
 
     public void EquipItem()
     {
-        //print("Equipei item!");
-
         if(slotObject != null)
         {
             itemInfo.slotObject = slotObject;

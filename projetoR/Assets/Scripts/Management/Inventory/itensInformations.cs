@@ -49,4 +49,9 @@ public class itensInformations : MonoBehaviour
             itemImage.color = new Color(1, 1, 1, 0);
             itemDescription.text = null;
     }
+
+    /*public void equipItem()
+    {
+        slotObject.SendMessage("Equip", SendMessageOptions.DontRequireReceiver);
+    }*/
 }

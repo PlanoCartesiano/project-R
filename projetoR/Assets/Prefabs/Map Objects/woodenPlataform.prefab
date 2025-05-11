@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 339259167221579465}
   - component: {fileID: 3142780460270423901}
-  - component: {fileID: 4881337411030499083}
+  - component: {fileID: 736321962313388913}
   - component: {fileID: 981948003900882319}
   m_Layer: 13
   m_Name: woodenPlataform
@@ -29,7 +29,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 32.753098, y: -5.8822217, z: 0}
-  m_LocalScale: {x: 0.48412773, y: 0.033997525, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -77,18 +77,18 @@ SpriteRenderer:
   m_SortingLayerID: 1593751919
   m_SortingLayer: 4
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.745283, g: 0.500461, b: 0.40428087, a: 1}
+  m_Sprite: {fileID: 4710857950929989021, guid: f60ae9bc28b040b4f810e6da072fb131, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.64, y: 0.07}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &4881337411030499083
+--- !u!61 &736321962313388913
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -122,17 +122,17 @@ BoxCollider2D:
   m_UsedByEffector: 1
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.015}
   m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
+    border: {x: 0.17, y: 0, z: 0.25, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
+    oldSize: {x: 0.64, y: 0.07}
+    newSize: {x: 0.64, y: 0.07}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.64, y: 0.04}
   m_EdgeRadius: 0
 --- !u!251 &981948003900882319
 PlatformEffector2D:

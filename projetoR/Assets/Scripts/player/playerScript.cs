@@ -598,6 +598,7 @@ public class playerScript : MonoBehaviour
         {
             wallJumpingDirection = IsFacingRight ? -1 : 1;
             wallJumpingTime = 0f;
+            doubleJump = true;
             isWallJumping = true;
             playerRb.velocity = new Vector2(playerRb.velocity.x, wallJumpingPower.y);
             StartCoroutine(WallJumping());

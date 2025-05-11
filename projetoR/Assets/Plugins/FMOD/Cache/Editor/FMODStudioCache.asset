@@ -54,33 +54,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 375934
---- !u!114 &-8814214972045464806
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Bosses/LouvaDeus (Boss)/Jump (LouvaDeus)
-  m_EditorClassIdentifier: 
-  Path: event:/Bosses/LouvaDeus (Boss)/Jump (LouvaDeus)
-  Guid:
-    Data1: 1361067596
-    Data2: 1145078843
-    Data3: -1984454987
-    Data4: -895996267
-  Banks:
-  - {fileID: -6983733287192015677}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
 --- !u!114 &-7768623632138959821
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -108,6 +81,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-7315751019281518738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/HitInShieldEnemy
+  m_EditorClassIdentifier: 
+  Path: event:/HitInShieldEnemy
+  Guid:
+    Data1: -879866503
+    Data2: 1155470955
+    Data3: -404937042
+    Data4: 1417117061
+  Banks:
+  - {fileID: -6983733287192015677}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-6983733287192015677
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -123,10 +123,10 @@ MonoBehaviour:
   Path: ../../Fmod do project-R/FMOD_ProjectR/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 638639990332829854
+  lastModified: 638583437519692918
   FileSizes:
   - Name: Desktop
-    Value: 841856
+    Value: 550752
   Exists: 1
 --- !u!114 &-6511914359826309642
 MonoBehaviour:
@@ -146,33 +146,6 @@ MonoBehaviour:
     Data2: 1276277134
     Data3: 1984706953
     Data4: 215075530
-  Banks:
-  - {fileID: -6983733287192015677}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &-6473551176320195745
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: "event:/Bosses/LouvaDeus (Boss)/Antecipa\xE7\xE3o Ra\xEDzes (LouvaDeus)"
-  m_EditorClassIdentifier: 
-  Path: "event:/Bosses/LouvaDeus (Boss)/Antecipa\xE7\xE3o Ra\xEDzes (LouvaDeus)"
-  Guid:
-    Data1: 1802045092
-    Data2: 1181715650
-    Data3: 1778372770
-    Data4: 684609439
   Banks:
   - {fileID: -6983733287192015677}
   IsStream: 0
@@ -209,33 +182,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 139236
---- !u!114 &-5763365279258966714
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Player/SlingShot
-  m_EditorClassIdentifier: 
-  Path: event:/Player/SlingShot
-  Guid:
-    Data1: 2099095428
-    Data2: 1134775985
-    Data3: -804514401
-    Data4: 1858509726
-  Banks:
-  - {fileID: -6983733287192015677}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
 --- !u!114 &-5216950702253488132
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -290,33 +236,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &-4622420724045904764
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Enemies/DamageinEnemy
-  m_EditorClassIdentifier: 
-  Path: event:/Enemies/DamageinEnemy
-  Guid:
-    Data1: 2081218526
-    Data2: 1315389729
-    Data3: -1105577061
-    Data4: -1965090593
-  Banks:
-  - {fileID: -6983733287192015677}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
 --- !u!114 &-4306520174057132432
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -344,7 +263,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 412785
---- !u!114 &-3063292966983062420
+--- !u!114 &-3881073153730327280
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -353,24 +272,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Enemies/SlimeEnemyWalk
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Slash/Parameter 1
   m_EditorClassIdentifier: 
-  Path: event:/Enemies/SlimeEnemyWalk
-  Guid:
-    Data1: -330907273
-    Data2: 1140033466
-    Data3: 1752905149
-    Data4: 265933534
-  Banks:
-  - {fileID: -6983733287192015677}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
+  Name: Parameter 1
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 808174081
+    data2: 1184086195
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-2968230614774745744
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -425,6 +341,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 143110
+--- !u!114 &-2149963964148854955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/EnemyDeath (All)
+  m_EditorClassIdentifier: 
+  Path: event:/EnemyDeath (All)
+  Guid:
+    Data1: 480320195
+    Data2: 1245252693
+    Data3: -333323880
+    Data4: 967829603
+  Banks:
+  - {fileID: -6983733287192015677}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-1497626565272250706
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -475,6 +418,34 @@ MonoBehaviour:
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
+  Parameters:
+  - {fileID: -3881073153730327280}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-1077041360030432487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SlimeEnemyWalk
+  m_EditorClassIdentifier: 
+  Path: event:/SlimeEnemyWalk
+  Guid:
+    Data1: -330907273
+    Data2: 1140033466
+    Data3: 1752905149
+    Data4: 265933534
+  Banks:
+  - {fileID: -6983733287192015677}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
@@ -494,36 +465,10 @@ MonoBehaviour:
   Path: ../../Fmod do project-R/FMOD_ProjectR/Build/Desktop/Trilhas.bank
   Name: Trilhas
   StudioPath: bank:/Trilhas
-  lastModified: 638639990334378534
+  lastModified: 638583425970144239
   FileSizes:
   - Name: Desktop
     Value: 13461824
-  Exists: 1
---- !u!114 &-492329986348246611
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/SlingShot (Shoot)/SlingShot Power
-  m_EditorClassIdentifier: 
-  Name: SlingShot Power
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 1579017595
-    data2: 703794020
-  Type: 2
-  IsGlobal: 0
-  Labels:
-  - Weak
-  - Powerful
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -562,22 +507,16 @@ MonoBehaviour:
   - {fileID: 21764391582000438}
   - {fileID: 8992078944693117410}
   - {fileID: -2968230614774745744}
-  - {fileID: -8814214972045464806}
-  - {fileID: -3063292966983062420}
-  - {fileID: 6125028062696520653}
-  - {fileID: -5763365279258966714}
-  - {fileID: -6473551176320195745}
-  - {fileID: 5844718226263383361}
-  - {fileID: 4641426658646799845}
-  - {fileID: -4622420724045904764}
-  - {fileID: 8652839131127926515}
-  - {fileID: 3883956018285018577}
+  - {fileID: -1077041360030432487}
+  - {fileID: -7315751019281518738}
+  - {fileID: -2149963964148854955}
+  - {fileID: 6082252938891819214}
   EditorParameters: []
   MasterBanks:
   - {fileID: 273035072577689371}
   StringsBanks:
   - {fileID: 2132310681018030235}
-  cacheTime: 638639990334378534
+  cacheTime: 638583437519692918
   cacheVersion: 131616
 --- !u!114 &21764391582000438
 MonoBehaviour:
@@ -621,7 +560,7 @@ MonoBehaviour:
   Path: ../../Fmod do project-R/FMOD_ProjectR/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638639990332779848
+  lastModified: 638583425966933523
   FileSizes:
   - Name: Desktop
     Value: 1036
@@ -695,10 +634,10 @@ MonoBehaviour:
   Path: ../../Fmod do project-R/FMOD_ProjectR/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638639990332779848
+  lastModified: 638583425966953546
   FileSizes:
   - Name: Desktop
-    Value: 2290
+    Value: 1910
   Exists: 1
 --- !u!114 &3243213054366322947
 MonoBehaviour:
@@ -754,61 +693,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &3883956018285018577
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Player/SlingShot (Shoot)
-  m_EditorClassIdentifier: 
-  Path: event:/Player/SlingShot (Shoot)
-  Guid:
-    Data1: 1233948667
-    Data2: 1151887077
-    Data3: 884520068
-    Data4: 2123909946
-  Banks:
-  - {fileID: -6983733287192015677}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters:
-  - {fileID: -492329986348246611}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &4641426658646799845
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Bosses/LouvaDeus (Boss)/Basic Attack (LouvaDeus)
-  m_EditorClassIdentifier: 
-  Path: event:/Bosses/LouvaDeus (Boss)/Basic Attack (LouvaDeus)
-  Guid:
-    Data1: 385522890
-    Data2: 1208131035
-    Data3: -1417359205
-    Data4: -2080554183
-  Banks:
-  - {fileID: -6983733287192015677}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
 --- !u!114 &5501179983801098638
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -836,7 +720,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &5844718226263383361
+--- !u!114 &6082252938891819214
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -846,71 +730,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Enemies/EnemyDeath (All)
+  m_Name: event:/Player/Damage
   m_EditorClassIdentifier: 
-  Path: event:/Enemies/EnemyDeath (All)
+  Path: event:/Player/Damage
   Guid:
-    Data1: 480320195
-    Data2: 1245252693
-    Data3: -333323880
-    Data4: 967829603
+    Data1: 2081218526
+    Data2: 1315389729
+    Data3: -1105577061
+    Data4: -1965090593
   Banks:
   - {fileID: -6983733287192015677}
   IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &6125028062696520653
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Enemies/HitInShieldEnemy
-  m_EditorClassIdentifier: 
-  Path: event:/Enemies/HitInShieldEnemy
-  Guid:
-    Data1: -879866503
-    Data2: 1155470955
-    Data3: -404937042
-    Data4: 1417117061
-  Banks:
-  - {fileID: -6983733287192015677}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &8652839131127926515
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/UI;GUI/Level Title SFX
-  m_EditorClassIdentifier: 
-  Path: event:/UI;GUI/Level Title SFX
-  Guid:
-    Data1: -1927144721
-    Data2: 1276874860
-    Data3: -1715651931
-    Data4: -647636732
-  Banks:
-  - {fileID: -6983733287192015677}
-  IsStream: 1
   Is3D: 0
   IsOneShot: 1
   Parameters: []
